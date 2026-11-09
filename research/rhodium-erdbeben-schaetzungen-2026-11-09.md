@@ -49,3 +49,15 @@ Rhodium Germany untersucht, wie externe seismische Originaldaten in einer isolie
 - USGS ShakeAlert (Erdbebenfrühwarnung nach Ereignisbeginn): https://www.usgs.gov/programs/earthquake-hazards/science/shakealert
 
 *Öffentliche Forschungszusammenfassung. Keine externe Zertifizierung und kein Nachweis einer einsatzfähigen Bevölkerungswarnung.*
+
+## Ergänzende Forschungsprotokolle vom 08.11.2026 (nachträglich aus Original-Konsolenmitschnitten erfasst)
+
+Diese Ergebnisse sind **zusätzliche lokale Forschungsnachweise** und keine neuen Tests. Die ursprünglichen Konsolenmitschnitte enthalten internen Quellcode und werden nicht öffentlich bereitgestellt.
+
+| Testfamilie | Im Mitschnitt protokolliertes Ergebnis | Prüfbereich |
+|---|---|---|
+| Kontinuierlicher In-Memory-Livestream | Status BESTAETIGT; 17.149 Zyklen in 3,0 s; 0,1749 ms mittlere Zykluszeit; 2.143,62 MiB insgesamt verarbeitet/verifiziert; 714,52 MiB/s berichteter RAM-Durchsatz; 69 Live-Impulse | Lokaler Forschungs-Livestream mit drei bezeichneten Datenpfaden; kein Beleg eines vollständigen mobilen WAN-Restores |
+| APEX-Integrität und Selbstheilung | Vier dokumentierte Zyklen; 6-MiB-Mehrpfad-SHA-256-Kontrolle erfolgreich; zwei überwachte Dateien; gezielte Testkorruption einer Archivkopie erkannt und eine Datei aus zuvor im RAM vorgehaltenen Bytes wiederhergestellt | Lokaler kontrollierter Wiederherstellungstest, kein externer Angreifer oder produktiver Kundenfall |
+| Isolierte 1-Byte-Trigger-Aktivierung | Fünf separat protokollierte PASS-Durchläufe mit je 10.000 Aktivierungen, vier verworfenen ungültigen Triggern je Lauf und Checkpoints 1/100/1.000/10.000; Laufzeiten 0,510 bis 0,519 s | Zwei unabhängige **lokale Prozesse** über Multiprocessing-Pipe; keine Android-/Tablet-Übertragung und keine beliebige Nutzlastrekonstruktion |
+
+Die ebenfalls hochgeladene PowerShell-Forschungsdatei zur kosmologischen Rückrechnung meldet ausdrücklich `MODELLGRENZE_KEIN_NULLPUNKT_PASS` und `P0_Integritaet = NICHT_GEPRUEFT`; sie ist **kein** Erdbeben-End-to-End-Nachweis. Die Testfamilien werden nicht miteinander vermischt.
