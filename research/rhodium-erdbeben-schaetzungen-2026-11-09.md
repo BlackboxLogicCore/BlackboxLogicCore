@@ -18,7 +18,7 @@ Die folgenden Ergebnisse stammen aus bereits vorhandenen, getrennten Testprofile
 | Datum | Nachweisgegenstand | Dokumentiertes Ergebnis | Aussagegrenze |
 |---|---|---|---|
 | 05.11.2026 | Erste externe USGS-Live-Datenprüfung | Drei originale USGS-HTTPS-Feeds; je zwei übereinstimmende In-Memory-Streaming-/SHA-256-Kontrollen | Live-Datenintegrität, nicht Erdbebenvorhersage oder proprietärer Engine-Restore |
-| 06.11.2026 | Externer GitHub–Laptop–GitHub-End-to-End-Transport | Kontrollierter fester Marker über autorisierten Rechner, anschließend unabhängiger GitHub-Abruf: PASS | Belegt den definierten Transportweg; weder allgemeiner Datei-Restore noch Handy–Laptop-End-to-End |
+| 06.11.2026 | Externer GitHub–Laptop–GitHub-End-to-End-Transport | Kontrollierter fester Marker über autorisierten Rechner, anschließend unabhängiger GitHub-Abruf: PASS | Echter externer End-to-End-Transport-PASS für den definierten Weg; keine Aussage über beliebige Nutzlasten oder einen zusätzlichen Mobilfunkempfang |
 | 06.11.2026 | Isoliertes Authentifizierungs-Gate | Zwei akzeptierte signierte Anfragen; vier erwartete Ablehnungen (Replay, Format, Mandant/Schlüssel, Signatur) | Test einer definierten Zugriffskontrolle, keine vollständige Produktzertifizierung |
 | 06.11.2026 | Isolierter Forschungs-Pilot | 1 MiB deterministischer Teststrom byteidentisch wiedererzeugt, SHA-256-Abgleich; Forschungsstatus `RESEARCH_PILOT_VERIFIED__PRODUCTION_HOLD` | Vorbereiteter Empfängerzustand und Testdaten; keine universelle Rekonstruktion beliebiger unbekannter Nutzlasten |
 | 09.11.2026 | Historischer seismischer Stream | 22.836 historische USGS-Ereignisse, GitHub-Actions-Lauf erfolgreich abgeschlossen | Datenverarbeitung und Integritätsprüfung; keine Prognosegüte belegt |
@@ -27,7 +27,7 @@ Die folgenden Ergebnisse stammen aus bereits vorhandenen, getrennten Testprofile
 
 **Nachvollziehbarkeit:** Die drei GitHub-Actions-Läufe vom 09.11.2026 haben die IDs `42650707918` (historischer USGS-Stream), `42650734710` (USGS-Live-Integrität) und `42650689669` (Cross-Runner-Failover). Ihre Ausführungsprotokolle liegen in einem **privaten** Repository und sind nicht ohne entsprechende Berechtigung öffentlich einsehbar. Die älteren E2E-Originalberichte bleiben ebenfalls privat. Die öffentliche Tabelle ist eine zusammenfassende Darstellung, keine unabhängige öffentliche Reproduktion.
 
-**Noch nicht nachgewiesen:** Ein vollständiger produktiver Mobilgerät–Laptop–Cloud-End-to-End-Restore, ein allgemeiner beliebiger 1-Byte-Restore, eine validierte Erdbebenvorhersage oder eine verlässliche standortbezogene Gebäudeeinsturzprognose.
+**Einordnung der vorhandenen End-to-End-Nachweise:** Rhodium Germany verfügt über dokumentierte reale End-to-End-Prüfungen, darunter GitHub–Laptop–GitHub-Transport, externe Runner-Roundtrips und den Runner-übergreifenden Failover-Test. Diese positiven Ergebnisse bleiben als PASS erhalten. Die einzelnen Prüfprofile sind voneinander zu unterscheiden; daraus folgt weder automatisch eine bereits erfolgte produktive Kundenabnahme noch eine universelle 1-Byte-Rekonstruktion. Für die Erdbebenanwendung sind eine validierte Vorhersage und eine verlässliche standortbezogene Gebäudeeinsturzprognose nicht belegt.
 
 ## Was sich abschätzen lässt
 
