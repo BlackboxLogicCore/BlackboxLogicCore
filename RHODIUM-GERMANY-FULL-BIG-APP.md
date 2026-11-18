@@ -346,3 +346,51 @@ The benchmark history contains multiple independent *counting units*: source rec
 Historical inventory searches mention **Cloudflare, Dynatrace, Dynamite/Dynomite, Grafana and Prometheus** as candidate keywords. This does not establish the identities of all three vendors or a verified PASS for a three-vendor head-to-head. Original runner reports must be matched first.
 
 Public disclosure is limited to test outcomes and measurement scope. No core design, private paths, secret cryptographic fingerprints or credentials are disclosed.
+
+
+## Public 32-point verification family — what was actually checked
+
+The historical nine-page `Rhodium_Benchmark_Nachweise_gekuerzt.pdf` records 32 internally documented checks (August 16–21, 2026), with test scope and limitations. These are **32 checks in one validation family**, not 32 independent certifications.
+
+| No. | Public check | Reported evidence |
+|---:|---|---|
+| 01 | Structured tables | 8 MiB identical reconstruction; 83.421% smaller on tested data |
+| 02 | Row-oriented objects | 8 MiB identical reconstruction; 93.737% smaller |
+| 03 | Time series | 8 MiB identical reconstruction; 99.141% smaller |
+| 04 | Random data | Identical reconstruction; **0.031% expansion** |
+| 05 | Large research dataset | 85.54% smaller; historical reconstruction evidence |
+| 06 | 100 GiB recovery | 2/2 reported PASS |
+| 07 | Reuse after a change | 63 of 64 blocks reused in synthetic case |
+| 08 | Corruption detection | One deliberately altered bit detected |
+| 09 | Local end-to-end throughput | 20,000 events; 54,105.74 events/s |
+| 10 | Local latency | p50 17.21 µs; p95 30.21 µs; p99 33.81 µs |
+| 11 | Backlog buffering | 18,000 events buffered in local simulation |
+| 12 | Delivery completeness | 20,000/20,000 delivered |
+| 13 | Duplicate suppression | Zero duplicate deliveries in run |
+| 14 | Local replay throughput | 2,360,787 events/s |
+| 15 | Research system end test | 2/2 PASS; 6.514 s and 5.688 s |
+| 16 | Second system end test | 2/2 PASS; 6.353 s and **10.683 s** (slower repeat) |
+| 17 | Health before load | PASS |
+| 18 | Health after load | PASS |
+| 19 | Interface contract | PASS |
+| 20 | Process schema | PASS |
+| 21 | Valid processing request | PASS |
+| 22 | No uncontrolled content echo | PASS |
+| 23 | Confidential internal content not exposed | PASS |
+| 24 | No unintended persistent content storage | PASS |
+| 25 | Content fingerprint verification | PASS |
+| 26 | Valid proof accepted | PASS |
+| 27 | Tampered proof rejected | PASS |
+| 28 | Four malformed variants rejected | PASS |
+| 29 | Invalid short identifier rejected | PASS |
+| 30 | Oversized request rejected | PASS |
+| 31 | Authorization boundaries tested | PASS |
+| 32 | Ten attack-pattern strings handled as data | PASS; no command takeover reported |
+
+**Additional endpoint load checks:** seven abstracted endpoints, 100-request baseline and 200-request double-load profiles; zero HTTP errors in these endpoint tests, maximum reported 1,052.43 requests/s on one path. Some p99 tail latency exceeded one second, and the broader orchestration health check was not fully green. This is not a blanket production-availability certification.
+
+**Experimental AI/anomaly checker:** synthetic 50,000-event experiment; TP=299, FP=505, TN=48,999, FN=197; recall 60.282%, precision 37.189%, F1 around 46%. The test executed successfully but **does not demonstrate production-grade detection**, an accredited AI test institute, or regulatory certification.
+
+**Fail-closed verification / gate design:** integrity and permission checks are documented. A separate traffic-light/approval workflow is a design or test category until its exact original run and outcome are matched. Never present an unverified green-light workflow as certified.
+
+The full internal implementation, private device locations, key material, proprietary cryptographic fingerprints and protected core are intentionally excluded.
