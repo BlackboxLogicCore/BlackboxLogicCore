@@ -182,3 +182,35 @@ A separate 1,000-iteration byte-access timing loop over a local database file re
 ### Scope of today's and yesterday's records
 
 The 18 November math and matrix timings above are directly transcribed from retained historical console logs. The complete set of all 17–18 November executions has **not** yet been exhaustively matched to original run IDs and hashes. Unreconciled tests are not silently described as completed or independently certified.
+
+
+## Dedicated historical benchmark / cryptographic fingerprint index (source review)
+
+**Cloudflare is already covered above in three separate scopes:** 163/163 upstream Speedtest tests, a 64 MiB live-source data reconstruction, and the zlib fork build. These do not establish Cloudflare corporate partnership or a head-to-head vendor speed victory.
+
+### Three original fingerprint recognition benchmark families
+
+| Family | Source bytes | Reported transmitted / recognition bytes | Result and time | Historical GitHub run |
+|---|---:|---:|---|---|
+| **Fingerprint Recognition 32** | 1,000,000,000 | 81,481 (warm) | 99.9918519% warm reduction; SHA-256 match, bit-identical PASS | **36869981648** |
+| **Foreign Recognition 32** | 134,728,520 | 11,354 (warm) | 99.9915727% warm reduction; SHA-256 match, bit-identical PASS | **36869283513** |
+| **Fingerprint Pure One-File** | 1,048,576 | 7,151 | SHA-256 match, bit-identical PASS; **about 62 ms restore** | **36993722643** |
+
+The 32 in a family name is a **worker configuration**, not automatically 32 independent benchmarks. Warm/recognition results require the documented receiver state and must not be described as universal fresh-input compression.
+
+### Additional integrity, provenance and cryptographic verification families
+
+| Family | Historical report | Boundary |
+|---|---|---|
+| Canonical public proof | Release attestation, signature/tamper checks **3/3 + 3/3 PASS** | Bounded attestation test |
+| World blind proof | **4/4 + 2/2 PASS**; manipulated engine blocked before execution | Historical manipulation rejection |
+| External matrix proof | **1 GiB** source; cold **49.482384%**, warm **99.991857%** reduction; bit-identical restore | Defined runner and receiver-state scope |
+| 558 cold/warm reports | Individual **report SHA-256 digests** and source/wire measurements in the linked register | Digests identify reports, not 558 distinct secret keys |
+| Historical 711-content evidence register | 711 distinct content digests reported; overlapping catalog and roundtrip records | Not 711 independent cryptographic credentials |
+| Source/restore hashes | Historical exact-match SHA-256 on identified runs | Data integrity, not ownership or method disclosure |
+
+### IONOS cryptographic fingerprint: protected evidence boundary
+
+The owner describes an **IONOS-associated cryptographic fingerprint** as distinct from a simple SHA-256 file digest. The original issuance/verification record and its exact type have **not** been independently linked to a publicly verifiable benchmark in the sources reviewed here. This public index does **not** disclose fingerprint material, secret keys, credentials or signing procedures, and does not claim IONOS certification or endorsement.
+
+**Do not conflate:** (1) 558 report digests, (2) 711 unique report-content hashes, (3) SHA-256 source/restore checks, (4) three named fingerprint recognition test families, and (5) any private IONOS-associated cryptographic credential. These have different meanings; no validated total of “50 keys” can be inferred from them.
