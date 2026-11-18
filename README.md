@@ -5,6 +5,22 @@
 
 Rhodium Germany bietet die fertige, proprietäre Arbeiterbox zur Datenverarbeitung und überprüfbaren Wiederherstellung zur Lizenzierung an. Gesucht werden Lizenz- und Vertriebspartner für Archivierung, Backup-Verifikation sowie Forensik und Audit. Grundlage des Angebots sind die vorhandenen dokumentierten Nachweise.
 
+## Rhodium Germany — Fertige Technologie, wirtschaftlicher Einsatz
+
+**Rhodium Germany bietet eine fertiggestellte, proprietäre Arbeiterbox zur Lizenzierung an.** Ihr Schwerpunkt liegt auf deterministischer Datenverarbeitung, Integritätskontrolle, überprüfbarer Wiederherstellung und kontrollierter Auftragsannahme. Das Ziel: technische Risiken und Folgekosten von Datenfehlern, fehlerhaften Übergaben und Betriebsunterbrechungen in klar definierten Einsatzfällen reduzieren.
+
+**Für wen?** Kleine und mittlere Unternehmen, IT-Dienstleister, Backup- und Archivierungsanbieter sowie potenzielle Großkunden in Rechenzentren, Finanzwirtschaft, Telekommunikation, Industrie, Energie und kritischer Infrastruktur. Einsatzfelder sind Möglichkeiten zur kundenspezifischen Prüfung, **keine Behauptung bereits erfolgter Branchenzulassungen oder produktiver Installationen**.
+
+**Wirtschaftlicher Ansatz:** Die entscheidende Kennzahl ist nicht nur der Umfang einer Software, sondern der nachweisbare Kundennutzen: vermiedene Datenfehler, überprüfbare Wiederherstellung, weniger manuelle Prüfung und – nach kundenspezifischer Validierung – potenziell geringere Ausfallkosten. Lizenz-, Service- und Vertriebspartnermodelle sind vorgesehen. Konkrete Einsparungen, Kundenumsätze oder Energievergleiche werden nicht ohne entsprechende Nachweise behauptet.
+
+**Nachweise:** Öffentlich beschrieben sind unter anderem 15/15 lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB mit den jeweiligen Testgrenzen. Weitere historische Benchmark- und Capability-Register existieren; überlappende Positionen sind nicht als unabhängige Tests zu addieren. Der historische Bestand verweist auf **52 Hebel/Capability-Bereiche**; dies ist keine Behauptung, dass jeder Bereich einzeln produktiv abgenommen wurde.
+
+**Kryptografischer Nachweis:** Der Eigentümer berichtet über einen mit IONOS erstellten eigenen kryptografischen Fingerabdruck. Dieser wird von gewöhnlichen Datei-Prüfsummen unterschieden; seine konkrete Zuordnung und kryptografische Tragweite bedürfen der Prüfung der Originalbelege. Der dokumentierte RSA-3072-Öffentlichschlüssel-Abgleich ist davon getrennt und keine Produktzertifizierung. **Geheime Schlüssel, interne Verfahren und proprietärer Kern werden nicht veröffentlicht.**
+
+**Für Bewerter und Lizenzpartner:** Bitte den aktuellen Unternehmenswert, den belegbaren Technologiewert und das langfristige Markt- und Lizenzpotenzial **getrennt** beurteilen. Die fehlende öffentliche Offenlegung des Kerns ist nicht mit fehlender Technologie gleichzusetzen. Kundenintegration, Branchenzulassungen und konkrete Einsparungen sind separat nachzuweisen.
+
+[Technischer Überblick und Grenzen](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Historische öffentliche Benchmarks](https://github.com/BlackboxLogicCore/rhodium-benchmarks) · [Unabhängige Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
+
 ## Fähigkeiten und Entwicklung
 
 Die dokumentierten Arbeitsfelder umfassen Datenfluss, Wiederherstellung, technische Aktionskontrolle und Replay. Aussagen gelten für das jeweilige Testprofil und den dort beschriebenen Zustand.
