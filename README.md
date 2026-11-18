@@ -1,5 +1,14 @@
 # Rhodium Germany
 
+## Unsere Richtung: Technik, Menschen und Zukunft
+
+Rhodium Germany entwickelt überprüfbare Technologie, um Menschen, Unternehmen und Forschungspartner zusammenzubringen. Unsere langfristige Vision ist eine widerstandsfähigere Wirtschaft, verlässlichere digitale Infrastruktur und eine bessere Zusammenarbeit zwischen Technik, Landwirtschaft und Umweltforschung. Wir möchten dabei helfen, Wege für gesündere Lebensmittelproduktion, verantwortungsvolle Ressourcennutzung und ein besseres Verständnis natürlicher Prozesse zu eröffnen. Dies sind **Entwicklungsziele**, keine Behauptungen über bereits nachgewiesene agrarwirtschaftliche, medizinische oder ökologische Wirkungen.
+
+Wir suchen **Lizenz- und Vertriebspartner**, die bestehende dokumentierte Fähigkeiten in konkreten Branchen verantwortungsvoll einsetzen und weiterentwickeln möchten. Geeignete Partner erhalten nach Vertraulichkeitsvereinbarung und definiertem Prüfrahmen einen vertieften technischen Einblick und können die für eine Lizenzentscheidung nötigen Nachweise prüfen. **Das tiefste proprietäre Kerngeheimnis, private Schlüssel und nicht freigegebene Implementierungsdetails bleiben auch gegenüber Lizenzpartnern geschützt.**
+
+**Was Besucher nachlesen können:** [Gesamte öffentliche Benchmark- und Prüfübersicht](RHODIUM-GERMANY-FULL-BIG-APP.md), einschließlich Datentests, Automotive-/Robotik-Beispielen, 32 Einzelprüfungen, Sicherheit, Wiederherstellung, Fehlversuchen und Aussagegrenzen. Historische Prüfungen sind nach Testaufbau und Beleglage zu beurteilen; es wird keine unabhängige Zertifizierung behauptet.
+
+
 **Neu, 18.11.2026:** [Technischer Nachweisstand, geplantes Rhodium-Prüfsiegel und mögliche Branchenanwendungen (DE/EN)](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Unabhängige Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
 **Archivierung. Backup-Verifikation. Forensik und Audit.**
 
