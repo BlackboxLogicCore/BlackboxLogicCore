@@ -86,3 +86,14 @@ Rhodium Germany verfolgt **nicht nur eine Forschungsvision**: Zum Projektbestand
 Das interne Kundenpaket-Nachweisregister vom 05.11.2026 dokumentiert vorbereitete Angebotsunterlagen. **Eine vollständige Produktions- und Vertriebsfreigabe ist darin noch nicht nachgewiesen.** Die vom Eigentümer genannte Zahl von **24 Paketen** wird als zu prüfender Inventarstand geführt, bis Paketliste, Versionen, Prüfberichte und Freigaben eindeutig abgeglichen sind. Daher wird hier weder behauptet, dass alle 24 unabhängig abgenommen wurden, noch dass sie bereits ohne weitere Prüfung sofort produktiv einsetzbar sind.
 
 **Für Lizenzinteressenten:** Konkrete Pakete und ihre Einsatzfähigkeit können im vertraulichen Partnerprozess anhand von Paketidentität, Teststatus, Leistungsumfang und Freigabeunterlagen einzeln geprüft werden. Vertrauliche Implementierungsdetails und private Schlüssel bleiben geschützt.
+
+
+## Öffentliche und geschützte GitHub-Projektbestände
+
+**GitHub-Inventur vom 18.11.2026:** Der autorisierte Rhodium-Germany-GitHub-Zugang zeigt **10 Repositories: 2 öffentliche und 8 private**, darunter **4 archivierte private Repositories**. Archiviert bedeutet nicht gelöscht; die Zugriffsrechte bleiben bestehen. Eine private Ablage ist kein öffentlich einsehbarer Nachweis und nicht automatisch ein eigenständiges Kundenprodukt.
+
+Die geschützten Bestände umfassen unter anderem technische Dokumentation, historische Prüfergebnisse, Integritätsberichte, Entwicklungs- und Bedienkomponenten, Nachweiskataloge sowie vorbereitete Vertriebs- und Kundenunterlagen. Der konkrete Umfang und Freigabestatus einzelner Kundenpakete wird anhand von Paketmanifesten und Originalprüfberichten geprüft; eine endgültige Anzahl sofort einsatzbereiter Pakete wird derzeit nicht behauptet.
+
+**Vertraulichkeit:** Private Repositories, interne Dateipfade, Quelltexte, proprietäre Verfahren, Schlüssel und nicht freigegebene Originalbelege bleiben geschützt. Ein geeigneter Lizenzpartner kann nach Vertraulichkeitsvereinbarung und persönlicher Freigabe einen vereinbarten Nachweisumfang prüfen. Die Existenz privater Repositories bedeutet weder automatische Herausgabe noch öffentliche Einsicht.
+
+Diese Bestandsangabe beschreibt den über GitHub zugänglichen Inventarstand. Sie ist keine Behauptung, dass sämtliche Dateien aller Repositories bereits einzeln technisch abgenommen wurden.
