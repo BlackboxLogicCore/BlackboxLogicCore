@@ -321,3 +321,28 @@ Other documented and distinct evidence categories in the same source include: **
 **Unreconciled historical user-described device-to-device test:** a live test involving a brother's device and a tablet was described in conversation, but the specific original run ID, endpoints and signed measurement report have not yet been independently matched. It is **not** substituted with Cloudflare upstream validation or the Cloudflare live-source 64 MiB case.
 
 **Confidentiality:** this public summary intentionally excludes private device addresses, recipient identifiers, authentication secrets, cryptographic signing material and internal architecture.
+
+
+## Recovered Automotive FAST75 and AGIBOT robotics original measurements
+
+The historical 2026-11-16 benchmark compilation records an original **2026-09-07 Automotive FAST75 run: 75/75 roundtrips PASS, zero reported errors, 11 source datasets** (an older index lists ten; eleven is the figure of the specific original run). Representative local automotive test-data results:
+
+| Public sample dataset label | Original bytes | Cold bytes | Warm bytes | Historical verification |
+|---|---:|---:|---:|---|
+| BMW | 9,090 | 4,070 | 460 | Matching original/restored SHA-256; 3 consistent reports |
+| Mercedes-Benz | 3,684 | 2,081 | 460 | Matching original/restored SHA-256; 3 consistent reports |
+| Ferrari | 47,662 | 10,563 | 463 | Matching original/restored SHA-256; 3 consistent reports |
+| Lamborghini | 258,900 | 47,034 | 466 | Matching original/restored SHA-256; 3 consistent reports |
+| Baidu Apollo | 17,946 | 6,635 | 463 | Matching original/restored SHA-256; 3 consistent reports |
+
+Additional historical automotive labels include Porsche, Tesla, Toyota and Bosch. **These are sample datasets, not OEM partnerships, car control tests, manufacturer certifications or safety approval.** The 75 original run tests are not counted again for each repeated presentation/report.
+
+**AGIBOT robotics sample:** original **67,108,864 bytes**; cold **67,018,034 bytes**; warm **5,827 bytes**; **4 consistent historical reports**, source/restored SHA-256 equality. This is an authentic local robotics-data reconstruction benchmark, **not physical control of a Chinese robot**.
+
+## Scale accounting and unresolved three-platform suite
+
+The benchmark history contains multiple independent *counting units*: source records, test cases, roundtrip executions, report artifacts, hash-unique files, simulated events and algorithm iterations. They must not be summed as if all were distinct independent benchmarks. Known examples include **75 FAST75 roundtrips**, **10,083 evidence-register rows (8,308 distinct source SHA-256)**, historical **3,159 benchmark CSV rows**, **711 distinct report-content hashes**, **10,000 cold activation trials in a local EPIC9 run**, and a separate **1,000,000-operation mathematical inverse check**. These counts have overlap and different definitions. **A defensible all-time count of distinct benchmark executions is still unresolved.**
+
+Historical inventory searches mention **Cloudflare, Dynatrace, Dynamite/Dynomite, Grafana and Prometheus** as candidate keywords. This does not establish the identities of all three vendors or a verified PASS for a three-vendor head-to-head. Original runner reports must be matched first.
+
+Public disclosure is limited to test outcomes and measurement scope. No core design, private paths, secret cryptographic fingerprints or credentials are disclosed.
