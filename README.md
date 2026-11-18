@@ -66,3 +66,14 @@ Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nen
 [rhodium-germany.de](https://rhodium-germany.de) · [info@rhodium-germany.tech](mailto:info@rhodium-germany.tech)
 
 Die öffentliche Darstellung beschreibt Ergebnisse und mögliche Anwendungen. Die proprietäre Umsetzung bleibt geschützt.
+
+
+## Geschützter innerer Kern – Nachweise für Lizenzpartner
+
+Rhodium Germany trennt die öffentliche Darstellung der Ergebnisse strikt vom **geschützten inneren Technologiekern**. Quellcode, interne Verfahren, private Schlüssel, vertrauliche Konfigurationen und nicht freigegebene Rohdaten werden **nicht** in öffentlichen Repositories offengelegt.
+
+Zum historischen Prüfarchiv gehören laut Register **2.369 Dateieinträge in 216 Testgruppen**; darin wurden **711 unterschiedliche JSON-Berichtsinhalte** ausgewertet. Der damalige Prüfbericht meldet passende Datei-Hashes für die 2.369 erfassten Dateien. Diese Zahlen sind Archiv- und Integritätskennzahlen, **nicht** 2.369 voneinander unabhängige erfolgreiche Benchmarks. Die Zuordnung der einzelnen PASS-Berichte bleibt Teil der Nachweisprüfung.
+
+**Vertrauliche Einsicht:** Geeignete Lizenzpartner können nach Identitätsprüfung, Vertraulichkeitsvereinbarung, festgelegtem Prüfumfang und ausdrücklicher Eigentümerfreigabe weitergehende technische Nachweise erhalten. Das ist keine Zusage, sämtliche Kerngeheimnisse oder privaten Schlüssel herauszugeben.
+
+[Öffentliches historisches Nachweisregister](RHODIUM-HISTORISCHE-PRUEFSPUREN-2026.md)
