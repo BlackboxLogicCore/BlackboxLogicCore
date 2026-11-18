@@ -141,3 +141,44 @@ The project contains documented **owner authorization, access control, command/s
 ### Additional historical evidence sources consulted
 
 Dated 14 November master status and consolidated sketch, 18 November project notes, 16 November benchmark total package, 22 October full inventory, 7 November original gate console transcripts. These are used as source cross-references, not as independent external endorsements. The protected proprietary core remains excluded.
+
+
+## Measured 18 November 2026 mathematics, matrix and live-source timing
+
+This section reports **actual local console timings**, not theoretical or third-party comparative benchmarks.
+
+### One million arithmetic checks (Windows PowerShell)
+
+| Metric | Historical recorded result |
+|---|---:|
+| Tasks | **1,000,000** (1,000 × 1,000 multiplication and inverse checks) |
+| Errors | **0 — PASS** |
+| Total elapsed | **2,644.4866 ms** (2.6444866 s) |
+| Mean elapsed per iteration | **2.6444866 microseconds** |
+| Accumulated checksum | **250,500,250,000** |
+
+The measurement includes the script's loop and validation operations; it is **not** an optimized native mathematical kernel benchmark or independent comparison with other computers.
+
+### Four source/matrix checks — 4/4 historical PASS
+
+| Check | Measured elapsed | Reported SHA-256 |
+|---|---:|---|
+| USGS public earthquake live request | **992.5367 ms** | `1392D998D5ED300CF5701C72342AE2BA64D6076021A80B248A39DB8E020CB4B1` |
+| Wikipedia public live request | **1,363.5429 ms** | `82F7A5874FA6EF687F1F95E38E17E59BB4BE6EE0767D05DD72B59AB31CF79652` |
+| Local knowledge source matrix check | **53.3707 ms** | `132FDA2C1FD743FB09D59079596330DE7BF1C58333866AC1FCA4990F6B16EEB5` |
+| Local joined knowledge matrix check | **6.6339 ms** | `882BC7575D0AE1A153E7BEE60F8CA1F01E52308634FB91BF5A69B45820A482C5` |
+
+The source request durations include network conditions; the local matrix checks are a different class of operation and must not be presented as directly comparable.
+
+### Local matrix database read-only integrity inventory
+
+Three SQLite databases were inspected in historical console output with **3/3 integrity_check = ok**, totaling **7 tables and 54,043 rows**:
+- Knowledge matrix: 20 pages, 42,122 terms, 7,529 relations.
+- Source matrix: 542 captures, 1,083 items.
+- Joined matrix: 2,615 pipe sources, 131 reference entries.
+
+A separate 1,000-iteration byte-access timing loop over a local database file reported **minimum 0.001 ms, median 0.0013 ms, maximum 3.5102 ms**. These are individual in-memory byte accesses, **not** whole-database query or mathematical inference timings.
+
+### Scope of today's and yesterday's records
+
+The 18 November math and matrix timings above are directly transcribed from retained historical console logs. The complete set of all 17–18 November executions has **not** yet been exhaustively matched to original run IDs and hashes. Unreconciled tests are not silently described as completed or independently certified.
