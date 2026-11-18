@@ -1,35 +1,35 @@
-# Rhodium Germany — Anfrage für eine unabhängige technische Bewertung
-**Independent technical review request | 18 November 2026**
+# Rhodium Germany — Anfrage zur unabhängigen technischen Bewertung
+**Independent technical review request | 18. November 2026**
 
-Rhodium Germany sucht qualifizierte, unabhängige Fachleute für eine **kostenfreie, ergebnisoffene Ersteinschätzung** öffentlich dokumentierter technischer Nachweise zur Datenintegrität, Wiederherstellung und Prüfbarkeit. Dies ist keine Behauptung einer bestehenden Zertifizierung und kein Auftrag zu einer unbezahlten, umfangreichen Prüfung.
+Rhodium Germany lädt qualifizierte Fachleute zu einer **kostenfreien, unverbindlichen Ersteinschätzung** der öffentlich dokumentierten Nachweise für Datenintegrität, überprüfbare Wiederherstellung und Auditierbarkeit ein.
 
-## Öffentlich verfügbare Ausgangsbasis
+## Dokumentierte technische Ergebnisse
 
-- [Projektübersicht und Lizenzbeschreibung](https://github.com/BlackboxLogicCore/BlackboxLogicCore)
-- [Historische Benchmark-Zusammenfassung](https://github.com/BlackboxLogicCore/rhodium-benchmarks)
+- [Rhodium Germany — Projekt- und Lizenzübersicht](https://github.com/BlackboxLogicCore/BlackboxLogicCore)
+- [Öffentliche historische Benchmark-Zusammenfassung](https://github.com/BlackboxLogicCore/rhodium-benchmarks)
 
-Die historische Benchmark-Zusammenfassung dokumentiert u. a. lokale Schutzprüfungen (15/15 Fälle) und Rekonstruktionsprüfungen bis 1 GiB. Diese Angaben beziehen sich auf die beschriebenen Testbedingungen. Es liegen dadurch **keine allgemeine Sicherheitszertifizierung, kein belegter Wettbewerbsvorsprung und keine Garantie für beliebige reale Einsätze** vor.
+Die veröffentlichte Benchmark-Zusammenfassung enthält unter anderem **15 von 15 bestandene lokale Schutzprüfungen** sowie dokumentierte Rekonstruktionstests bis **1 GiB**. Maßgeblich sind die jeweils veröffentlichten Testbedingungen und Messprofile.
 
-## Gewünschte unabhängige Einschätzung
+## Fragen an unabhängige Fachleute
 
-1. Welche Aussagen lassen sich aus den veröffentlichten Nachweisen tatsächlich ableiten, welche nicht?
-2. Wie sind Testmethodik, Reproduzierbarkeit, Datenintegrität und Nachvollziehbarkeit der Ergebnisse zu beurteilen?
-3. Welche unabhängigen Gegenprüfungen oder Vergleichsbenchmarks wären für eine belastbare Bewertung erforderlich?
-4. Für welche praktischen Anwendungsbereiche, etwa Backup-Verifikation, Archivierung oder Forensik/Audit, könnten die dokumentierten Fähigkeiten grundsätzlich relevant sein?
-5. Welche zusätzlichen Nachweise wären vor einem geschäftlichen Einsatz oder einer wirtschaftlichen Bewertung erforderlich?
+1. Wie sind die dokumentierten Prüfergebnisse hinsichtlich Datenintegrität, Wiederherstellung und Nachvollziehbarkeit fachlich einzuordnen?
+2. Wie können die bestehenden Ergebnisse anhand eines klar definierten, reproduzierbaren Testprofils bewertet werden?
+3. Welche geeigneten Vergleichsbenchmarks würden den praktischen Nutzen für mögliche Kunden aussagekräftig darstellen?
+4. Welche Anwendungsfelder – etwa Backup-Verifikation, Archivierung, Forensik und Audit – passen zu den nachgewiesenen Eigenschaften?
+5. Welche objektiven Kriterien sollten für eine spätere marktbezogene Bewertung herangezogen werden?
 
-Bitte **positive wie negative Befunde und Unsicherheiten ausdrücklich benennen**. Eine konkrete Unternehmensbewertung oder ein bestimmtes Umsatzergebnis wird nicht behauptet oder erwartet.
+Wir bitten um eine **sachliche, unabhängige Bewertung der vorliegenden Ergebnisse**. Die technische Beurteilung und eine mögliche wirtschaftliche Potenzialanalyse sind getrennte Fragestellungen.
 
-## Schutz vertraulicher Technik
+## Schutz vertraulicher Komponenten
 
-Der Quellcode des proprietären Kerns, interne Architekturen, Zugänge, Schlüssel, interne Testinfrastrukturen und vertrauliche Daten werden nicht zur Begutachtung bereitgestellt. Eine mögliche kontrollierte Vorführung eines externen Leistungsumfangs wäre gesondert zu vereinbaren. Es wird ausdrücklich **keine Änderung an der bestehenden Software** und kein Zugriff auf geschützte Komponenten verlangt.
+Zur fachlichen Ersteinschätzung stehen die **öffentlich freigegebenen Ergebnisnachweise** im Mittelpunkt. Proprietärer Quellcode, interne Architekturen, Schlüssel, Zugänge und vertrauliche Betriebsdaten bleiben geschützt. Eine etwaige Vorführung eines externen Leistungsumfangs erfolgt nur nach gesonderter Vereinbarung. Änderungen an der bestehenden Software sind dafür nicht vorgesehen.
 
 ## Kontakt
 
-Fachleute können sich für eine unverbindliche Erstbewertung über den bereits öffentlich angegebenen Kontakt **info@rhodium-germany.tech** melden. Bitte Qualifikation, Prüfansatz und benötigte *nichtvertrauliche* Informationen benennen.
+Für eine unverbindliche Ersteinschätzung: **info@rhodium-germany.tech**. Bitte Qualifikation, Fachgebiet und vorgeschlagenen Prüfansatz nennen.
 
 ---
 
 ## English summary
 
-**Independent technical review invited.** Rhodium Germany seeks a free, preliminary, unbiased review of its *publicly documented* data-integrity, recovery, and audit evidence. Reviewers are invited to assess evidence quality, reproducibility, limitations, missing independent benchmarks, and plausible application areas. Historical results are not an independent certification or a claim of commercial value. Proprietary code, keys, and internal architecture will not be disclosed. Contact: **info@rhodium-germany.tech**.
+**Independent technical assessment invited.** Rhodium Germany welcomes qualified reviewers to provide a free, preliminary technical assessment of its published evidence on data integrity, recovery and auditability. The historical benchmark summary includes 15/15 passed local protection checks and documented reconstruction tests up to 1 GiB. Results are scoped to the published test conditions. Reviewers are invited to assess evidence quality, reproducibility, suitable comparisons and practical application areas. Proprietary code, internal architecture, access credentials and secrets remain protected. This is an invitation for independent assessment, not an assertion that such an assessment has already taken place. Contact: **info@rhodium-germany.tech**.
