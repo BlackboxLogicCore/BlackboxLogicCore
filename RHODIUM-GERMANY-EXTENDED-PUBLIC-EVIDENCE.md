@@ -183,3 +183,46 @@ The historical catalog below preserves distinct report families and documented o
 ## Evidence interpretation and confidentiality
 
 SHA-256 digests identify specific report or data bytes when originals can be compared. They are not cryptographic signing keys and do not independently certify the contents. Reported PASS applies to the named test setup only. The original protected 52+8 technology documentation, full proprietary procedures, internal identifiers, private keys and private raw evidence are not disclosed. P=0 is a design and verification objective, not a universal claim of zero error probability.
+
+
+## Expanded historical inventory and large-scale verification
+
+This section corrects the impression that the 558 report digest entries represent the full scope of Rhodium Germany's historical test and evidence work. They are a **subset**, not the total.
+
+| Historical inventory / test | Reported count | Proper unit and boundary |
+|---|---:|---|
+| Project filesystem inventory (22 Oct) | **179,912** | Files in 89 scanned roots; **not** independent tests |
+| Directory inventory (22 Oct) | **70,494** | Directories, separate from files |
+| Full filesystem/index inventory | **250,451** | Files, directories and reparse positions combined; **not** tests |
+| Boss mass verification | **107,643 PASS / 107,672 candidates** | 29 candidates not classified PASS or FAIL |
+| Inverse FastP0 run 1 | **103,193 PASS / 103,226 candidates** | Historical byte-compare run |
+| Inverse FastP0 run 2 | **103,193 PASS / 103,226 candidates** | Repeated verification, potentially overlapping inputs |
+| Historical dossier arithmetic | **210,837** | Sum of 107,643 + 103,193 + one IRIS case; **not deduplicated** |
+| Main report registry | **10,083 rows** | 8,308 distinct file digests, 65 evidence groups |
+| Master evidence paths | **2,369** | Paths in 216 groups |
+| October distinct report contents | **711** | Distinct report SHA-256 digests |
+| Sealing load test | **1,000,000** | Reported seal operations, not independent benchmarks |
+| Telemetry load | **1,500,000** | Log entries from ten sender runs |
+| Historical long-running stress counter | **2,464,000,000** | Intermediate counter marked running; no final PASS asserted |
+
+**Time-unit correction:** historical FastP0 internal durations were recorded as approximately **92.467 seconds** and **146.864 seconds** (not milliseconds). The wider timing windows including file search were approximately 236.441 and 306.099 seconds. This supersedes any earlier shorthand that incorrectly labeled those timings as ms.
+
+### NASA Juno WAVES — full historical data processing case
+
+The recorded public NASA Juno WAVES data case covers **62 files and 5,443,001,419 source bytes** (about 5.443 GB decimal). The historical local report records approximately **85.54% lossless data reduction** with a matching restored SHA-256 digest. A separate later dispatch recorded exit code 1; that later dispatch does not retroactively erase the earlier reported successful test and must not be presented as another PASS. Use of public NASA data does not imply NASA certification or a NASA partnership.
+
+### NASA C-MAPSS — turbine-engine condition and failure-data processing
+
+The recorded **FD001** local pipeline covers **100 engines, 20,631 rows, 24 channels and 495,144 of 495,144 sensor values processed** in a reported **147 ms**. This supports the recorded data-processing throughput and integrity within that test setup. It **does not establish independently validated advance prediction of a real turbine failure**. Separate FD003/FD004 error reports exist and are not reclassified as successful completion.
+
+### Traffic-light / signal safety
+
+Traffic-light safety ("Ampelsicherung") is included as a **named evidence-reconciliation topic**, not as a fabricated completed field trial. The currently reviewed historical materials include general safety, fail-closed and integrity tests, but no unambiguously linked traffic-light-specific original PASS report. No real-world traffic control, road-safety approval, or public infrastructure deployment is claimed.
+
+### Seismic and matrix evidence
+
+The historical **194/194 USGS event-ID comparison** is preserved as a source-matching result; the earlier EarthScope/USGS sample and other matrix cold/warm/delta and bit-identical restoration cases remain separately listed above. Neither event matching nor integrity verification alone demonstrates a validated earthquake forecast.
+
+### Interpretation of the scale
+
+The project contains **over 100,000 historically reported PASS checks** in one mass-verification run alone and **179,912 scanned files** in a distinct filesystem inventory. These figures are substantial but refer to **different units**. Repeated runs, file copies, report digests, operations, telemetry messages and independent benchmarks must not be added as if they were equivalent. The full protected core and private original evidence remain undisclosed; only externally describable results and their verification boundaries are presented.
