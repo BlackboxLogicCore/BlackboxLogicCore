@@ -106,3 +106,38 @@ The **[Rhodium GitHub/Kaggle gate repository](https://github.com/BlackboxLogicCo
 - [Extended historical evidence catalog with source categories](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
 
 **Evidence provenance:** historical Rhodium Benchmark-Gesamtpaket (16 Nov), Gesamtinventur (22 Oct), 558-report digest index (7 Oct), archived GitHub gate logs (7 Nov), and historical source records. Original bytes and private reports are not publicly released. Controlled owner-authorized read-only verification can be arranged. This public page is a consolidated **evidence map**, not a certification or a claim that every historic raw record has been re-executed.
+
+
+## Additional evidence recovered from 14–18 November master sketches — control, operation and jobs
+
+The following were recovered from dated project status/master sketches and are **historical test reports**, not claims of current 24/7 deployment or direct operation of third-party devices.
+
+| Domain | Historical result | What it does / does not prove |
+|---|---|---|
+| Multi-agent handoff chain (5 Nov) | **15 agents, 14 handoffs, 2/2 PASS**, 61,440-byte reconstruction | Bounded local chain execution and reconstruction; not 15 autonomous customer jobs |
+| EPIC9 original 10× (12 Nov) | **10/10 PASS**, 100,000 activations, 200 positive cascade stages | Script hashes reported unchanged before/after; not independent remote device E2E |
+| Cold-start live (7 Nov) | **10,000 activations PASS**, 618 ms reported | Local activation test |
+| Cross-process decoupled case (8 Nov) | **2/2 PASS**; 43-byte trigger, 201,460 bytes locally generated | Cross-process/local reconstruction, not proof of total 43-byte data transfer |
+| Phone/laptop-named historical report (7 Nov) | **1,112 bytes hash-identical** | Report used loopback address; **not proof of independent mobile-network-to-Wi-Fi transport** |
+| License gateway prototype | **7/7 PASS** | Prototype validation; no proven production licensing/checkout |
+| Owner access/gateway (9 Nov) | Historical PASS for access checks | Does not establish fully functional voice and remote job execution |
+| Shopify integration | Historical successful API read/access and permission inventory | Not a completed customer transaction or deployment |
+| Remote desktop connection | Historical device-online status PASS | Connectivity, not autonomous completion of all requested work |
+| Four public data endpoints | USGS, NOAA SWPC, NASA EONET and weather endpoint returned HTTP 200 in a dated local check | Point-in-time reachability, not continuous uptime |
+| 1 MB, 10 MB, 100 MB data integrity | Multiple historical bit-identical PASS reports | Applies to documented local conditions |
+
+### Operation/control functions: evidence categories
+
+The project contains documented **owner authorization, access control, command/status interfaces, local intake services, safety-gate prototypes, job handoffs, automated checks, test runners, replay and recovery workflows**. The historical records demonstrate different partial capabilities; they do **not** establish that every physical actuator, traffic signal, vehicle, robot, power system or customer account was actually operated. Public claims are restricted to verified bounded tests.
+
+### AI reasoning and task completion — avoid conflating counters
+
+- **100,000 activation events** and **200 positive cascade stages** in one historical EPIC9 report.
+- **15-agent / 14-handoff / 2-PASS** bounded local orchestration test.
+- **10,000 cold activations** in a separate local report.
+- **2/2 cross-process reconstruction** checks.
+- The historical notes reference local intake and job-processing components, but do not give a reliable deduplicated total of **distinct customer jobs actually completed** or of all internal reasoning steps. These remain **unquantified**, rather than zero.
+
+### Additional historical evidence sources consulted
+
+Dated 14 November master status and consolidated sketch, 18 November project notes, 16 November benchmark total package, 22 October full inventory, 7 November original gate console transcripts. These are used as source cross-references, not as independent external endorsements. The protected proprietary core remains excluded.
