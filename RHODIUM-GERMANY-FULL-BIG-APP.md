@@ -289,3 +289,17 @@ The retained historical `ALLE-TESTS-ERGEBNISSE.json` was read as a complete JSON
 **Critical distinction:** SHA-256 file-identity checks are not the same as a successful functional roundtrip, independent test scenario or signed cryptographic credential. Report statuses are historical text fields and may describe artifacts of overlapping runs. The sum of PASS statuses is **not** asserted as the count of distinct verified experiments. The original register also preserves FAIL, BLOCKED, and incomplete/blank status records, rather than hiding them. Deduplication by original test ID, payload and conditions remains outstanding.
 
 **Historical depth:** the owner Library contains records from at least July 2026; this is a full scan of the **identified 10,083-row master register**, not a claim that every document in the entire Library or every historical conversation has already been individually reviewed.
+
+
+## Additional large-scale and environmental research tests recovered from Library originals (November 2026)
+
+| Original historical artifact | Evidence and recorded outcome | Evidence boundary |
+|---|---|---|
+| `RHODIUM-ORIGINALTEST-10X-20261112.json` | **10/10 PASS**, **100,000 agent activations**, **200 positive cascade stages**, original script file hashes unchanged across test; individual runs record elapsed milliseconds | Local authorized Windows execution, **not** remote physical E2E; activations not distinct customer jobs |
+| `rhodium_europa_stresstest_20261113.json` | **60 nodes, 180 edges, 35 blocked edges**, 394 routing requests; fixed routes **229/394**, rerouting **394/394**, average added cost **5.29** | **Synthetic** graph with deterministic seed; no real disaster response or infrastructure actuation |
+| `RHODIUM_SIGNAL_GROSSTEST_20261111.json` | **4,200 synthetic traces**, **17,203,200 samples**, elapsed **1.195 s**; injected signal recognition rates at SNR -18/-15/-12/-9/-6 dB: **1.83%/2.83%/21.17%/69.83%/99.67%** for template-matched detector | Known injected waveform, synthetic noise; **not** real earthquake forecasting or live seismic early warning |
+| USGS historical seismic comparison | **194/194 event IDs matched**, no reported magnitude/time differences or coordinate differences >0.001° | Historical live-data comparison; does not prove future-event prediction |
+| `Rhodium_World_Matrix_Status.json` | KML/XML parsing **PASS**, prototype version 0.1 | Explicitly **NOT_TESTED**: live feed runtime, ingested live data, P=0 regression; no release authorization in this artifact |
+| `rhodium_global_matrix_result.json` | Two valid synthetic temperature observations, one station, no source mutation | Explicit **PARTIAL**; global coverage and verified causal links absent |
+
+**Further research families under reconciliation:** Niagara Falls / waterfall noise experiments, G-Tube large-scale tests, wildfire/forest and broader natural-disaster studies. Historical conversation mentions exist, but the original per-run measured outputs have not yet been uniquely matched; no invented PASS, runtime, or live status is assigned. The owner Library also contains multiple HTML map/demo files, which are not by themselves proof that their external feeds ran successfully at publication time.
