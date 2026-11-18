@@ -243,3 +243,22 @@ The following historical benchmark rows were **read directly from the owner's Gi
 **Blackbox-specific historical original reports:** an additional private `rhodium-zero-point` register lists a successful GitHub Actions frozen 9-bit baseline (run **38023233531**, with prepared receiver knowledge) and historical enwik9 restore cases of 1 GiB, 100 MB, 32 MiB and 8 MiB; local original reports were **not** re-run in this publication. The same private register includes two local packet checks and a catalog-trigger case. No private keys, internal file paths or proprietary implementation details are reproduced.
 
 **Historical source distinctions:** GitHub register row ≠ unique independently certified benchmark; an internal operation ≠ completed external customer job; action interception ≠ physical traffic-light control; private repo data is paraphrased without exposing private source material.
+
+
+## Additional benchmark results recovered from the historical owner Library master sketch (31 October 2026)
+
+This subsection was added after re-reading the **53,975-character master sketch** and its archived benchmark register references. The numbers below were not derived from a new run.
+
+| Test / original report ID | Source / transfer | Recorded duration | Scope |
+|---|---|---|---|
+| **R0001 Golden-Standard** | 1,048,576 B source; cold **529,608 B**, warm **469 B** | Cold **30.531 ms**, warm **9.135 ms** | Source/restore hashes matched; later receiver state reused one block |
+| **R0002 Golden-Standard** | 134,217,728 B (128 MiB); cold **67,737,497 B**, warm **11,270 B** | Cold **2,178.891 ms**, warm **380.712 ms** | Hash-identical; 128 blocks reused in warm state |
+| **External HTTPS echo R0707** | 1,048,576 B, 16 HTTPS packets | **39.8377751 seconds** | External echo route; **no independent native Rhodium receiver** |
+| **Cross-runner replay R0692–R0693, 1 GiB** | Historical replay | Cold **5.838 s**, warm **3.406 s** | Native protocol **replay**, not simultaneous live WAN transfer |
+| **Cross-runner replay R0692–R0693, 64 MiB** | Historical replay | Cold **0.542 s**, warm **0.379 s** | Same replay limitation |
+| **External GitHub runner R0703–R0705** | Two 1 GiB cases: cold **542,428,771 B**, warm **87,433 B**; one 256 MiB case: cold **135,554,672 B**, warm **22,150 B** | No reliably associated complete E2E duration in reviewed fields | Historical `PASS_REAL_ROUNDTRIP` on external runner; not proof of simultaneous owner laptop ↔ runner WAN |
+| **WAN TRUE-COLD K24** | 64 MiB, 64 blocks with only one unique block, **6,950 transmitted B** | No linked complete duration | Historical cross-network catalog PASS; highly repetitive test input |
+
+**Interpretation:** the reported transfer field is not necessarily total wall-clock time including all initialization, network setup and independent recipient provisioning. The cold/warm distinction is essential. These are separate archived profiles and may overlap with prior register entries; no extra unique-test count is asserted.
+
+**Additional source catalog:** The historical master sketch also indexes a new-state-format check (two passes and sealing), a one-byte local activation trial and a separate local TCP/IP path (two passes). Their exact numeric durations and original run identifiers have not yet been reverified for publication; therefore they are not assigned invented performance numbers.
