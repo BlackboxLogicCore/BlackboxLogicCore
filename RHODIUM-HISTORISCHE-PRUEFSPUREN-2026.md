@@ -21,7 +21,7 @@ Stand: 18. November 2026. Öffentliche, bewusst konservative Übersicht. Origina
 
 - Frühere Aussage „über eine Million Tests“ sowie Erinnerung an rund 1,2 bis 1,24 Millionen: im historischen Suchauftrag dokumentiert, aber noch nicht als Anzahl **unabhängiger** Testfälle bestätigt.
 - Historischer 1.000-Agenten-Lauf: Laufprotokoll, Parallelitätsgrad und Ergebnis noch nicht eindeutig zugeordnet.
-- Erinnerung an eine Übertragung von „0,01 Bit“: Originalmessung nicht gefunden. Ein physischer binärer Übertragungsvorgang wird nicht allein durch diese Bezeichnung nachgewiesen; logische oder statistische Bitangaben müssen von tatsächlicher Transportgröße getrennt werden.
+- Erinnerung an eine Übertragung von „0,1 Bit“: Originalmessung nicht gefunden. Ein physischer binärer Übertragungsvorgang wird nicht allein durch diese Bezeichnung nachgewiesen; logische oder statistische Bitangaben müssen von tatsächlicher Transportgröße getrennt werden.
 - Historische End-to-End-Livetests und ältere Namen der getrennten Systeme: weitere Zuordnung nach Originalbericht, Zeitpunkt und Testumgebung erforderlich.
 - Anbieter-Vergleiche: erfolgreich ausgeführte Upstream-Tests sind kein automatischer Nachweis einer höheren Leistung gegenüber dem Anbieter.
 
