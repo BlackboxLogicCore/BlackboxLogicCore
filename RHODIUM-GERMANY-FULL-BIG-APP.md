@@ -262,3 +262,30 @@ This subsection was added after re-reading the **53,975-character master sketch*
 **Interpretation:** the reported transfer field is not necessarily total wall-clock time including all initialization, network setup and independent recipient provisioning. The cold/warm distinction is essential. These are separate archived profiles and may overlap with prior register entries; no extra unique-test count is asserted.
 
 **Additional source catalog:** The historical master sketch also indexes a new-state-format check (two passes and sealing), a one-byte local activation trial and a separate local TCP/IP path (two passes). Their exact numeric durations and original run identifiers have not yet been reverified for publication; therefore they are not assigned invented performance numbers.
+
+
+## Original master-register audit — full-file programmatic scan
+
+The retained historical `ALLE-TESTS-ERGEBNISSE.json` was read as a complete JSON array, not inferred from snippets. It contains **10,083 rows across 65 recorded families**. The source file includes owner-private paths and is **not published**. Public-safe aggregated counts:
+
+| Metric | Exact count |
+|---|---:|
+| Register rows | **10,083** |
+| Distinct recorded source SHA-256 digests | **8,308** |
+| SHA-256 duplicate rows | **1,775** |
+| Copy-status `HASH_VERIFIZIERT` | **8,308** |
+| Copy-status `DUPLIKAT_SHA256` | **1,775** |
+| Report-status `PASS` | **6,795** |
+| Report-status `PASS_REAL_ROUNDTRIP` | **970** |
+| Report-status `FAIL` | **8** |
+| Report-status `BLOCKED` | **7** |
+| Report-status blank | **2,060** |
+| Family `EVIDENCE-FILES` | **5,733** |
+| Family `P0-MULTI-AGENT` | **3,703** |
+| Family `REAL-BLACKBOX-V2` | **275** |
+| Family `REAL-BLACKBOX` | **191** |
+| Rows in two named Blackbox families | **466** |
+
+**Critical distinction:** SHA-256 file-identity checks are not the same as a successful functional roundtrip, independent test scenario or signed cryptographic credential. Report statuses are historical text fields and may describe artifacts of overlapping runs. The sum of PASS statuses is **not** asserted as the count of distinct verified experiments. The original register also preserves FAIL, BLOCKED, and incomplete/blank status records, rather than hiding them. Deduplication by original test ID, payload and conditions remains outstanding.
+
+**Historical depth:** the owner Library contains records from at least July 2026; this is a full scan of the **identified 10,083-row master register**, not a claim that every document in the entire Library or every historical conversation has already been individually reviewed.
