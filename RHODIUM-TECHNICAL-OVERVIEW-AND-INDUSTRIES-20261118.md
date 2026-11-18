@@ -23,7 +23,8 @@ A potential Rhodium service would require a dedicated authorized signing key, tw
 | Sector | Example evidence or integrity task | Qualification before deployment |
 | --- | --- | --- |
 | **Aviation / airlines / aircraft maintenance** | Verify that maintenance records, component documents, inspection reports and transmitted logs remain unchanged | Aviation authority and operator approval processes; safety-critical use needs separate assessment |
-| **Passenger transport: rail, buses, shipping** | Traceability of equipment inspections, operational reports and maintenance documentation | Sector-specific standards, retention and operational testing |
+| **Civilian passenger transport: rail, buses, shipping** | Traceability of equipment inspections, operational reports and maintenance documentation | Sector-specific standards, retention and operational testing |
+| **Civil aviation and maritime planning** | Integrity of approved weather-routing inputs, fuel-consumption analysis records and non-flight-critical sensor reports | No aircraft, vessel or engine control; separate safety assessment required |
 | **Logistics and cargo** | Chain-of-custody and tamper-evident shipment records, handover evidence | Identity, timestamping and workflow integration |
 | **Data centers / backup operators / cloud providers** | Recovery-verification reports, immutable audit trail references, integrity checks | Independent recovery/restore trials and system-level security review |
 | **Hospitals / laboratories** | Integrity and traceability of authorized laboratory or medical records | Privacy, security and medical-sector validation |
@@ -56,6 +57,6 @@ Am 18.11.2026 wurde der Fingerabdruck eines vorhandenen **RSA-3072-Öffentlichsc
 
 Ein **eigenes kryptografisches Rhodium-Prüfsiegel** für freigegebene Prüfberichte ist als separat überprüfbares Angebot **in Vorbereitung**. Es ist noch nicht produktiv abgenommen. Ein korrekt signierter Bericht kann auf Unverändertheit und Signaturzuordnung geprüft werden. Er ist keine behördliche, unabhängige oder luftfahrtrechtliche Zertifizierung.
 
-Interessante mögliche Anwendungsfelder: **Luftfahrt und Wartungsdokumentation, Bahn und Personenbeförderung, Logistik, Rechenzentren, kritische Infrastruktur, Banken, Versicherungen, industrielle Qualitätssicherung und Gesundheitswesen**. Jeder Einsatz verlangt eine eigenständige fachliche und regulatorische Eignungsprüfung.
+Interessante mögliche Anwendungsfelder: **zivile Passagierluftfahrt und Wartungsdokumentation, Schifffahrt (Wetterrouting, Verbrauchsdaten und technische Zustandsberichte), Bahn und Personenbeförderung, Logistik, Rechenzentren, kritische Infrastruktur, Banken, Versicherungen, industrielle Qualitätssicherung und Gesundheitswesen**. Keine militärischen Anwendungsfelder und keine Eingriffe in Flug- oder Fahrzeugsteuerung. Jeder Einsatz verlangt eine eigenständige fachliche und regulatorische Eignungsprüfung.
 
 **Vertrauliche Schlüssel und interne Verarbeitungsverfahren bleiben geschützt.** Schriftliche Anfragen: info@rhodium-germany.tech.
