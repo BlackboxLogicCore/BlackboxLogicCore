@@ -226,3 +226,36 @@ The historical **194/194 USGS event-ID comparison** is preserved as a source-mat
 ### Interpretation of the scale
 
 The project contains **over 100,000 historically reported PASS checks** in one mass-verification run alone and **179,912 scanned files** in a distinct filesystem inventory. These figures are substantial but refer to **different units**. Repeated runs, file copies, report digests, operations, telemetry messages and independent benchmarks must not be added as if they were equivalent. The full protected core and private original evidence remain undisclosed; only externally describable results and their verification boundaries are presented.
+
+
+## Cloudflare, Chinese robotics, automotive and end-to-end: source-specific expansion
+
+### Cloudflare — three distinct historical scopes
+
+1. **Cloudflare live-source data path:** 64 MiB source; reported cold wire **6,950 bytes**, warm wire **5,838 bytes**, successful restore. Same-payload case, not a symmetric external Internet performance comparison.
+2. **Cloudflare Speedtest official upstream suite:** **16/16 test files** and **163/163 tests PASS**, historical GitHub Actions run **36589009576**. Upstream compatibility, not proof of a Rhodium speed advantage.
+3. **Cloudflare zlib upstream fork:** CMake build completed (historical build check). No compression superiority claim.
+
+### Chinese robotics — AGIBOT data case
+
+AGIBOT robotics sample **67,108,864 bytes (64 MiB)**; cold wire **67,018,034 bytes** (about **0.1353%** reduction), warm wire **5,827 bytes** (about **99.9913%** reduction), **four consistent historical report records** with cold/warm SHA and bit identity. The warm result reflects its specific repeated-data/receiver-state conditions. These are data-transfer/reconstruction tests, **not live robot-control tests**.
+
+### Automotive — named data cases
+
+The historical FAST75 run reports **75/75 local roundtrips PASS**, zero reported restore errors. Named public sample datasets include **Baidu Apollo, BMW, Ferrari, Lamborghini and Mercedes-Benz**, alongside other automotive sources. These are sample data processing cases, not manufacturer partnerships, production-vehicle deployments or automotive safety certification.
+
+| Sample | Source bytes | Cold wire bytes | Warm wire bytes | Reported cold/warm status |
+|---|---:|---:|---:|---|
+| Baidu Apollo | 17,946 | 6,635 | 463 | Hash/bit-identical |
+| BMW | 9,090 | 4,070 | 460 | Hash/bit-identical |
+| Ferrari | 47,662 | 10,563 | 463 | Hash/bit-identical |
+| Lamborghini | 258,900 | 47,034 | 466 | Hash/bit-identical |
+| Mercedes-Benz | 3,684 | 2,081 | 460 | Hash/bit-identical |
+
+### End-to-end test families — separate from report count
+
+The source catalog includes named **Verify-Relay end-to-end**, **WAN TRUE-COLD**, **64 MiB Blackbox roundtrip**, **128 MiB Golden roundtrip**, **1 GiB external matrix proof**, **fingerprint/foreign recognition and restore**, **1-byte local cold activation**, **4 GiB double cold reconstruction**, **TCP failover**, **EPIC9 cold activation**, **enwik9 single-package local restore**, and other cold/warm report families. The existence of **558 report digests** does **not** establish that exactly 50 separate end-to-end network scenarios were successfully tested. A unique E2E scenario count requires source-run IDs and endpoint conditions.
+
+### Dynamite / Dynomite / Dynatrace name reconciliation
+
+A historical filesystem search explicitly reported **DYNAMITE COUNT=0, STATUS=NOT_SEEN_BY_FILENAME**. Separately, it identified a **Dynatrace live evidence** file family. These names are not interchangeable. The requested "Dynamite" case is therefore retained as an **unresolved name-to-original-test match**, with no fabricated PASS status, until the exact report is identified. The Dynatrace file-name evidence is not by itself proof of a completed successful benchmark.
