@@ -116,3 +116,14 @@ Die **Mama-Box** ist im internen Rollenmodell für Auftragsannahme, Koordination
 - Der vollständige rekursive Agentenbaum, die tatsächliche Erledigung sämtlicher verteilter Aufträge und ein historischer 1.000-Agenten-Parallellauf benötigen weiterhin eine lückenlose Zuordnung zu Originalprotokollen.
 
 **Für Lizenzpartner:** Rhodium Germany verbindet überprüfbare Datenintegrität mit dem Entwicklungsziel koordinierter KI-Prüf- und Arbeitsabläufe. Die Eignung für konkrete Kundenprozesse wird in abgegrenzten Pilot- und Gegentests bewertet.
+
+
+## Geschützter innerer Kern und vertraulicher Lizenzpartner-Nachweis
+
+**Öffentlich sichtbar sind Ergebnisse und ihre Prüfgrenzen – nicht der interne Technologiekern.** Rhodium Germany schützt vertrauliche Verfahren, Quelltexte, private Schlüssel und interne Betriebsdetails.
+
+Der historische Masterbestand dokumentiert **2.369 Dateieinträge in 216 Testgruppen** und **711 verschiedene JSON-Berichtsinhalte**. Der damalige Integritätsbericht meldete passende Hashes für 2.369 erfasste Dateien. Das sind getrennte Archiv-, Inhalts- und Integritätskennzahlen; nur ein zugehöriges Ergebnisprotokoll kann einen konkreten Funktionstest als PASS ausweisen. Die vollständige Zuordnung der historischen Mama-Box-SHA-Liste zu diesem Archiv ist noch offen.
+
+**Lizenzpartner-Verfahren:** Nach Identitätsprüfung, angemessener Vertraulichkeitsvereinbarung, definiertem Prüfumfang und persönlicher Eigentümerfreigabe können zusätzliche Originalprotokolle, Prüfketten und geeignete technische Belege in einer geschützten Umgebung eingesehen werden. Die Kernimplementierung und Geheimnisse werden nicht automatisch offengelegt. Unabhängige Gegentests können vereinbart werden.
+
+Damit ist der technische Nachweisweg transparent, während das geistige Eigentum geschützt bleibt.
