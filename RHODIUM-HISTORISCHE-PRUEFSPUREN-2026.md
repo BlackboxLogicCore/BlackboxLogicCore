@@ -83,3 +83,12 @@ Rhodium Germany dokumentiert historische Entwicklung und konkrete Prüfergebniss
 **Kooperationsmodell:** Gespräche über Lizenzierung, Pilotprojekte und unabhängige Gegentests sind erwünscht. Geschützte technische Einzelheiten können ausschließlich in einem gesondert freigegebenen, vertraulichen Prüfprozess besprochen werden. Eine Veröffentlichung von Kerntechnik, Schlüsseln, internen Dateipfaden oder privaten Systemdetails findet nicht statt.
 
 **Hinweis zur Einordnung:** Historische positive Ergebnisse werden nicht als neue Live-Messungen ausgegeben. Unterschiedliche Testeinheiten werden nicht addiert; negative, unvollständige oder noch ungeklärte Prüfungen werden nicht als PASS umgedeutet.
+
+
+## Ergänzender Produktbereich: digitaler Briefkasten und geschützter Tresor
+
+Im Rhodium-Konzept „Lebensschrank“ (Planungsstand 18.11.2026) sind ein digitaler **Briefkasten** für den kontrollierten Eingang von Nachrichten und Dokumenten und ein davon getrennter **Tresor** für besonders schutzbedürftige Inhalte vorgesehen. Ergänzend werden getrennte Fachbereiche für Verträge, Rechnungen, Identität, Unternehmen und weitere Lebensbereiche beschrieben.
+
+**Nachweisstatus:** Das gefundene Dokument ist ausdrücklich ein Planungs- und Übergabedokument, **kein** Beleg für eine bereits vollständig implementierte oder bestandene Großlastprüfung dieser Funktionen. Historische Einzeltests für Briefkasten und Tresor müssen gesondert anhand von Originalprotokollen zugeordnet werden. Aus der bloßen Erwähnung der Funktionen wird kein bestandener Sicherheitstest abgeleitet.
+
+Für potenzielle Partner ist dieser Bereich als **Produkt- und Entwicklungsperspektive** sichtbar; Aussagen über zertifizierte Sicherheit, produktiven Einsatz oder Lastgrenzen erfordern separate Belege.
