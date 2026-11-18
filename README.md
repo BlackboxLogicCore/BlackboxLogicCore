@@ -1,4 +1,6 @@
 # Rhodium Germany
+
+**Neu, 18.11.2026:** [Technischer Nachweisstand, geplantes Rhodium-Prüfsiegel und mögliche Branchenanwendungen (DE/EN)](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Unabhängige Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
 **Archivierung. Backup-Verifikation. Forensik und Audit.**
 
 Rhodium Germany bietet die fertige, proprietäre Arbeiterbox zur Datenverarbeitung und überprüfbaren Wiederherstellung zur Lizenzierung an. Gesucht werden Lizenz- und Vertriebspartner für Archivierung, Backup-Verifikation sowie Forensik und Audit. Grundlage des Angebots sind die vorhandenen dokumentierten Nachweise.
@@ -9,13 +11,13 @@ Die dokumentierten Arbeitsfelder umfassen Datenfluss, Wiederherstellung, technis
 
 Archive und wiederholte Übertragungen, Telemetrie und Sensorik, KI-/API-Abläufe sowie Integration am Einsatzort sind mögliche Entwicklungsrichtungen.
 
-## Öffentliche Nachweise
+## Dokumentierte Nachweisregister
 
-Registerstand: 15.10.2026.
+Registerstand: 15.10.2026. Die zugängliche öffentliche Zusammenfassung und ihre Grenzen sind im neuen [technischen Überblick](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) beschrieben.
 
 | Bestand | Anzahl | Einordnung |
 |---|---:|---|
-| Prüfzwecke | 62 | Im öffentlichen Einzelregister dokumentiert |
+| Prüfzwecke | 62 | Im historischen Einzelregister dokumentiert |
 | Profilübersicht | 1 | Zusammen mit den Prüfzwecken 63 Registerpositionen |
 | Messprofile | 22 | Ergänzende Evidence-JSON |
 | Best-of-Datenfälle | 25 | Nach Eingabe-SHA-256 unterschieden |
@@ -23,7 +25,9 @@ Registerstand: 15.10.2026.
 
 Diese Sammlungen überschneiden sich und ergeben keine addierbare Gesamtzahl unabhängiger Benchmarks. Historische Messergebnisse sind keine allgemeine Leistungs-, Reduktions- oder Fehlerfreiheitsgarantie.
 
-[Projektübersicht](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/main/START-HIER-RHODIUM-GERMANY.md) · [Prüfregister](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/main/benchmarks/RHODIUM-ALL-DISTINCT-TESTS.md) · [Messprofile](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/main/public-evidence/2026-10-15-recovered-evidence.json) · [Ergebnisse und SHA-256](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/main/benchmarks/RHODIUM-PUBLIC-BENCHMARK-RESULTS-AND-SHA256.md) · [Prüfstatus](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/main/EVIDENCE-STATUS.md)
+[Öffentlicher technischer Überblick](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Anfrage zur unabhängigen Bewertung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
+
+Hinweis: Die bisher verlinkten technischen Einzelregister liegen derzeit in einem privaten Repository und sind für externe Besucher nicht ohne gesonderte Berechtigung zugänglich.
 
 
 ## Lizenzangebot und Gebote
