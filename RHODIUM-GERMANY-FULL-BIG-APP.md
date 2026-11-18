@@ -303,3 +303,21 @@ The retained historical `ALLE-TESTS-ERGEBNISSE.json` was read as a complete JSON
 | `rhodium_global_matrix_result.json` | Two valid synthetic temperature observations, one station, no source mutation | Explicit **PARTIAL**; global coverage and verified causal links absent |
 
 **Further research families under reconciliation:** Niagara Falls / waterfall noise experiments, G-Tube large-scale tests, wildfire/forest and broader natural-disaster studies. Historical conversation mentions exist, but the original per-run measured outputs have not yet been uniquely matched; no invented PASS, runtime, or live status is assigned. The owner Library also contains multiple HTML map/demo files, which are not by themselves proof that their external feeds ran successfully at publication time.
+
+
+## Additional recovered historical benchmark evidence — Niagara and source validation
+
+A further original owner Library inventory `Rhodium-Gesamtinventur-2026-10-22.md` documents **two Niagara / USGS source-data roundtrips** under historical entry Z26:
+
+| Input bytes | Cold output bytes | Warm output bytes | Historical result |
+|---:|---:|---:|---|
+| **10,120** | **2,300** | **475** | Roundtrip and matching hash PASS |
+| **9,958** | **2,283** | **472** | Roundtrip and matching hash PASS |
+
+These are recorded **data transport / reconstruction** tests. They do not measure acoustic noise, eliminate physical noise or validate disaster forecasts.
+
+Other documented and distinct evidence categories in the same source include: **EarthScope/USGS live evidence** at station IU.ANMO.BHZ (23 accepted records, 2.4–6.3 s historical latency); **NASA C-MAPSS FD001** local pipeline (100 engines, 20,631 rows, 495,144 values processed in 147 ms); **Metrica Sports** 33,554,432 B roundtrip (cold 11,550,999 B, warm 488,590 B, 123/128 reused); **Cloudflare Speedtest upstream** 163/163 tests; **Brotli upstream** 73/73 CTest; and **250,000-event Evidence Gateway** reduced to 1,842 accepted events in the specified historical filtering test. These represent different test profiles and levels of evidence, not a single external live deployment.
+
+**Unreconciled historical user-described device-to-device test:** a live test involving a brother's device and a tablet was described in conversation, but the specific original run ID, endpoints and signed measurement report have not yet been independently matched. It is **not** substituted with Cloudflare upstream validation or the Cloudflare live-source 64 MiB case.
+
+**Confidentiality:** this public summary intentionally excludes private device addresses, recipient identifiers, authentication secrets, cryptographic signing material and internal architecture.
