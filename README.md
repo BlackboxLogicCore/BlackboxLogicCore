@@ -77,3 +77,12 @@ Zum historischen Prüfarchiv gehören laut Register **2.369 Dateieinträge in 21
 **Vertrauliche Einsicht:** Geeignete Lizenzpartner können nach Identitätsprüfung, Vertraulichkeitsvereinbarung, festgelegtem Prüfumfang und ausdrücklicher Eigentümerfreigabe weitergehende technische Nachweise erhalten. Das ist keine Zusage, sämtliche Kerngeheimnisse oder privaten Schlüssel herauszugeben.
 
 [Öffentliches historisches Nachweisregister](RHODIUM-HISTORISCHE-PRUEFSPUREN-2026.md)
+
+
+## Abgeschlossene, in sich geschlossene Technologie- und Kundenpakete
+
+Rhodium Germany verfolgt **nicht nur eine Forschungsvision**: Zum Projektbestand gehören vorbereitete, abgegrenzte Technologie- und Kundenpakete. Die Kundenkomponente ist architektonisch als **eigenständiges, in sich geschlossenes Paket** definiert, das nur innerhalb freigegebener Funktionen eingesetzt wird. Der geschützte Kern wird nicht öffentlich offengelegt.
+
+Das interne Kundenpaket-Nachweisregister vom 05.11.2026 dokumentiert vorbereitete Angebotsunterlagen. **Eine vollständige Produktions- und Vertriebsfreigabe ist darin noch nicht nachgewiesen.** Die vom Eigentümer genannte Zahl von **24 Paketen** wird als zu prüfender Inventarstand geführt, bis Paketliste, Versionen, Prüfberichte und Freigaben eindeutig abgeglichen sind. Daher wird hier weder behauptet, dass alle 24 unabhängig abgenommen wurden, noch dass sie bereits ohne weitere Prüfung sofort produktiv einsetzbar sind.
+
+**Für Lizenzinteressenten:** Konkrete Pakete und ihre Einsatzfähigkeit können im vertraulichen Partnerprozess anhand von Paketidentität, Teststatus, Leistungsumfang und Freigabeunterlagen einzeln geprüft werden. Vertrauliche Implementierungsdetails und private Schlüssel bleiben geschützt.
