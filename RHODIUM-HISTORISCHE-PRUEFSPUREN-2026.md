@@ -92,3 +92,27 @@ Im Rhodium-Konzept „Lebensschrank“ (Planungsstand 18.11.2026) sind ein digit
 **Nachweisstatus:** Das gefundene Dokument ist ausdrücklich ein Planungs- und Übergabedokument, **kein** Beleg für eine bereits vollständig implementierte oder bestandene Großlastprüfung dieser Funktionen. Historische Einzeltests für Briefkasten und Tresor müssen gesondert anhand von Originalprotokollen zugeordnet werden. Aus der bloßen Erwähnung der Funktionen wird kein bestandener Sicherheitstest abgeleitet.
 
 Für potenzielle Partner ist dieser Bereich als **Produkt- und Entwicklungsperspektive** sichtbar; Aussagen über zertifizierte Sicherheit, produktiven Einsatz oder Lastgrenzen erfordern separate Belege.
+
+
+## Das Rhodium-Prüfsiegel: vier Leitmerkmale
+
+**Bitidentisch wiederhergestellt · Doppelt geprüft · Kryptografisch nachgewiesen · Ausfallsicherheit geprüft.**
+
+Diese vier Merkmale beschreiben den angestrebten Nachweisstandard für **jeweils konkret geprüfte** Verarbeitungsvorgänge; sie sind keine unbegrenzte Garantie für alle Anwendungen.
+
+1. **Bitidentisch wiederhergestellt:** Historische Roundtrip- und SHA-Abgleiche dokumentieren, dass die Wiederherstellung in benannten Testfällen dem Original entsprach.
+2. **Doppelt geprüft:** Wiederholungsprüfungen und getrennte Prüfläufe sollen zufällige Einzelerfolge ausschließen. Ob eine Prüfung wirklich unabhängig war, ergibt sich aus dem jeweiligen Originalprotokoll.
+3. **Kryptografischer Fingerabdruck:** Die Projektunterlagen verweisen auf einen eigens mit IONOS erstellten Fingerabdruck. Seine genaue kryptografische Ausprägung und der zugehörige Originalnachweis werden nicht öffentlich behauptet oder offengelegt, solange sie nicht verifiziert sind. Öffentliche Integritätsnachweise und interne Fingerabdrucktechnik sind zu unterscheiden.
+4. **Ausfallsicherheit geprüft:** Wiederanlauf- und Cross-Runner-Failover-Prüfungen sind dokumentiert. Erfolgreiche Workflow-Gates belegen ihren jeweiligen Prüfpfad, nicht automatisch unterbrechungsfreien Produktionsbetrieb oder eine zertifizierte Verfügbarkeit.
+
+## KI-Prüfsysteme und koordinierte Agentenarbeit
+
+Die **Mama-Box** ist im internen Rollenmodell für Auftragsannahme, Koordination, Prüfregeln und Freigabeprozesse vorgesehen. Die übrigen Systembereiche bleiben getrennt. Für die öffentliche Produktdarstellung relevant sind die Ergebnisse: Aufgabenverteilung, kontrollierte Prüfketten, wiederholbare Tests und dokumentierte Statusmeldungen.
+
+- Historische Prüfungen der Aufgabenplanung und parallelen Funktionsausführung sind dokumentiert.
+- Ein lokaler Test mit 10.000 Aktivierungen in zwei Prozessen ist als PASS protokolliert.
+- EPIC9-Register berichten 100.000 Aktivierungen; diese sind nicht als 100.000 autonome Agenten zu lesen.
+- GitHub-Cross-Runner-Failover-Gates und Wiederherstellungsprotokolle ergänzen den Resilienz-Nachweis.
+- Der vollständige rekursive Agentenbaum, die tatsächliche Erledigung sämtlicher verteilter Aufträge und ein historischer 1.000-Agenten-Parallellauf benötigen weiterhin eine lückenlose Zuordnung zu Originalprotokollen.
+
+**Für Lizenzpartner:** Rhodium Germany verbindet überprüfbare Datenintegrität mit dem Entwicklungsziel koordinierter KI-Prüf- und Arbeitsabläufe. Die Eignung für konkrete Kundenprozesse wird in abgegrenzten Pilot- und Gegentests bewertet.
