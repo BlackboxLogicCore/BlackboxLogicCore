@@ -214,3 +214,32 @@ The 32 in a family name is a **worker configuration**, not automatically 32 inde
 The owner describes an **IONOS-associated cryptographic fingerprint** as distinct from a simple SHA-256 file digest. The original issuance/verification record and its exact type have **not** been independently linked to a publicly verifiable benchmark in the sources reviewed here. This public index does **not** disclose fingerprint material, secret keys, credentials or signing procedures, and does not claim IONOS certification or endorsement.
 
 **Do not conflate:** (1) 558 report digests, (2) 711 unique report-content hashes, (3) SHA-256 source/restore checks, (4) three named fingerprint recognition test families, and (5) any private IONOS-associated cryptographic credential. These have different meanings; no validated total of “50 keys” can be inferred from them.
+
+
+## Recovered BlackboxLogicCore repository benchmark catalog — measured performance and control tests
+
+The following historical benchmark rows were **read directly from the owner's GitHub repository** `BlackboxLogicCore/rhodium-kaggle-public-gate`, file `benchmarks/RHODIUM-ALL-DISTINCT-TESTS.md` (historical register dated 15 October 2026). That repository was **private when inspected**, so its internal original links are not presented as publicly accessible. These are sanitized measurements, not new reruns.
+
+| Benchmark family | Original recorded metric | Scope / limitation |
+|---|---|---|
+| Structured tables | 8 MiB; 83.421% reduction; encode 16.52 MiB/s; restore **178.21 MiB/s** | Local data-profile benchmark |
+| Row-oriented object data | 8 MiB; 93.737% reduction; encode **57.23 MiB/s**; restore **263.88 MiB/s** | Local data-profile benchmark |
+| Time series | 8 MiB; 99.141% reduction; encode **189.11 MiB/s**; restore **258.85 MiB/s** | Local data-profile benchmark |
+| Random data | Identical restore; **-0.031%** reduction (output larger); restore **443.93 MiB/s** | Explicit non-compression case |
+| Internal end-to-end throughput | **20,000/20,000** operations, 0 errors; **479,442.48/s** in one July profile; **54,105.74/s** in a separate August profile | Different setups; not WAN |
+| Latency percentiles | **p50 17.21 µs; p95 30.21 µs; p99 33.81 µs** | One historical August local profile |
+| Buffering | **18,000** queued events | Bounded internal test |
+| Delivery and duplicate check | **20,000/20,000** events delivered; **0** duplicates | Internal setup |
+| Replay performance | **2,360,787 events/s** | Local replay |
+| SHA-256 sealing load | **1,000,000 operations**, 0 errors; **1.640618 s**, **609,526.48/s**; p50/p95/p99 **0.00183/0.00231/0.0026 ms** | Synthetic local load, not one million independent benchmark types |
+| HTTP endpoint load | **7 endpoint profiles**, baseline/double load, **0 HTTP errors**; maximum **1,052.43 requests/s** in 200-request/16-connection profile | Orchestration not fully healthy |
+| enwik9 transport | 1,000,000,000 B; cold **323,250,554 transmitted B / 63.5063 s**; warm **10,592 B / 7.9804 s**; bit-identical restore | Warm receiver state required |
+| Experimental research package | 1,048,576 B → 529,880 B; pack **0.115248 s**; restore **0.214922 s**; bit-identical | Python runtime not counted in package |
+| Action interception | Permitted actions executed; **1/1** forbidden target action blocked before target call | Synthetic local control test; no external actuator |
+| Deterministic replay | Two canonical outcome sequences identical; blocked action not executed in either | Synthetic local replay |
+| Input integrity | One flipped bit detected in 8 MiB test; malformed, oversized and unauthorized inputs rejected in bounded checks | Bounded checks, not universal security proof |
+| Anomaly measurement | 50,000 events; TP 299, FP 505, TN 48,999, FN 197; recall 60.282%, precision 37.189%, F1 ~46% | Experimental result; **not** validated predictive safety performance |
+
+**Blackbox-specific historical original reports:** an additional private `rhodium-zero-point` register lists a successful GitHub Actions frozen 9-bit baseline (run **38023233531**, with prepared receiver knowledge) and historical enwik9 restore cases of 1 GiB, 100 MB, 32 MiB and 8 MiB; local original reports were **not** re-run in this publication. The same private register includes two local packet checks and a catalog-trigger case. No private keys, internal file paths or proprietary implementation details are reproduced.
+
+**Historical source distinctions:** GitHub register row ≠ unique independently certified benchmark; an internal operation ≠ completed external customer job; action interception ≠ physical traffic-light control; private repo data is paraphrased without exposing private source material.
