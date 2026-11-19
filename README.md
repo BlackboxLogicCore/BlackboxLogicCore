@@ -36,6 +36,45 @@ Die Box nutzt bereits verfügbare Daten am Ziel. Ist der richtige Stand dort vor
 
 Die Berichte stammen aus dem Projekt. Die [öffentliche Gesamtschau](RHODIUM-GERMANY-FULL-BIG-APP.md) ordnet auch Robotik-, Cloudflare-, Turbinen-, Telemetrie- und Übergabetests einzeln ein. Im [Index mit 558 Berichten](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md) lassen sich einzelne Messungen und ihre Prüfsummen nachschlagen.
 
+## Historische Benchmarks im Vergleich
+
+Die drei Wiedererkennungstests beantworten eine praktische Frage: Wie viele Bytes brauchte der Empfänger im jeweiligen Versuch, um die Referenzdatei bitidentisch wiederherzustellen? **Warm** bedeutet, dass bereits vorbereitete Daten am Ziel verfügbar waren.
+
+| Fingerabdruck-Test | Original | Übertragen laut Bericht | Ergebnis |
+|---|---:|---:|---|
+| Fingerprint Recognition 32 | 1.000.000.000 Bytes | 81.481 Bytes, warm | Bitidentisch, SHA-256 stimmt überein |
+| Foreign Recognition 32 | 134.728.520 Bytes | 11.354 Bytes, warm | Bitidentisch, SHA-256 stimmt überein |
+| Fingerprint Pure One-File | 1.048.576 Bytes | 7.151 Bytes | Bitidentisch, Wiederherstellung in rund 62 ms |
+
+Die **32** bezeichnet die Worker-Konfiguration. Die drei Messreihen untersuchen die Wiedererkennung von Daten. Die Herkunft des privaten Projektfingerabdrucks ist eine eigene Nachweisfrage.
+
+### Übertragung, Wiederanlauf und Datenintegrität
+
+| Messreihe | Historischer Messwert | Testbedingung |
+|---|---|---|
+| enwik9 | 1 Milliarde Bytes Ausgangsdaten. Kalt 323.250.554 Bytes in 63,5063 s, warm 10.592 Bytes in 7,9804 s. Wiederherstellung bitidentisch. | Derselbe Textbestand mit unterschiedlichen Empfängerzuständen |
+| TCP-Ausweichverbindung | Zwei bestandene Läufe, rund 140 ms bis zur ersten Antwort | Testaufbau mit 100 virtuellen Kontexten und 10.000 Aufträgen |
+| Wiederherstellung nach simuliertem Kundenausfall | Zweimal 4 von 4 Prüfungen bestanden, null gemeldete SHA-256-Abweichungen | Lokaler Versuch mit separater Datenkopie |
+| Zustellung und Wiederholung | 20.000 von 20.000 Ereignissen zugestellt, keine Duplikate. Separater Replay-Lauf mit 2.360.787 Ereignissen/s. | Interne Ereignisverarbeitung |
+| Unterschiedliche Datenarten | Größenreduktion bei Tabellen 83,421 %, bei zeilenorientierten Objektdaten 93,737 %, bei Zeitreihen 99,141 %. Zufallsdaten wurden um 0,031 % größer. | Lokale Datenprofile. Der Inhalt beeinflusst die übertragene Menge. |
+| Integritätsprüfung | Eine einzelne Bitänderung in 8 MiB erkannt. Separater SHA-256-Lasttest mit einer Million Operationen in 1,641 s und null gemeldeten Fehlern. | Manipulationstest und synthetische Lastmessung in getrennten Läufen |
+
+### Robotik, Infrastruktur und Umweltmessungen
+
+| Messreihe | Ergebnis | Was untersucht wurde |
+|---|---|---|
+| AGIBOT-Robotikdaten | 67.108.864 Bytes Ausgangsdaten, kalt 67.018.034 Bytes, warm 5.827 Bytes. Vier konsistente Berichte. | Übertragung und Rekonstruktion eines Datensatzes |
+| NASA C-MAPSS FD001 | 495.144 Messwerte von 100 Triebwerken in 147 ms lokal verarbeitet | Verarbeitung historischer Sensordaten |
+| Cloudflare Speedtest und Google Brotli | 163/163 Tests der Speedtest-Testsuite und 73/73 Brotli-Tests bestanden | Kompatibilität mit den Tests der jeweiligen Projekte |
+| Niagara/USGS | Zwei Datensätze mit 10.120 und 9.958 Bytes wiederhergestellt. Warm wurden 475 bzw. 472 Bytes gemeldet. Beide Prüfsummen stimmten. | Übertragung von Quelldaten |
+| Europäische Routen, simulierte Störungen | Bei 35 gesperrten Verbindungen waren mit festen Routen 229 von 394 Anfragen erfolgreich, mit Neuberechnung 394 von 394. | Simulation mit 60 Knoten und 180 Verbindungen |
+| Signalerkennung im Rauschen | 4.200 synthetische Signalspuren. Erkennungsrate 1,83 % bei −18 dB und 99,67 % bei −6 dB. | Bekannte eingespeiste Wellenform. Die Trefferquote hing stark vom Rauschen ab. |
+| Rechen- und Matrixprüfung vom 18. November | Eine Million Multiplikations- und Umkehrprüfungen in 2,644 s, null Fehler. Drei lokale Datenbanken mit insgesamt 54.043 Zeilen bestanden die Integritätsprüfung. | Getrennte lokale Konsolenmessungen |
+
+**Einzeln nachprüfen.** Der Index vom 7. Oktober enthält 558 Kalt-/Warm-Berichte mit Datenmengen und Berichtsprüfsummen. Alle 558 melden für beide Zustände bitidentische Wiederherstellung. Die Register enthalten Wiederholungen und überlappende Messreihen. Die Zahlen oben stammen aus historischen Projektberichten.
+
+[558 Einzelberichte mit Messwerten](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md) · [Gesamtschau mit weiteren Messreihen und offenen Befunden](RHODIUM-GERMANY-FULL-BIG-APP.md) · [Erweiterter Katalog nach Testfamilie](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
+
 ## Wo ein Pilot zeigen kann, was die Box wert ist
 
 | Einsatzfeld | Die Frage nach einer Unterbrechung |
