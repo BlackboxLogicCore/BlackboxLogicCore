@@ -26,7 +26,7 @@ Für diesen Behördenablauf liegt noch keine gemessene Zeitersparnis vor. Die fo
 
 **Was bei einer falschen Übergabe passiert.** In einem getrennten lokalen Prototyp mit Testdaten und Demo-Schlüssel wurden ein manipuliertes Paket und ein ungültiger Auslöser abgewiesen. Zwei Durchläufe mit jeweils 15 Prozessen und 14 Übergaben ergaben denselben Manifest-Prüfwert. Für eine Bank oder ein Amt wäre die entsprechende Pilotfrage, ob ein korrekt zugeordneter Vorgang weiterverarbeitet und eine absichtlich veränderte Übergabe zuverlässig gestoppt wird.
 
-**Welche Identität belegt ist.** Die Ergebnisse stammen aus historischen lokalen Projektauswertungen. Der Gründer verortet den Ursprung seines Fingerabdrucks bei IONOS. Der separat dokumentierte RSA-3072-Abgleich betrifft einen SSH-Schlüssel. Das [technische Nachweisdokument](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) beschreibt diesen Abgleich und das geplante Prüfsiegel für Berichte.
+**Signaturtest vom 18. November 2026.** Der Eigentümer signierte auf seinem Rechner eine Prüfnachricht mit dem privaten RSA-Schlüssel seines Owner-Freeze-Zertifikats. Die Verifikation mit dem zugehörigen öffentlichen Schlüssel war erfolgreich. Der Eigentümer hält den Wert seines proprietären Projektfingerabdrucks, dessen Herleitung und die interne Zuordnung zur Box vertraulich.
 
 ### Vom einzelnen Datenpaket bis zur Wiederherstellung von 100 GiB
 
@@ -154,7 +154,7 @@ Rhodium Germany bietet die fertige, proprietäre Arbeiterbox zur Datenverarbeitu
 
 **Nachweise:** Öffentlich beschrieben sind unter anderem 15/15 lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB mit den jeweiligen Testgrenzen. Weitere historische Benchmark- und Capability-Register existieren; überlappende Positionen sind nicht als unabhängige Tests zu addieren. Der historische Bestand verweist auf **52 Hebel/Capability-Bereiche**; dies ist keine Behauptung, dass jeder Bereich einzeln produktiv abgenommen wurde.
 
-**Kryptografischer Nachweis:** Der Eigentümer berichtet über einen mit IONOS erstellten eigenen kryptografischen Fingerabdruck. Dieser wird von gewöhnlichen Datei-Prüfsummen unterschieden; seine konkrete Zuordnung und kryptografische Tragweite bedürfen der Prüfung der Originalbelege. Der dokumentierte RSA-3072-Öffentlichschlüssel-Abgleich ist davon getrennt und keine Produktzertifizierung. **Geheime Schlüssel, interne Verfahren und proprietärer Kern werden nicht veröffentlicht.**
+**Vertraulichkeit.** Rhodium Germany veröffentlicht ausgewählte Prüfergebnisse. Über die Offenlegung interner Entwicklungsunterlagen entscheidet der Eigentümer. Private Schlüssel bleiben geheim.
 
 **Für Bewerter und Lizenzpartner:** Bitte den aktuellen Unternehmenswert, den belegbaren Technologiewert und das langfristige Markt- und Lizenzpotenzial **getrennt** beurteilen. Die fehlende öffentliche Offenlegung des Kerns ist nicht mit fehlender Technologie gleichzusetzen. Kundenintegration, Branchenzulassungen und konkrete Einsparungen sind separat nachzuweisen.
 
