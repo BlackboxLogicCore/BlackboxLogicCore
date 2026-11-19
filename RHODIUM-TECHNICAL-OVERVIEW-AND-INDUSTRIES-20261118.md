@@ -6,7 +6,7 @@ Rhodium Germany develops proprietary services for **data-integrity verification,
 ## What is documented and what is not
 
 - Historical, publicly described local checks include **15/15 protective test cases reported as passed**, and documented reconstruction cases up to **1 GiB**. These are historical reports under their stated test conditions, **not** independent certification or guaranteed performance in every environment.
-- On **18 November 2026**, a public-key fingerprint for an existing **RSA-3072 SSH key** was successfully checked locally against an older recorded fingerprint. This establishes a match of **public-key identity**, **not** a new product-signature test. This particular key is **not** presented as a licensed Rhodium signing key, nor as proof of an IONOS-origin certificate.
+- On **18 November 2026**, the owner signed a test message with the RSA private key associated with the Owner-Freeze certificate. The signature verified with the corresponding public key. A separate check matched an RSA-3072 SSH public-key fingerprint against an earlier record. The owner keeps the proprietary project fingerprint and its derivation confidential.
 - Rhodium Germany is **designing** an optional, separately verifiable **cryptographic evidence seal** for approved test reports: a specific report can be digitally signed, and recipients can check whether the signed report was changed and whether the signature verifies against an authorized public key. **This seal has not been announced as deployed, issued, or independently certified.**
 - Related research topics include improved **context-aware data classification, evidence linking and auditable workflow checks**. These are research directions, not published claims of validated autonomous intelligence.
 
@@ -53,7 +53,7 @@ Proprietary internals, keys, credentials, private development material and custo
 
 Rhodium Germany dokumentiert technische Arbeiten zu **Datenintegrität, überprüfbarer Wiederherstellung und nachvollziehbaren Prüfberichten**. Historisch veröffentlichte lokale Testergebnisse gelten ausschließlich innerhalb ihrer jeweiligen Bedingungen.
 
-Am 18.11.2026 wurde der Fingerabdruck eines vorhandenen **RSA-3072-Öffentlichschlüssels** erfolgreich mit einem alten Protokolleintrag abgeglichen. Das ist ein bestätigter **Schlüsselidentitätsabgleich**, aber noch **kein** Beweis, dass die produktive Rhodium-Software mit diesem Schlüssel signiert oder dass der Schlüssel bei IONOS erzeugt wurde.
+Am 18. November 2026 signierte der Eigentümer eine Prüfnachricht mit dem privaten RSA-Schlüssel seines Owner-Freeze-Zertifikats. Die Prüfung mit dem zugehörigen öffentlichen Schlüssel war erfolgreich. In einem separaten Test stimmte der Fingerabdruck eines öffentlichen RSA-3072-SSH-Schlüssels mit einem früheren Eintrag überein. Den proprietären Projektfingerabdruck und seine Herleitung hält der Eigentümer vertraulich.
 
 Ein **eigenes kryptografisches Rhodium-Prüfsiegel** für freigegebene Prüfberichte ist als separat überprüfbares Angebot **in Vorbereitung**. Es ist noch nicht produktiv abgenommen. Ein korrekt signierter Bericht kann auf Unverändertheit und Signaturzuordnung geprüft werden. Er ist keine behördliche, unabhängige oder luftfahrtrechtliche Zertifizierung.
 
