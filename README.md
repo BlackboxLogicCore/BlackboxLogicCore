@@ -14,7 +14,13 @@ Die historischen Berichte dokumentieren **15 von 15 bestandene lokale Schutzprü
 
 ## Der eigene kryptomanische Fingerabdruck
 
-Woran erkennt die Box einen Auftrag wieder, wenn die Verarbeitung weiterläuft und sich dabei der Arbeitszustand ändert? Rhodium Germany nennt diese Wiedererkennung den **kryptomanischen Fingerabdruck**. Für einen Kunden zählt die Zuordnung: Gehört das Paket zum vorgesehenen Auftrag, und lässt sich eine unerwartete Änderung bei der Übergabe erkennen?
+Der Gründer von Rhodium Germany hat einen eigenen Fingerabdruck entwickelt, den er **kryptomanischen Fingerabdruck** nennt. In seinem Konzept soll die Box damit einen Auftrag über mehrere Übergaben hinweg wiedererkennen. Was das für Menschen bedeutet, lässt sich an einer Nachreichung beim Bauamt zeigen.
+
+1. **Digitaler Briefkasten.** Eine Architektin reicht einen überarbeiteten Lageplan nach. Beim Eingang soll die Box erkennen, zu welchem Bauantrag die Sendung gehört. Die Sachbearbeitung soll direkt sehen können, welcher Plan neu eingegangen ist und welche Anlagen bereits vorliegen.
+2. **Digitaler Tresor.** Sobald die zuständige Person eine Fassung freigibt, soll sich später genau dieses Paket aus Plan und Anlagen wieder aufrufen und gegen die freigegebene Referenz prüfen lassen. Das ist besonders wichtig, wenn mehrere gleichnamige Pläne im Umlauf sind oder ein System wiederhergestellt wurde.
+3. **Kürzere Bearbeitungszeit.** Der mögliche Zeitgewinn liegt zwischen Eingang und Beginn der fachlichen Prüfung. Heute zu messende Arbeitsschritte sind das Zuordnen, der Versionsvergleich und Rückfragen zu bereits vorliegenden Unterlagen. In einem Pilotversuch kann das Amt denselben anonymisierten Vorgang mit beiden Verfahren bearbeiten und Minuten, Rückfragen und falsch zugeordnete Anlagen vergleichen.
+
+Für diesen Behördenablauf liegt noch keine gemessene Zeitersparnis vor. Die folgenden Versuche dokumentieren technische Teilergebnisse.
 
 **Eine feste Identität über 20 Millionen Zustandsaktualisierungen.** Die Projektauswertung vom 2. November 2026 beschreibt einen lokalen Stabilitätstest. Der Arbeitszustand wurde 20.000.000-mal fortgeschrieben. Der verglichene Fingerabdruck blieb unverändert, der Lauf endete mit Exitcode 0. Die Zahl bezeichnet die Schritte innerhalb dieses einen Versuchs. So lässt sich genau benennen, welche Eigenschaft geprüft wurde: die Beständigkeit der Kennung bei fortlaufender Verarbeitung.
 
