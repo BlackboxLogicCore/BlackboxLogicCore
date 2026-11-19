@@ -12,7 +12,15 @@ Rhodium Germany entwickelt und lizenziert eine proprietäre Box zur überprüfba
 
 Die historischen Berichte dokumentieren **15 von 15 bestandene lokale Schutzprüfungen** und einzelne Rekonstruktionsfälle bis **1 GiB**. Die Messergebnisse beziehen sich auf die dort beschriebenen Testbedingungen. Für die Box zählt das Zusammenspiel aus deterministischer Verarbeitung, Wiederherstellung und Vergleich mit der Referenz.
 
-Der Gründer berichtet außerdem von einem eigenen **kryptografischen Fingerabdruck** für das Projekt. Für Lizenzpartner ist die entscheidende Frage, welcher konkreten Version sich ein Nachweis zuordnen lässt. Diese Zuordnung ist anhand der Originalbelege zu prüfen. Der separat dokumentierte RSA-3072-Schlüsselabgleich und der Vergleich von Datei-Prüfsummen beantworten jeweils andere Fragen.
+## Der eigene kryptomanische Fingerabdruck
+
+Woran erkennt die Box einen Auftrag wieder, wenn die Verarbeitung weiterläuft und sich dabei der Arbeitszustand ändert? Rhodium Germany nennt diese Wiedererkennung den **kryptomanischen Fingerabdruck**. Für einen Kunden zählt die Zuordnung: Gehört das Paket zum vorgesehenen Auftrag, und lässt sich eine unerwartete Änderung bei der Übergabe erkennen?
+
+**Eine feste Identität über 20 Millionen Zustandsaktualisierungen.** Die Projektauswertung vom 2. November 2026 beschreibt einen lokalen Stabilitätstest. Der Arbeitszustand wurde 20.000.000-mal fortgeschrieben. Der verglichene Fingerabdruck blieb unverändert, der Lauf endete mit Exitcode 0. Die Zahl bezeichnet die Schritte innerhalb dieses einen Versuchs. So lässt sich genau benennen, welche Eigenschaft geprüft wurde: die Beständigkeit der Kennung bei fortlaufender Verarbeitung.
+
+**Was bei einer falschen Übergabe passiert.** In einem getrennten lokalen Prototyp mit Testdaten und Demo-Schlüssel wurden ein manipuliertes Paket und ein ungültiger Auslöser abgewiesen. Zwei Durchläufe mit jeweils 15 Prozessen und 14 Übergaben ergaben denselben Manifest-Prüfwert. Für eine Bank oder ein Amt wäre die entsprechende Pilotfrage, ob ein korrekt zugeordneter Vorgang weiterverarbeitet und eine absichtlich veränderte Übergabe zuverlässig gestoppt wird.
+
+**Welche Identität belegt ist.** Die Ergebnisse stammen aus historischen lokalen Projektauswertungen. Der Gründer verortet den Ursprung seines Fingerabdrucks bei IONOS. Die Zuordnung dieses ursprünglichen Fingerabdrucks zur ausgelieferten Produktversion ist anhand der öffentlich einsehbaren Unterlagen offen. Der separat dokumentierte RSA-3072-Abgleich betrifft einen SSH-Schlüssel. Das [technische Nachweisdokument](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) beschreibt diesen Abgleich und das geplante Prüfsiegel für Berichte.
 
 ### Vom einzelnen Datenpaket bis zur Wiederherstellung von 100 GiB
 
