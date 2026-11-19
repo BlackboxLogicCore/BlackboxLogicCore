@@ -1,5 +1,44 @@
 # Rhodium Germany
 
+**Die Sicherung ist zurück. Kann die Arbeit weitergehen?**
+
+Ein Bauamt öffnet nach einem Ausfall wieder eine Bauakte. Der Antrag ist da, die Pläne lassen sich öffnen. Jetzt kommt die entscheidende Frage: Ist das wirklich der zuletzt freigegebene Plansatz, mit jeder Anlage in genau der Fassung, über die entschieden wurde?
+
+Rhodium Germany entwickelt und lizenziert eine proprietäre Box zur überprüfbaren Datenwiederherstellung. Im Mittelpunkt steht der Vergleich mit einem bekannten Referenzstand. Wer einen Vorgang wieder aufnimmt, soll nachvollziehen können, welche Daten bitidentisch zurückgekommen sind und welche Prüfung noch aussteht.
+
+[Öffentliche Prüfergebnisse](https://github.com/BlackboxLogicCore/rhodium-benchmarks) · [Technische Einordnung](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Unabhängige Prüfung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
+
+## Was sich heute prüfen lässt
+
+Die historischen Berichte dokumentieren **15 von 15 bestandene lokale Schutzprüfungen** und einzelne Rekonstruktionsfälle bis **1 GiB**. Die Messergebnisse beziehen sich auf die dort beschriebenen Testbedingungen. Für die Box zählt das Zusammenspiel aus deterministischer Verarbeitung, Wiederherstellung und Vergleich mit der Referenz.
+
+Der Gründer berichtet außerdem von einem eigenen **kryptografischen Fingerabdruck** für das Projekt. Für Lizenzpartner ist die entscheidende Frage, welcher konkreten Version sich ein Nachweis zuordnen lässt. Diese Zuordnung ist anhand der Originalbelege zu prüfen. Der separat dokumentierte RSA-3072-Schlüsselabgleich und der Vergleich von Datei-Prüfsummen beantworten jeweils andere Fragen.
+
+## Wo ein Pilot zeigen kann, was die Box wert ist
+
+| Einsatzfeld | Die Frage nach einer Unterbrechung |
+| --- | --- |
+| Bank | Entspricht der wiederhergestellte Buchungsstapel für einen abgeschlossenen Zeitraum dem freigegebenen Export? |
+| Post und Logistik | Welche Zustellnachweise eines Tourenabschlusses stimmen mit dem archivierten Stand überein, welche fehlen? |
+| Rechenzentrum und Infrastruktur | Kann der Betreiber nach dem Rückspielen einer Konfiguration die freigegebene Referenzversion bestätigen, bevor der Dienst wieder anläuft? |
+| Bauamt und Notariat | Liegen Antrag oder Vertragsentwurf samt Anlagen in der vereinbarten Fassung vor, damit die fachliche Prüfung weitergehen kann? |
+| Autohaus | Gehören Auftrag, Teilefreigabe und Übergabeprotokoll zum selben dokumentierten Reparaturstand? |
+
+**So würden wir den ersten Branchenpilot messen:** Der Partner wählt einen abgeschlossenen Vorgang, legt den gültigen Referenzstand fest und baut einen bekannten Fehler ein, etwa eine ältere Anlage unter demselben Dateinamen. Sein Team und Rhodium prüfen denselben Bestand. Im Protokoll stehen die erkannte Abweichung, die Vollständigkeit nach der Wiederherstellung und die Zeit bis zur fachlichen Freigabe. So kann der Partner selbst entscheiden, ob der Einsatz ihm Arbeit erspart.
+
+## Wirtschaftliches Ziel
+
+Die **Bewertungsambition des Gründers liegt bei mindestens 10 Millionen US-Dollar**. Das ist ein Entwicklungsziel. Ein heutiger Unternehmenswert in dieser Höhe ist bislang offen. Für dessen Beurteilung sollen unabhängig wiederholte Prüfläufe, gemessene Vorteile gegenüber dem Kundenverfahren und bezahlte Pilot- oder Lizenzverträge die Grundlage bilden.
+
+## Der Gründer und seine Vorstellung von Zukunft
+
+Der Gründer von Rhodium Germany kommt aus dem Handwerk. Sein Maßstab für Fortschritt ist praktisch. Wenn jemand im Bauamt nach einer Störung einen Antrag zum zweiten Mal einreichen muss, hat die Digitalisierung für diesen Menschen ihr Versprechen verfehlt. Wenn die Sachbearbeiterin den letzten gültigen Stand selbst prüfen und den Vorgang fortsetzen kann, wird die Verbesserung für beide spürbar.
+
+Diese Haltung prägt auch seinen Blick auf Politik und öffentliche Infrastruktur. Wer Regeln und Technik gestaltet, sollte sich daran messen lassen, ob Menschen im Alltag verlässlich weiterarbeiten können. Dazu will Rhodium Germany einen überprüfbaren Beitrag leisten.
+
+<details>
+<summary>Lizenzangebot, technische Register und bisherige Projektdokumentation</summary>
+
 Rhodium Germany bietet eine proprietäre Arbeiterbox zur Lizenzierung an. Sie dient der Datenverarbeitung, Integritätsprüfung und überprüfbaren Wiederherstellung. Mögliche Einsatzfelder sind Archivierung, Backup-Verifikation, Forensik und Audit.
 
 ## Nachweise prüfen
@@ -111,3 +150,5 @@ Die geschützten Bestände umfassen unter anderem technische Dokumentation, hist
 **Vertraulichkeit:** Private Repositories, interne Dateipfade, Quelltexte, proprietäre Verfahren, Schlüssel und nicht freigegebene Originalbelege bleiben geschützt. Ein geeigneter Lizenzpartner kann nach Vertraulichkeitsvereinbarung und persönlicher Freigabe einen vereinbarten Nachweisumfang prüfen. Die Existenz privater Repositories bedeutet weder automatische Herausgabe noch öffentliche Einsicht.
 
 Diese Bestandsangabe beschreibt den über GitHub zugänglichen Inventarstand. Sie ist keine Behauptung, dass sämtliche Dateien aller Repositories bereits einzeln technisch abgenommen wurden.
+
+</details>
