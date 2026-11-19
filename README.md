@@ -1,5 +1,9 @@
 # Rhodium Germany
 
+Ich bin Kai Kuhnert, Dachdecker aus Dortmund. Seit Januar arbeite ich an Rhodium Germany. Angefangen habe ich damit, weil ich meiner Tochter etwas hinterlassen möchte. Aus dem Handwerk kenne ich das Gefühl, am Ende des Tages vor etwas zu stehen, das man selbst gebaut hat. Diesmal baue ich etwas, mit dem Menschen ihre Daten schützen und nach einem Ausfall weiterarbeiten können.
+
+Krieg, Hass und das Leid anderer lassen mich nicht kalt. An der Politik stört mich, wenn über die Zukunft geredet wird und Menschen, die heute Hilfe brauchen, dabei übersehen werden. Ich wünsche mir, dass wir einander einen geraden Weg ermöglichen. Für Rhodium heißt das für mich ganz konkret: Ich möchte mit meiner Arbeit Geld verdienen und Überschüsse in Forschung und in gemeinsame Vorhaben für Menschen stecken. Dazu gehören für mich auch ältere Menschen und Menschen ohne Zuhause. Dafür suche ich Menschen, die mit anpacken wollen.
+
 **Die Sicherung ist zurück. Kann die Arbeit weitergehen?**
 
 Ein Bauamt öffnet nach einem Ausfall wieder eine Bauakte. Der Antrag ist da, die Pläne lassen sich öffnen. Jetzt kommt die entscheidende Frage: Ist das wirklich der zuletzt freigegebene Plansatz, mit jeder Anlage in genau der Fassung, über die entschieden wurde?
@@ -14,7 +18,7 @@ Die historischen Berichte dokumentieren **15 von 15 bestandene lokale Schutzprü
 
 ## Der eigene kryptomanische Fingerabdruck
 
-Der Gründer von Rhodium Germany hat einen eigenen Fingerabdruck entwickelt, den er **kryptomanischen Fingerabdruck** nennt. In seinem Konzept soll die Box damit einen Auftrag über mehrere Übergaben hinweg wiedererkennen. Was das für Menschen bedeutet, lässt sich an einer Nachreichung beim Bauamt zeigen.
+Ich habe einen eigenen Fingerabdruck entwickelt, den ich **kryptomanischen Fingerabdruck** nenne. In meinem Konzept soll die Box damit einen Auftrag über mehrere Übergaben hinweg wiedererkennen. Was das für Menschen bedeutet, lässt sich an einer Nachreichung beim Bauamt zeigen.
 
 1. **Digitaler Briefkasten.** Eine Architektin reicht einen überarbeiteten Lageplan nach. Beim Eingang soll die Box erkennen, zu welchem Bauantrag die Sendung gehört. Die Sachbearbeitung soll direkt sehen können, welcher Plan neu eingegangen ist und welche Anlagen bereits vorliegen.
 2. **Digitaler Tresor.** Sobald die zuständige Person eine Fassung freigibt, soll sich später genau dieses Paket aus Plan und Anlagen wieder aufrufen und gegen die freigegebene Referenz prüfen lassen. Das ist besonders wichtig, wenn mehrere gleichnamige Pläne im Umlauf sind oder ein System wiederhergestellt wurde.
@@ -26,7 +30,7 @@ Für diesen Behördenablauf liegt noch keine gemessene Zeitersparnis vor. Die fo
 
 **Was bei einer falschen Übergabe passiert.** In einem getrennten lokalen Prototyp mit Testdaten und Demo-Schlüssel wurden ein manipuliertes Paket und ein ungültiger Auslöser abgewiesen. Zwei Durchläufe mit jeweils 15 Prozessen und 14 Übergaben ergaben denselben Manifest-Prüfwert. Für eine Bank oder ein Amt wäre die entsprechende Pilotfrage, ob ein korrekt zugeordneter Vorgang weiterverarbeitet und eine absichtlich veränderte Übergabe zuverlässig gestoppt wird.
 
-**Signaturtest vom 18. November 2026.** Der Eigentümer signierte auf seinem Rechner eine Prüfnachricht mit dem privaten RSA-Schlüssel seines Owner-Freeze-Zertifikats. Die Verifikation mit dem zugehörigen öffentlichen Schlüssel war erfolgreich. Der Eigentümer hält den Wert seines proprietären Projektfingerabdrucks, dessen Herleitung und die interne Zuordnung zur Box vertraulich.
+**Signaturtest vom 18. November 2026.** Ich habe auf meinem Rechner eine Prüfnachricht mit dem privaten RSA-Schlüssel meines Owner-Freeze-Zertifikats signiert. Die Verifikation mit dem zugehörigen öffentlichen Schlüssel war erfolgreich. Den Wert meines Projektfingerabdrucks, seine Herleitung und die interne Zuordnung zur Box halte ich vertraulich.
 
 ### Vom einzelnen Datenpaket bis zur Wiederherstellung von 100 GiB
 
@@ -101,13 +105,9 @@ Das Geschäftsmodell umfasst B2B-Lizenzen, Integration und Support sowie projekt
 
 ## Wirtschaftliches Ziel
 
-Die **Bewertungsambition des Gründers liegt bei mindestens 10 Millionen US-Dollar**. Das ist ein Entwicklungsziel. Ein heutiger Unternehmenswert in dieser Höhe ist bislang offen. Für dessen Beurteilung sollen unabhängig wiederholte Prüfläufe, gemessene Vorteile gegenüber dem Kundenverfahren und bezahlte Pilot- oder Lizenzverträge die Grundlage bilden.
+Mein **Bewertungsziel für Rhodium Germany liegt bei mindestens 10 Millionen US-Dollar**. Das ist ein Entwicklungsziel. Ein heutiger Unternehmenswert in dieser Höhe ist bislang offen. Für dessen Beurteilung sollen unabhängig wiederholte Prüfläufe, gemessene Vorteile gegenüber dem Kundenverfahren und bezahlte Pilot- oder Lizenzverträge die Grundlage bilden.
 
-## Der Gründer und seine Vorstellung von Zukunft
-
-Der Gründer von Rhodium Germany kommt aus dem Handwerk. Sein Maßstab für Fortschritt ist praktisch. Wenn jemand im Bauamt nach einer Störung einen Antrag zum zweiten Mal einreichen muss, hat die Digitalisierung für diesen Menschen ihr Versprechen verfehlt. Wenn die Sachbearbeiterin den letzten gültigen Stand selbst prüfen und den Vorgang fortsetzen kann, wird die Verbesserung für beide spürbar.
-
-Diese Haltung prägt auch seinen Blick auf Politik und öffentliche Infrastruktur. Wer Regeln und Technik gestaltet, sollte sich daran messen lassen, ob Menschen im Alltag verlässlich weiterarbeiten können. Dazu will Rhodium Germany einen überprüfbaren Beitrag leisten.
+## Meine Vorstellung von Zukunft
 
 **Matrix World** ist die Forschungsrichtung für öffentliche Messdaten. Der Erdbebenkatalog zeigt eine erste konkrete Aufgabe: Stimmen Kennung, Zeitpunkt und Ort desselben Ereignisses über den Datenweg hinweg überein? Langfristig sollen solche Vergleiche auch bei Umweltmessungen Abweichungen bis zu ihrer Quelle zurückverfolgen helfen.
 
@@ -154,7 +154,7 @@ Rhodium Germany bietet die fertige, proprietäre Arbeiterbox zur Datenverarbeitu
 
 **Nachweise:** Öffentlich beschrieben sind unter anderem 15/15 lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB mit den jeweiligen Testgrenzen. Weitere historische Benchmark- und Capability-Register existieren; überlappende Positionen sind nicht als unabhängige Tests zu addieren. Der historische Bestand verweist auf **52 Hebel/Capability-Bereiche**; dies ist keine Behauptung, dass jeder Bereich einzeln produktiv abgenommen wurde.
 
-**Vertraulichkeit.** Rhodium Germany veröffentlicht ausgewählte Prüfergebnisse. Über die Offenlegung interner Entwicklungsunterlagen entscheidet der Eigentümer. Private Schlüssel bleiben geheim.
+**Vertraulichkeit.** Rhodium Germany veröffentlicht ausgewählte Prüfergebnisse. Über die Offenlegung meiner internen Entwicklungsunterlagen entscheide ich selbst. Private Schlüssel bleiben geheim.
 
 **Für Bewerter und Lizenzpartner:** Bitte den aktuellen Unternehmenswert, den belegbaren Technologiewert und das langfristige Markt- und Lizenzpotenzial **getrennt** beurteilen. Die fehlende öffentliche Offenlegung des Kerns ist nicht mit fehlender Technologie gleichzusetzen. Kundenintegration, Branchenzulassungen und konkrete Einsparungen sind separat nachzuweisen.
 
@@ -187,7 +187,7 @@ Hinweis: Die bisher verlinkten technischen Einzelregister liegen derzeit in eine
 
 ## Lizenzangebot und Gebote
 
-Angeboten werden vertraglich definierte Nutzungs- und Vertriebsrechte an der Arbeiterbox. Einsatzfeld, Märkte, Laufzeit und Vergütung werden vereinbart. Quellcode, Matrix-Interna, Schlüssel und Eigentumsanteile bleiben bei Kai Kuhnert.
+Angeboten werden vertraglich definierte Nutzungs- und Vertriebsrechte an der Arbeiterbox. Einsatzfeld, Märkte, Laufzeit und Vergütung werden vereinbart. Quellcode, Matrix-Interna, Schlüssel und Eigentumsanteile bleiben bei mir.
 
 Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nennen Sie den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die vorhandenen Nachweise bilden die Grundlage des Lizenzangebots.
 
@@ -204,7 +204,7 @@ Rhodium Germany trennt die öffentliche Darstellung der Ergebnisse strikt vom **
 
 Zum historischen Prüfarchiv gehören laut Register **2.369 Dateieinträge in 216 Testgruppen**; darin wurden **711 unterschiedliche JSON-Berichtsinhalte** ausgewertet. Der damalige Prüfbericht meldet passende Datei-Hashes für die 2.369 erfassten Dateien. Diese Zahlen sind Archiv- und Integritätskennzahlen, **nicht** 2.369 voneinander unabhängige erfolgreiche Benchmarks. Die Zuordnung der einzelnen PASS-Berichte bleibt Teil der Nachweisprüfung.
 
-**Vertrauliche Einsicht:** Geeignete Lizenzpartner können nach Identitätsprüfung, Vertraulichkeitsvereinbarung, festgelegtem Prüfumfang und ausdrücklicher Eigentümerfreigabe weitergehende technische Nachweise erhalten. Das ist keine Zusage, sämtliche Kerngeheimnisse oder privaten Schlüssel herauszugeben.
+**Vertrauliche Einsicht:** Geeignete Lizenzpartner können nach Identitätsprüfung, Vertraulichkeitsvereinbarung, festgelegtem Prüfumfang und meiner ausdrücklichen Freigabe weitergehende technische Nachweise erhalten. Das ist keine Zusage, sämtliche Kerngeheimnisse oder privaten Schlüssel herauszugeben.
 
 [Öffentliches historisches Nachweisregister](RHODIUM-HISTORISCHE-PRUEFSPUREN-2026.md)
 
@@ -213,7 +213,7 @@ Zum historischen Prüfarchiv gehören laut Register **2.369 Dateieinträge in 21
 
 Rhodium Germany verfolgt **nicht nur eine Forschungsvision**: Zum Projektbestand gehören vorbereitete, abgegrenzte Technologie- und Kundenpakete. Die Kundenkomponente ist architektonisch als **eigenständiges, in sich geschlossenes Paket** definiert, das nur innerhalb freigegebener Funktionen eingesetzt wird. Der geschützte Kern wird nicht öffentlich offengelegt.
 
-Das interne Kundenpaket-Nachweisregister vom 05.11.2026 dokumentiert vorbereitete Angebotsunterlagen. **Eine vollständige Produktions- und Vertriebsfreigabe ist darin noch nicht nachgewiesen.** Die vom Eigentümer genannte Zahl von **24 Paketen** wird als zu prüfender Inventarstand geführt, bis Paketliste, Versionen, Prüfberichte und Freigaben eindeutig abgeglichen sind. Daher wird hier weder behauptet, dass alle 24 unabhängig abgenommen wurden, noch dass sie bereits ohne weitere Prüfung sofort produktiv einsetzbar sind.
+Das interne Kundenpaket-Nachweisregister vom 05.11.2026 dokumentiert vorbereitete Angebotsunterlagen. **Eine vollständige Produktions- und Vertriebsfreigabe ist darin noch nicht nachgewiesen.** Die von mir genannte Zahl von **24 Paketen** wird als zu prüfender Inventarstand geführt, bis Paketliste, Versionen, Prüfberichte und Freigaben eindeutig abgeglichen sind. Daher wird hier weder behauptet, dass alle 24 unabhängig abgenommen wurden, noch dass sie bereits ohne weitere Prüfung sofort produktiv einsetzbar sind.
 
 **Für Lizenzinteressenten:** Konkrete Pakete und ihre Einsatzfähigkeit können im vertraulichen Partnerprozess anhand von Paketidentität, Teststatus, Leistungsumfang und Freigabeunterlagen einzeln geprüft werden. Vertrauliche Implementierungsdetails und private Schlüssel bleiben geschützt.
 
