@@ -1,5 +1,19 @@
 # Rhodium Germany
 
+Rhodium Germany bietet eine proprietäre Arbeiterbox zur Lizenzierung an. Sie dient der Datenverarbeitung, Integritätsprüfung und überprüfbaren Wiederherstellung. Mögliche Einsatzfelder sind Archivierung, Backup-Verifikation, Forensik und Audit.
+
+## Nachweise prüfen
+
+- [Historische Benchmarks](https://github.com/BlackboxLogicCore/rhodium-benchmarks) dokumentieren 15 von 15 bestandene lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB. Die Ergebnisse gelten für die beschriebenen Testbedingungen.
+- [Technischer Überblick und Aussagegrenzen](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md)
+- [Anfrage zur unabhängigen technischen Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
+
+## Lizenz und Pilotprüfung anfragen
+
+Unternehmen und Vertriebspartner können eine Lizenz oder eine vergütete Pilotprüfung für einen konkreten Einsatzfall anfragen. Ob eine Pilotprüfung zustande kommt, wird individuell vereinbart. Für einen möglichen Blackbox-Test vereinbaren wir vorab Testdaten, Prüfkriterien und Vergütung. Geprüft werden beobachtbare Ergebnisse, etwa ob wiederhergestellte Daten anhand einer Prüfsumme mit dem Original übereinstimmen.
+
+Schreiben Sie an [info@rhodium-germany.tech](mailto:info@rhodium-germany.tech) und nennen Sie den Einsatzfall sowie das gewünschte Prüfergebnis. Der proprietäre Kern, interne Verfahren und geheime Schlüssel bleiben vertraulich.
+
 ## Unsere Richtung: Technik, Menschen und Zukunft
 
 Rhodium Germany entwickelt überprüfbare Technologie, um Menschen, Unternehmen und Forschungspartner zusammenzubringen. Unsere langfristige Vision ist eine widerstandsfähigere Wirtschaft, verlässlichere digitale Infrastruktur und eine bessere Zusammenarbeit zwischen Technik, Landwirtschaft und Umweltforschung. Wir möchten dabei helfen, Wege für gesündere Lebensmittelproduktion, verantwortungsvolle Ressourcennutzung und ein besseres Verständnis natürlicher Prozesse zu eröffnen. Dies sind **Entwicklungsziele**, keine Behauptungen über bereits nachgewiesene agrarwirtschaftliche, medizinische oder ökologische Wirkungen.
@@ -59,7 +73,7 @@ Hinweis: Die bisher verlinkten technischen Einzelregister liegen derzeit in eine
 
 Angeboten werden vertraglich definierte Nutzungs- und Vertriebsrechte an der Arbeiterbox. Einsatzfeld, Märkte, Laufzeit und Vergütung werden vereinbart. Quellcode, Matrix-Interna, Schlüssel und Eigentumsanteile bleiben bei Kai Kuhnert.
 
-Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nennen Sie den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die vorhandenen Nachweise bilden die Grundlage des Angebots; Rhodium bietet keinen zusätzlichen Test- oder Gegentest-Service an.
+Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nennen Sie den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die vorhandenen Nachweise bilden die Grundlage des Angebots. Eine mögliche Pilotprüfung setzt eine gesonderte Vereinbarung voraus.
 
 ## Kontakt
 
