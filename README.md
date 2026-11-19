@@ -8,11 +8,11 @@ Rhodium Germany bietet eine proprietäre Arbeiterbox zur Lizenzierung an. Sie di
 - [Technischer Überblick und Aussagegrenzen](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md)
 - [Anfrage zur unabhängigen technischen Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
 
-## Lizenz und Pilotprüfung anfragen
+## Öffentlicher Testzugang
 
-Unternehmen und Vertriebspartner können eine Lizenz oder eine vergütete Pilotprüfung für einen konkreten Einsatzfall anfragen. Ob eine Pilotprüfung zustande kommt, wird individuell vereinbart. Für einen möglichen Blackbox-Test vereinbaren wir vorab Testdaten, Prüfkriterien und Vergütung. Geprüft werden beobachtbare Ergebnisse, etwa ob wiederhergestellte Daten anhand einer Prüfsumme mit dem Original übereinstimmen.
+Die verlinkten Nachweise sind direkt auf GitHub einsehbar. Ein öffentlich ausführbares Testpaket für die Arbeiterbox steht hier derzeit noch nicht zum Download.
 
-Schreiben Sie an [info@rhodium-germany.tech](mailto:info@rhodium-germany.tech) und nennen Sie den Einsatzfall sowie das gewünschte Prüfergebnis. Der proprietäre Kern, interne Verfahren und geheime Schlüssel bleiben vertraulich.
+Für den Selbsttest ist ein freigegebenes Paket mit synthetischen Beispieldaten, einer kurzen Anleitung und einem Soll-Ergebnis vorgesehen. Der Test soll zeigen, ob wiederhergestellte Daten mit dem Original übereinstimmen. Die Veröffentlichung setzt einen erfolgreichen Lauf auf einem frischen Testsystem voraus. Der proprietäre Kern und geheime Schlüssel bleiben vertraulich.
 
 ## Unsere Richtung: Technik, Menschen und Zukunft
 
@@ -73,7 +73,7 @@ Hinweis: Die bisher verlinkten technischen Einzelregister liegen derzeit in eine
 
 Angeboten werden vertraglich definierte Nutzungs- und Vertriebsrechte an der Arbeiterbox. Einsatzfeld, Märkte, Laufzeit und Vergütung werden vereinbart. Quellcode, Matrix-Interna, Schlüssel und Eigentumsanteile bleiben bei Kai Kuhnert.
 
-Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nennen Sie den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die vorhandenen Nachweise bilden die Grundlage des Angebots. Eine mögliche Pilotprüfung setzt eine gesonderte Vereinbarung voraus.
+Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nennen Sie den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die vorhandenen Nachweise bilden die Grundlage des Lizenzangebots.
 
 ## Kontakt
 
