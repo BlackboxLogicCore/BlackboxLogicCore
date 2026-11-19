@@ -20,7 +20,7 @@ Woran erkennt die Box einen Auftrag wieder, wenn die Verarbeitung weiterläuft u
 
 **Was bei einer falschen Übergabe passiert.** In einem getrennten lokalen Prototyp mit Testdaten und Demo-Schlüssel wurden ein manipuliertes Paket und ein ungültiger Auslöser abgewiesen. Zwei Durchläufe mit jeweils 15 Prozessen und 14 Übergaben ergaben denselben Manifest-Prüfwert. Für eine Bank oder ein Amt wäre die entsprechende Pilotfrage, ob ein korrekt zugeordneter Vorgang weiterverarbeitet und eine absichtlich veränderte Übergabe zuverlässig gestoppt wird.
 
-**Welche Identität belegt ist.** Die Ergebnisse stammen aus historischen lokalen Projektauswertungen. Der Gründer verortet den Ursprung seines Fingerabdrucks bei IONOS. Die Zuordnung dieses ursprünglichen Fingerabdrucks zur ausgelieferten Produktversion ist anhand der öffentlich einsehbaren Unterlagen offen. Der separat dokumentierte RSA-3072-Abgleich betrifft einen SSH-Schlüssel. Das [technische Nachweisdokument](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) beschreibt diesen Abgleich und das geplante Prüfsiegel für Berichte.
+**Welche Identität belegt ist.** Die Ergebnisse stammen aus historischen lokalen Projektauswertungen. Der Gründer verortet den Ursprung seines Fingerabdrucks bei IONOS. Der separat dokumentierte RSA-3072-Abgleich betrifft einen SSH-Schlüssel. Das [technische Nachweisdokument](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) beschreibt diesen Abgleich und das geplante Prüfsiegel für Berichte.
 
 ### Vom einzelnen Datenpaket bis zur Wiederherstellung von 100 GiB
 
