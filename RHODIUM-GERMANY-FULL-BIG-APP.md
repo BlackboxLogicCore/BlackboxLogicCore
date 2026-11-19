@@ -209,11 +209,11 @@ The 32 in a family name is a **worker configuration**, not automatically 32 inde
 | Historical 711-content evidence register | 711 distinct content digests reported; overlapping catalog and roundtrip records | Not 711 independent cryptographic credentials |
 | Source/restore hashes | Historical exact-match SHA-256 on identified runs | Data integrity, not ownership or method disclosure |
 
-### IONOS cryptographic fingerprint: protected evidence boundary
+### Project fingerprint and confidentiality
 
-The owner describes an **IONOS-associated cryptographic fingerprint** as distinct from a simple SHA-256 file digest. The original issuance/verification record and its exact type have **not** been independently linked to a publicly verifiable benchmark in the sources reviewed here. This public index does **not** disclose fingerprint material, secret keys, credentials or signing procedures, and does not claim IONOS certification or endorsement.
+The owner keeps the proprietary project fingerprint, its derivation and its internal association with the box confidential. In a separate local test on 18 November 2026, the owner signed a challenge with the RSA private key associated with the Owner-Freeze certificate. Verification with the corresponding public key succeeded.
 
-**Do not conflate:** (1) 558 report digests, (2) 711 unique report-content hashes, (3) SHA-256 source/restore checks, (4) three named fingerprint recognition test families, and (5) any private IONOS-associated cryptographic credential. These have different meanings; no validated total of “50 keys” can be inferred from them.
+The 558 report digests identify report files. Source and restore hashes compare data, and the three recognition benchmarks measure reconstruction under their stated conditions. Each answers a different question.
 
 
 ## Recovered BlackboxLogicCore repository benchmark catalog — measured performance and control tests
