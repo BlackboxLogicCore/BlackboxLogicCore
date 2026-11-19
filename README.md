@@ -6,13 +6,27 @@ Ein Bauamt öffnet nach einem Ausfall wieder eine Bauakte. Der Antrag ist da, di
 
 Rhodium Germany entwickelt und lizenziert eine proprietäre Box zur überprüfbaren Datenwiederherstellung. Im Mittelpunkt steht der Vergleich mit einem bekannten Referenzstand. Wer einen Vorgang wieder aufnimmt, soll nachvollziehen können, welche Daten bitidentisch zurückgekommen sind und welche Prüfung noch aussteht.
 
-[Öffentliche Prüfergebnisse](https://github.com/BlackboxLogicCore/rhodium-benchmarks) · [Technische Einordnung](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Unabhängige Prüfung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
+[Gesamte öffentliche Prüfübersicht](RHODIUM-GERMANY-FULL-BIG-APP.md) · [Technische Einordnung](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Unabhängige Prüfung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
 
 ## Was sich heute prüfen lässt
 
 Die historischen Berichte dokumentieren **15 von 15 bestandene lokale Schutzprüfungen** und einzelne Rekonstruktionsfälle bis **1 GiB**. Die Messergebnisse beziehen sich auf die dort beschriebenen Testbedingungen. Für die Box zählt das Zusammenspiel aus deterministischer Verarbeitung, Wiederherstellung und Vergleich mit der Referenz.
 
 Der Gründer berichtet außerdem von einem eigenen **kryptografischen Fingerabdruck** für das Projekt. Für Lizenzpartner ist die entscheidende Frage, welcher konkreten Version sich ein Nachweis zuordnen lässt. Diese Zuordnung ist anhand der Originalbelege zu prüfen. Der separat dokumentierte RSA-3072-Schlüsselabgleich und der Vergleich von Datei-Prüfsummen beantworten jeweils andere Fragen.
+
+### Vom einzelnen Datenpaket bis zur Wiederherstellung von 100 GiB
+
+Die Box nutzt bereits verfügbare Daten am Ziel. Ist der richtige Stand dort vorhanden, kann eine kurze Kennung die Verarbeitung auslösen. Fehlende Inhalte müssen mitübertragen oder am Ziel reproduzierbar erzeugt werden. Wer zwei Verfahren vergleichen will, muss deshalb neben der Größe des Auslösers auch den vorbereiteten Zielbestand und die tatsächlich übertragenen Bytes kennen.
+
+| Frage | Ergebnis laut historischem Projektbericht |
+|---|---|
+| Kommt ein großer Bestand vollständig zurück? | Bei **4 GiB** gelangen zwei Wiederherstellungen in **31,76 und 33,39 Sekunden** ohne abweichende Blöcke. Ein separater **100-GiB**-Fall meldet **14.476.957.280 übertragene Bytes** und zwei erfolgreiche Wiederherstellungsprüfungen. |
+| Wiederholt sich das Ergebnis bei vielen Dateien? | Zwei Durchläufe mit denselben **103.226 Kandidaten** meldeten jeweils **103.193 PASS**. In einer weiteren Massenprüfung erhielten **107.643 von 107.672** Kandidaten ein PASS. Die übrigen 29 blieben unklassifiziert. |
+| Was wurde beim Kaltstart gemessen? | Ein lokaler Versuch meldet **10.000 erfolgreiche Aktivierungen** und vier abgewiesene ungültige Auslöser. Ein getrennter EPIC9-Bericht dokumentiert **10 von 10 Durchläufen** mit insgesamt **100.000 Aktivierungen**. Der unabhängige Online-Endtest zwischen Mobilfunk und WLAN ist offen. |
+| Funktioniert die Wiederherstellung auch bei wissenschaftlichen Daten? | Für **62 öffentliche NASA-Juno-WAVES-Dateien** mit insgesamt **5.443.001.419 Bytes** meldet der Bericht **85,54 % Größenreduktion** und identische SHA-256-Prüfsummen nach der Wiederherstellung. Ein späterer, separater Versuch endete mit einem Fehler. |
+| Welche Branchenbeispiele wurden tatsächlich gemessen? | Die Automotive-Serie FAST75 dokumentiert **75 von 75 lokalen Übertragungs- und Wiederherstellungstests**. Beim seismischen Abgleich stimmten **194 von 194 Ereigniskennungen** mit dem USGS-Katalog überein. Der Abgleich misst die Übereinstimmung bereits erfasster Ereignisse. |
+
+Die Berichte stammen aus dem Projekt. Die [öffentliche Gesamtschau](RHODIUM-GERMANY-FULL-BIG-APP.md) ordnet auch Robotik-, Cloudflare-, Turbinen-, Telemetrie- und Übergabetests einzeln ein. Im [Index mit 558 Berichten](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md) lassen sich einzelne Messungen und ihre Prüfsummen nachschlagen.
 
 ## Wo ein Pilot zeigen kann, was die Box wert ist
 
@@ -26,6 +40,12 @@ Der Gründer berichtet außerdem von einem eigenen **kryptografischen Fingerabdr
 
 **So würden wir den ersten Branchenpilot messen:** Der Partner wählt einen abgeschlossenen Vorgang, legt den gültigen Referenzstand fest und baut einen bekannten Fehler ein, etwa eine ältere Anlage unter demselben Dateinamen. Sein Team und Rhodium prüfen denselben Bestand. Im Protokoll stehen die erkannte Abweichung, die Vollständigkeit nach der Wiederherstellung und die Zeit bis zur fachlichen Freigabe. So kann der Partner selbst entscheiden, ob der Einsatz ihm Arbeit erspart.
 
+## Vom digitalen Briefkasten zum Datentresor
+
+Ein erster Einsatz für kleine Betriebe wäre die Übergabe einer vollständigen Akte. Der digitale Briefkasten nimmt das vereinbarte Paket entgegen. Im Datentresor des Empfängers soll sich später prüfen lassen, ob alle zugehörigen Dateien in der freigegebenen Fassung vorliegen. Vorgesehen sind getrennte Kundenbereiche, eine Prüfung vor der Übergabe und eine zweite am Ziel. Für einen Betreiber mit vielen Kunden gehört die Prüfung der Kundentrennung ausdrücklich in die Abnahme.
+
+Das Geschäftsmodell umfasst B2B-Lizenzen, Integration und Support sowie projektbezogene Prüfleistungen. Kleine Betriebe sollen mit einem abgegrenzten Paket beginnen können. Für Banken, Netzbetreiber und Rechenzentren sind individuelle Integrationen mit vereinbarten Abnahmekriterien vorgesehen. Der bisherige Marktstand umfasst bedingtes Forschungsinteresse, eine angebotene Kontaktvermittlung samt Prüfung eines Testkontingents und einen zur Prüfung entgegengenommenen Hosting-Pilotvorschlag. Vertragsschlüsse oder Erlöse sind daraus bislang nicht belegt.
+
 ## Wirtschaftliches Ziel
 
 Die **Bewertungsambition des Gründers liegt bei mindestens 10 Millionen US-Dollar**. Das ist ein Entwicklungsziel. Ein heutiger Unternehmenswert in dieser Höhe ist bislang offen. Für dessen Beurteilung sollen unabhängig wiederholte Prüfläufe, gemessene Vorteile gegenüber dem Kundenverfahren und bezahlte Pilot- oder Lizenzverträge die Grundlage bilden.
@@ -35,6 +55,10 @@ Die **Bewertungsambition des Gründers liegt bei mindestens 10 Millionen US-Doll
 Der Gründer von Rhodium Germany kommt aus dem Handwerk. Sein Maßstab für Fortschritt ist praktisch. Wenn jemand im Bauamt nach einer Störung einen Antrag zum zweiten Mal einreichen muss, hat die Digitalisierung für diesen Menschen ihr Versprechen verfehlt. Wenn die Sachbearbeiterin den letzten gültigen Stand selbst prüfen und den Vorgang fortsetzen kann, wird die Verbesserung für beide spürbar.
 
 Diese Haltung prägt auch seinen Blick auf Politik und öffentliche Infrastruktur. Wer Regeln und Technik gestaltet, sollte sich daran messen lassen, ob Menschen im Alltag verlässlich weiterarbeiten können. Dazu will Rhodium Germany einen überprüfbaren Beitrag leisten.
+
+**Matrix World** ist die Forschungsrichtung für öffentliche Messdaten. Der Erdbebenkatalog zeigt eine erste konkrete Aufgabe: Stimmen Kennung, Zeitpunkt und Ort desselben Ereignisses über den Datenweg hinweg überein? Langfristig sollen solche Vergleiche auch bei Umweltmessungen Abweichungen bis zu ihrer Quelle zurückverfolgen helfen.
+
+**Rhodium World** ist die wirtschaftliche Zukunftsidee. Lokale Partner sollen in ihrer Sprache und Branche eigene Einsatzfälle betreuen können. Dafür braucht jeder Partner einen wiederholbaren Test, nachvollziehbare Freigaben und einen schriftlichen Weg vom Versuch zur Lizenz.
 
 <details>
 <summary>Lizenzangebot, technische Register und bisherige Projektdokumentation</summary>
