@@ -29,7 +29,8 @@ Unser Ausgangspunkt ist **Rhodium Germany**. Unsere internationale Perspektive h
 
 ---
 
-## Rhodium Germany – Hintergrund, technische Einzelheiten und Prüfnachweise
+<details>
+<summary><strong>Ausführliche Projektdokumentation und historische Prüfnachweise anzeigen</strong></summary>
 
 Ich bin Kai Kuhnert, Dachdecker aus Dortmund. Seit Januar arbeite ich an Rhodium Germany. Angefangen habe ich damit, weil ich meiner Tochter etwas hinterlassen möchte. Aus dem Handwerk kenne ich das Gefühl, am Ende des Tages vor etwas zu stehen, das man selbst gebaut hat. Diesmal baue ich etwas, mit dem Menschen ihre Daten schützen und nach einem Ausfall weiterarbeiten können.
 
@@ -258,5 +259,7 @@ Die geschützten Bestände umfassen unter anderem technische Dokumentation, hist
 **Vertraulichkeit:** Private Repositories, interne Dateipfade, Quelltexte, proprietäre Verfahren, Schlüssel und nicht freigegebene Originalbelege bleiben geschützt. Ein geeigneter Lizenzpartner kann nach Vertraulichkeitsvereinbarung und persönlicher Freigabe einen vereinbarten Nachweisumfang prüfen. Die Existenz privater Repositories bedeutet weder automatische Herausgabe noch öffentliche Einsicht.
 
 Diese Bestandsangabe beschreibt den über GitHub zugänglichen Inventarstand. Sie ist keine Behauptung, dass sämtliche Dateien aller Repositories bereits einzeln technisch abgenommen wurden.
+
+</details>
 
 </details>
