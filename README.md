@@ -1,11 +1,35 @@
-**Unser kryptomanischer Fingerabdruck:** Eigenständiges geschütztes Rhodium-Identitätsmerkmal, im Zusammenhang mit IONOS erstellt. [Technologieprofil und ausgewählte Prüfergebnisse](RHODIUM-GERMANY-PLATFORM.md#unser-eigener-kryptomanischer-fingerabdruck). Geheime Werte und Verfahren bleiben geschützt.
+# RHODIUM GERMANY
+### Kontrolliertes Wissen · Datenintegrität · Wiederherstellung · Forschung
 
-> **Rhodium Germany — Technology, Research & Global Partnerships:** [Explore the platform vision and collaboration opportunities](RHODIUM-GERMANY-PLATFORM.md).
+**Wir entwickeln eine eigenständige Technologieplattform für kontrollierte Datenverarbeitung, nachvollziehbare Wissensstrukturen, zuverlässige Wiederherstellung und überprüfbare technische Ergebnisse.**
 
-# Rhodium Germany
+Rhodium Germany verbindet praktische Ingenieurarbeit, lokale Datenkontrolle und dokumentierte Prüfungen. Wir strukturieren Informationen, berücksichtigen vorhandenes Wissen und ergänzen es gezielt durch externe Quellen. Unsere Arbeit richtet sich an Unternehmen jeder Größe, Forschungseinrichtungen, Infrastrukturbetreiber und internationale Technologiepartner.
 
-> **Technische Nachweise, Ausfallsicherheit und Benchmark-Register:** [Rhodium Evidence & Resilience – Ergebnisse, Prüfreferenzen und Originalfundstellen](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md). Enthält u. a. 216 Testgruppen, 558 öffentliche Einzelberichte, TCP-Failover, doppelte Wiederherstellung, 100-GiB- und NASA-Datentests sowie kryptografische Nachweisführung. Geschützter Kern und private Schlüssel bleiben vertraulich.
+## Unser eigener kryptomanischer Fingerabdruck
 
+**Ein zentrales Alleinstellungsmerkmal unserer Entwicklung ist der selbst entwickelte kryptomanische Fingerabdruck von Rhodium Germany.** Er wurde im Zusammenhang mit **IONOS** erstellt und ist nicht einfach ein gewöhnlicher SHA-Prüfwert. Er steht in unserem System für technische Identität, kontrollierte Wiedererkennung und nachvollziehbare Zuordnung.
+
+Zu den dokumentierten Projektprüfungen gehören **20 Millionen Zustandsaktualisierungen mit unverändertem verglichenem Fingerabdruck**, erfolgreiche Übergabe- und Manipulationstests sowie ein erfolgreicher Signatur- und Verifikationstest vom **18. November 2026**. Der Fingerabdruck selbst, seine Herleitung, private Schlüssel und interne Verfahren bleiben geschützt.
+
+[**Unser kryptomanischer Fingerabdruck und die Technologieplattform**](RHODIUM-GERMANY-PLATFORM.md#unser-einzigartiger-kryptomanischer-fingerabdruck)
+
+## Unsere technischen Ergebnisse
+
+**216 dokumentierte Testgruppen · 558 öffentliche Einzelberichte im Benchmark-Register.** Die dokumentierten Messreihen umfassen unter anderem bitidentische Wiederherstellung, Datenintegrität, Kaltstart, Wiederanlauf, Resilienz, Übertragung, wissenschaftliche Daten und technische Vergleichsprüfungen.
+
+[**Rhodium-Germany-Plattform**](RHODIUM-GERMANY-PLATFORM.md) · [**Benchmark-Register**](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md) · [**Technische Evidenz und Resilienz**](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md) · [**Erweiterter Nachweiskatalog**](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
+
+## Anwendungen und Zusammenarbeit
+
+Wir entwickeln Lösungen und Kooperationen für Datenzuverlässigkeit, kontrollierte Übergaben, Wiederherstellung, Forschung, industrielle Systeme und Infrastruktur. **Kleine Betriebe, Mittelstand, Wissenschaft und internationale Organisationen** können mit Rhodium Germany an konkreten technischen Aufgaben und Pilotprojekten zusammenarbeiten.
+
+Unser Ausgangspunkt ist **Rhodium Germany**. Unsere internationale Perspektive heißt **Rhodium World**: Zusammenarbeit von Land zu Land mit gleichberechtigten Partnern.
+
+**Website:** https://rhodium-germany.de
+
+---
+
+## Rhodium Germany – Hintergrund, technische Einzelheiten und Prüfnachweise
 
 Ich bin Kai Kuhnert, Dachdecker aus Dortmund. Seit Januar arbeite ich an Rhodium Germany. Angefangen habe ich damit, weil ich meiner Tochter etwas hinterlassen möchte. Aus dem Handwerk kenne ich das Gefühl, am Ende des Tages vor etwas zu stehen, das man selbst gebaut hat. Diesmal baue ich etwas, mit dem Menschen ihre Daten schützen und nach einem Ausfall weiterarbeiten können.
 
