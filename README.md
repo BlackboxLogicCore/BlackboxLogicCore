@@ -1,52 +1,68 @@
 # RHODIUM GERMANY
-### Daten schützen. Ergebnisse prüfen. Geschäftliche Ausfälle vermeiden.
+### Technologie, die arbeitet. Ergebnisse, die sich prüfen lassen. Partnerschaften, die gemeinsam wachsen.
 
-**Rhodium Germany entwickelt Technologien für kontrollierte Datenverarbeitung, Datenintegrität, überprüfbare Wiederherstellung und nachvollziehbare technische Prozesse.**
+**Rhodium Germany steht für eine eigenständige, geschlossene Technologiebox für professionelle Datenprozesse.** Unser Angebot richtet sich an Unternehmen, Banken, Rechenzentren, Infrastrukturbetreiber, Industrie, IT-Dienstleister und internationale Lizenzpartner, die ihre Datenbestände zuverlässig prüfen, geordnet übergeben, Wiederanläufe absichern und Arbeitsabläufe effizienter gestalten möchten.
 
-**Für Unternehmen, Infrastrukturbetreiber und Forschungseinrichtungen:** Wir unterstützen die technische Bewertung geschäftskritischer Datenbestände und entwickeln gemeinsam mit Partnern klar abgegrenzte Einsatzmöglichkeiten – vom kleinen Betrieb bis zur internationalen Organisation.
+**Keine weitere Konzeptidee, sondern eine zur Lizenzpartnerschaft angebotene Arbeiterbox.** Die geschützte Box wird als eigenständige, abgeschlossene Einheit angeboten. Kundenbezogene Leistungspakete werden für den jeweiligen Einsatzzweck vereinbart; der geschützte Kern wird dabei nicht offengelegt oder verändert. Welche Ergebnisse in einer konkreten Kundenumgebung erreichbar sind, wird vor einer produktiven Zusage anhand vereinbarter Prüf- und Abnahmekriterien festgestellt.
 
-**[Geschäftliche Zusammenarbeit anfragen](mailto:info@rhodium-germany.tech?subject=Rhodium%20Germany%20-%20Geschaeftsanfrage)** · **[Technische Nachweise ansehen](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md)** · **[Plattform kennenlernen](RHODIUM-GERMANY-PLATFORM.md)**
+## Unsere Einladung: Gemeinsam aufbauen, gemeinsam verdienen
 
-## Unsere Leistungen – Preis auf Anfrage
+Wir suchen **Partner, die mit uns gestalten – nicht Partner, die über anderen stehen**. Kleine Betriebe, spezialisierte Dienstleister, etablierte Technologieunternehmen und internationale Organisationen sollen sich mit ihren jeweiligen Stärken einbringen können. Unser Ziel ist ein langfristiges Netzwerk aus gleichberechtigten Partnern: Aufgaben sinnvoll verteilen, Chancen gemeinsam erschließen, Leistungen transparent nachweisen und wirtschaftlichen Erfolg fair miteinander teilen.
 
-| Angebot | Ihr konkreter Nutzen | Anfrage |
-| --- | --- | --- |
-| **1. Datenintegrität und Bestandsprüfung** | Datenstände vergleichen, Veränderungen erkennen und Prüfergebnisse dokumentieren | [Angebot anfragen](mailto:info@rhodium-germany.tech?subject=Anfrage%20Datenintegritaet) |
-| **2. Wiederherstellung und Ausfallsicherheit** | Wiederhergestellte Daten anhand vereinbarter Referenzen überprüfen und Wiederanlaufverfahren bewerten | [Angebot anfragen](mailto:info@rhodium-germany.tech?subject=Anfrage%20Wiederherstellung) |
-| **3. Technische Benchmarks und Prüfnachweise** | Leistungsmerkmale unter definierten Testbedingungen messen, vergleichen und nachvollziehbar dokumentieren | [Angebot anfragen](mailto:info@rhodium-germany.tech?subject=Anfrage%20Benchmarks) |
-| **4. Kontrollierte Datenübergaben** | Vollständigkeit und Integrität beim Austausch zwischen Systemen und Partnern prüfen | [Angebot anfragen](mailto:info@rhodium-germany.tech?subject=Anfrage%20Datenuebergabe) |
-| **5. Forschung und wissenschaftliche Datensätze** | Datenabgleiche, reproduzierbare Prüfungen und gemeinsame technische Versuchsreihen entwickeln | [Angebot anfragen](mailto:info@rhodium-germany.tech?subject=Anfrage%20Forschung) |
-| **6. B2B-Lizenz- und Technologiepartnerschaften** | Gemeinsame Pilotprojekte, branchenspezifische Integration und vertraglich geregelte Zusammenarbeit | [Partnerschaft anfragen](mailto:info@rhodium-germany.tech?subject=Anfrage%20Technologiepartnerschaft) |
+**Rhodium Germany ist der Ausgangspunkt. Rhodium World ist die Perspektive:** Land für Land, mit lokalen Partnern und gemeinsam vereinbarten Verantwortlichkeiten. Wir suchen keine bloße Reichweite und keine unverbindlichen Versprechen, sondern konkrete Einsatzfälle, Pilotkunden, Lizenznehmer und Vertriebspartner. Vergütung und Provisionen werden vorab vertraglich vereinbart; es gibt keine pauschale, hiermit zugesagte Rendite.
 
-**Keine automatischen Käufe oder Null-Euro-Checkouts.** Umfang, Testbedingungen, Leistungen und Preise werden schriftlich vereinbart.
+## Eine Box. Viele wirtschaftliche Einsatzfelder.
 
-## Was Rhodium Germany besonders macht
+| Einsatzfeld | Was Unternehmen davon haben können |
+| --- | --- |
+| **Banken & Finanzprozesse** | Nachvollziehbare Datenübergaben, Integritätskontrollen und überprüfbare Verarbeitungsstände |
+| **Rechenzentren & Cloud-Umgebungen** | Bestandsprüfung, Wiederanlaufkontrollen und messbare Optimierung von Datenabläufen |
+| **Industrie, Anlagen & Energie** | Prüfnachweise für technische Daten, kontrollierte Übergaben und Resilienztests |
+| **Telekommunikation & IT-Dienstleister** | Zuverlässige Austausch- und Prüfprozesse zwischen getrennten Systemen |
+| **Verwaltung & kritische Infrastruktur** | Dokumentierte Referenzstände, überprüfbare Wiederherstellung und klare Freigabegrenzen |
+| **Automotive, Logistik & große Datenbestände** | Reproduzierbare Vergleichstests, Datenordnung und kontrollierte Verarbeitung |
+| **KI-Systeme & technische Qualitätssicherung** | Definierte Prüfverfahren, Ergebnisvergleiche und dokumentierte technische Abnahme |
+| **Lizenz- und Vertriebspartnerschaften** | Branchenspezifische Angebote, Pilotprojekte und gemeinsam vereinbarte Erlösmodelle |
 
-**Unser eigener kryptomanischer Fingerabdruck** ist ein eigenständiges geschütztes Identitätsmerkmal unserer Technologie, im Zusammenhang mit **IONOS** erstellt. Er ist nicht lediglich ein gewöhnlicher SHA-Prüfwert. Die dokumentierte Projektarbeit umfasst einen Stabilitätslauf mit **20 Millionen Zustandsaktualisierungen**, Übergabe- und Manipulationsprüfungen sowie einen erfolgreichen Signatur- und Verifikationstest vom **18. November 2026**. Die geschützten Werte, Schlüssel und internen Verfahren bleiben vertraulich.
+Weitere Anwendungsfelder können mit Partnern bewertet werden. **Mögliche Einsparungen bei Speicher, Zeit oder Kosten sind keine pauschalen Garantien**, sondern werden im jeweiligen Pilotversuch gemessen.
 
-[**Fingerabdruck und Technologie näher kennenlernen**](RHODIUM-GERMANY-PLATFORM.md#unser-einzigartiger-kryptomanischer-fingerabdruck)
+## Was bereits dokumentiert ist
 
-## Messbare technische Arbeit
+**216 dokumentierte Testgruppen und 558 öffentliche Einzelberichte** sind im veröffentlichten Benchmark-Register ausgewiesen. Die Dokumentation umfasst unter anderem Integritätsprüfungen, bitidentische Wiederherstellung, Kaltstart- und Wiederanlaufversuche, Resilienz, technische Übergaben sowie Vergleiche mit Referenzdaten.
 
-**216 dokumentierte Testgruppen · 558 öffentliche Einzelberichte im Benchmark-Register.**
+- [Öffentliches Benchmark-Register](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md)
+- [Technische Evidenz und Resilienz](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md)
+- [Erweiterter öffentlicher Nachweiskatalog](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
+- [Plattform und Leistungsüberblick](RHODIUM-GERMANY-PLATFORM.md)
 
-Unsere Dokumentation umfasst bitidentische Wiederherstellung, Integritätsprüfungen, Kaltstart, Wiederanlauf, Resilienz, wissenschaftliche Daten und technische Vergleichsmessungen.
+Die Ergebnisse gelten für die jeweils dokumentierten Bedingungen. Sie sind **keine allgemeine Zertifizierung** und ersetzen keine unabhängige Abnahme in der Kundenumgebung. Ein unabhängiger Online-Endtest über getrennte Mobilfunk- und WLAN-Verbindungen wird nicht als abgeschlossen ausgegeben.
 
-[**Benchmark-Register**](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md) · [**Technische Evidenz und Resilienz**](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md) · [**Erweiterter Nachweiskatalog**](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
+## Geschützte Identität. Kontrollierbare Ergebnisse.
 
-## So beginnt eine Zusammenarbeit
+Rhodium Germany beschreibt einen **eigenen kryptomanischen Fingerabdruck**, der nach Projektangaben im Zusammenhang mit IONOS erstellt wurde. Er ist als geschütztes Identitätsmerkmal der Technologie beschrieben und **nicht mit einem gewöhnlichen SHA-Prüfwert gleichzusetzen**. Historische Stabilitäts-, Signatur- und Verifikationsprüfungen sind dokumentiert. Die genaue Konstruktion, geheime Werte und Schlüssel bleiben intern. Ein veröffentlichtes Prüfergebnis ist kein Ersatz für eine unabhängige kryptografische Bewertung.
 
-**1. Bedarf beschreiben:** Einsatzbereich, Datenmenge, gewünschtes Ergebnis und Kontaktmöglichkeit.
+**Unsere Zusage ist nicht die Offenlegung des Kerns, sondern die nachvollziehbare Prüfung vereinbarter Ergebnisse.** Bitidentität, doppelte Kontrollen und deterministische Nachweise werden dort eingesetzt und ausgewiesen, wo die jeweilige Prüfung sie tatsächlich belegt.
 
-**2. Prüfrahmen vereinbaren:** Wir stimmen Leistungsumfang, Referenzen, Datenschutz und technische Abnahmekriterien schriftlich ab.
+## Sechs Wege zur Zusammenarbeit – Preis auf Anfrage
 
-**3. Angebot und Pilotprojekt:** Sie erhalten ein individuelles Angebot. Der gemeinsame Test zeigt, welche Ergebnisse für Ihren konkreten Einsatz relevant sind.
+1. **Datenintegrität und Bestandsprüfung:** Referenzabgleich, Abweichungserkennung, Prüfberichte.
+2. **Wiederherstellung und Ausfallsicherheit:** definierte Wiederanlauf- und Wiederherstellungstests.
+3. **Technische Benchmarks und Qualitätssicherung:** reproduzierbare Messungen mit klaren Grenzen.
+4. **Kontrollierte Datenübergaben:** überprüfbare Vollständigkeit und Integrität zwischen Systemen.
+5. **Branchenspezifische Pilotpakete:** abgegrenzte Tests für Industrie, Verwaltung, IT und weitere Bereiche.
+6. **B2B-Lizenz- und Vertriebspartnerschaften:** gemeinsamer Marktzugang, Einsatzpakete und vertraglich geregelte Vergütung.
 
-**[Jetzt schriftlich ein Angebot anfordern](mailto:info@rhodium-germany.tech?subject=Rhodium%20Germany%20-%20Angebotsanfrage)**
+**Für kleinere Partner** streben wir nach Vereinbarung eine kostenfreie, klar begrenzte Testphase an. **Größere kommerzielle Einsätze** werden individuell kalkuliert. Es gibt keine automatischen Käufe, keine Null-Euro-Checkouts und keine kostenpflichtige Verpflichtung ohne ausdrückliche Vereinbarung.
 
-**Kontakt:** info@rhodium-germany.tech · **Domain:** https://rhodium-germany.de (unabhängig von der früheren Shopify-Anbindung)
+## An Unternehmen, Partner und Mitgestalter
 
-**Rhodium Germany → Rhodium World:** Deutschland als Ausgangspunkt für internationale, gleichberechtigte Technologiepartnerschaften.
+**Sie haben Datenmengen, Ausfallrisiken, aufwendige Übergaben oder Prüfprozesse, die unnötig Zeit und Geld kosten?** Bringen Sie einen konkreten Anwendungsfall ein. Wir definieren gemeinsam, welches Ergebnis gebraucht wird, wie es geprüft werden kann und welche Zusammenarbeit wirtschaftlich sinnvoll ist.
+
+**Sie sind Dienstleister, Vertriebspartner oder Spezialist?** Wir möchten nicht gegeneinander arbeiten. Wir möchten Kompetenzen verbinden und ein Netzwerk schaffen, in dem jeder Partner einen nachvollziehbaren Beitrag leistet und an vereinbarten Erlösen beteiligt wird. Keine Vorkasse als Voraussetzung für eine unverbindliche Interessenbekundung.
+
+**Öffentliche Projektunterlagen:** Diese GitHub-Seite und die oben verlinkten Nachweise sind direkt lesbar, ohne E-Mail-Anfrage. Ein öffentliches interaktives Anfrageportal ist hier noch nicht eingerichtet; bis zu dessen Bereitstellung wird keine nicht vorhandene Schaltfläche vorgetäuscht.
+
+**Webadresse:** https://rhodium-germany.de — die Erreichbarkeit und Domainanbindung sind gesondert zu prüfen. **Rhodium Germany → Rhodium World.**
 
 ---
 
