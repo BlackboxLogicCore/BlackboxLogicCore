@@ -9,6 +9,7 @@ Rhodium Germany ist eine geschützte Technologieplattform für deterministische 
 - [Große technische Gesamtschau mit Benchmark-Familien und Ergebnissen](RHODIUM-GERMANY-FULL-BIG-APP.md)
 - [Erweiterter öffentlicher Evidence-Katalog](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
 - [Technischer Überblick und Branchen](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md)
+- [RSA-Schlüssel: Nachweisstand und Wiederherstellungsprüfung](RHODIUM-RSA-SCHLUESSEL-NACHWEIS.md)
 - [Öffentliches Profil und weitere Ergebnisübersicht](README.md)
 
 ## Messbare Ausfallsicherheit und Wiederherstellung
@@ -18,7 +19,7 @@ Rhodium Germany ist eine geschützte Technologieplattform für deterministische 
 | TCP-Failover, 08.11.2026 | 100 virtuelle Kontexte, 10.000 Aufträge, erzwungener Prozessabbruch | Doppel-PASS; ca. 140 ms bis zur ersten Antwort im Testaufbau | `RHODIUM-TCP-10000-FAILOVER-DOUBLEPASS-20261108.json`; historischer SHA-256 `4C2DD15E2BA93CA1935A1ED45EF8FD8326436B8A6FC7BD07F7DA2AB45D9B5379` |
 | Customer Double Recovery, 07.11.2026 | Zwei Wiederherstellungsläufe, je vier Prüfpunkte | 2 × 4/4 PASS; 0 SHA-Abweichungen | `DOUBLE-VERIFY-REPORT.json`; historischer SHA-256 `D8A3E30255DBFDE238C89B11BEC806E9D824AE5B06B48B7E692F3D367A67B3F9` |
 | 4-GiB-Rekonstruktion, 08.11.2026 | 4.294.967.296 Byte, zweimaliger Test | 2/2 PASS; 31,76 / 33,39 s; 0 abweichende Blöcke | `RHODIUM-MINIMAL-IGNITION-4GIB-DOUBLEPASS-SEAL-20261108.json`; historischer SHA-256 `3D48D9F61D566FC2258347E9CFA162BB19BA6FBA2F4F99B15B2573CE588D8A27` |
-| Cross-Runner-Failover | 10.000 Aufträge; Worker-Abbruch nach 5.000 | Öffentlicher Testcode und Workflow zur reproduzierbaren Prüfung | [GitHub-Workflow-Repository](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate) · Commit `dae76e3` |
+| Cross-Runner-Failover | 10.000 Aufträge; Worker-Abbruch nach 5.000 | Testcode und Workflow zur reproduzierbaren Prüfung | Repository `rhodium-kaggle-public-gate` (derzeit privat, Einsicht auf Anfrage) · Commit `dae76e3` |
 
 **Einordnung:** Die Wiederanlaufzeit ist die gemessene Zeit bis zur ersten Antwort im jeweiligen Szenario, keine allgemeine Garantie für jede Infrastruktur oder eine garantierte 24/7-Verfügbarkeit. Doppelte und mehrfache Absicherung sind zentrale Resilienzmerkmale; die obigen Prüfungen belegen konkrete Teilfälle.
 
@@ -49,14 +50,14 @@ Das interne Gesamtregister nennt **216 Testgruppen und 2.369 Nachweisdateien**. 
 
 Ein überprüfbarer Leistungsnachweis besteht aus Testkennung, Testbedingungen, Messwert, Integritätsreferenz und – wo verfügbar – digitaler Signatur mit zugehörigem **öffentlichem** Prüfschlüssel. Die geschützte Identität, der persönliche kryptografische Fingerabdruck, private Signaturschlüssel und Zugriffstoken werden nicht veröffentlicht.
 
-Ein historisches SSH-Verbindungsprotokoll dokumentiert unterschiedliche Server-Hostschlüssel (RSA, ECDSA, ED25519) und einen lokalen RSA-Schlüssel. **SSH-Hostschlüssel sind nicht automatisch die Signaturschlüssel der Benchmark-Berichte.** Das Projekt dokumentiert außerdem ein TRUE-COLD-Evidence-Bundle mit Evidence-JSON, Signatur und öffentlichem Prüfschlüssel: `RHODIUM-EVIDENCE-TRUE-COLD-20260929-141308`. Eine Veröffentlichung von Signatur und öffentlichem Prüfschlüssel erfolgt nur mit eindeutiger Zuordnung zum freigegebenen Nachweis.
+Ein historisches SSH-Verbindungsprotokoll dokumentiert unterschiedliche Server-Hostschlüssel (RSA, ECDSA, ED25519) und einen lokalen RSA-Schlüssel. **SSH-Hostschlüssel sind nicht automatisch die Signaturschlüssel der Benchmark-Berichte.** Der Fingerabdruck des öffentlichen RSA-3072-Schlüssels des Eigentümers wurde am 18.11.2026 als identisch mit dem Protokoll vom 11.07.2026 bestätigt; die doppelt geprüfte Wiederherstellung ist im [RSA-Nachweis](RHODIUM-RSA-SCHLUESSEL-NACHWEIS.md) beschrieben. Das Projekt dokumentiert außerdem ein TRUE-COLD-Evidence-Bundle mit Evidence-JSON, Signatur und öffentlichem Prüfschlüssel: `RHODIUM-EVIDENCE-TRUE-COLD-20260929-141308`. Eine Veröffentlichung von Signatur und öffentlichem Prüfschlüssel erfolgt nur mit eindeutiger Zuordnung zum freigegebenen Nachweis.
 
 ## Öffentliche automatische Prüfungen
 
-- [GitHub Actions: 1-Byte-Live-Gate / enwik9, Lauf 42370132004](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/actions/runs/42370132004)
-- [GitHub Actions: Referenz-Integritätsprüfung, Lauf 42362509610](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/actions/runs/42362509610)
+- GitHub Actions: 1-Byte-Live-Gate / enwik9, Lauf `42370132004`
+- GitHub Actions: Referenz-Integritätsprüfung, Lauf `42362509610`
 
-Die Links sind konkrete Laufreferenzen. Ob sie ohne Anmeldung abrufbar sind, hängt von der aktuellen Repository-Sichtbarkeit ab. Der Referenz-Integritätslauf verwendet zlib und ist kein Nachweis eines proprietären Codecs.
+Beide Läufe liegen im derzeit privaten Repository `rhodium-kaggle-public-gate` und sind für Besucher ohne Freigabe nicht abrufbar. Der Referenz-Integritätslauf verwendet zlib und ist kein Nachweis eines proprietären Codecs.
 
 ## Anwendungen und Gesamtplattform
 
