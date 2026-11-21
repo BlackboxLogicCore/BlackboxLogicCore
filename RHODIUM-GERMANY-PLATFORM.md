@@ -1,6 +1,6 @@
 # RHODIUM GERMANY
 ### Kontrolliertes Wissen. Geschützte Daten. Überprüfbare Ergebnisse.
-**Controlled knowledge · Data integrity · Verifiable engineering**
+**Wissensstruktur · Datenintegrität · Nachvollziehbare Technik**
 
 ## Warum Rhodium Germany?
 
@@ -21,9 +21,9 @@ Digitale Systeme verarbeiten immer größere Mengen an Daten und Wissen. Doch f�
 
 Diese Leitlinien beschreiben unsere Entwicklungsrichtung und den überprüfbaren Kundennutzen, **nicht** die interne Architektur oder geschützte Verfahren.
 
-## Unser eigener kryptomanischer Fingerabdruck
+## Unser einzigartiger kryptomanischer Fingerabdruck
 
-**Ein besonderes Identitätsmerkmal von Rhodium Germany ist unser selbst entwickelter kryptomanischer Fingerabdruck.** Er ist Teil unserer geschützten Technologieidentität und steht für die eindeutige Zuordnung, Wiedererkennung und kontrollierte Überprüfung zusammengehöriger Vorgänge und Datenstände. Er ist **nicht einfach die Bezeichnung für einen gewöhnlichen SHA-Prüfwert**.
+**Ein zentrales Alleinstellungsmerkmal unserer Entwicklung ist der von uns selbst entwickelte kryptomanische Fingerabdruck.** Er ist Teil unserer geschützten Technologieidentität und steht für die eindeutige Zuordnung, Wiedererkennung und kontrollierte Überprüfung zusammengehöriger Vorgänge und Datenstände. Er ist **nicht einfach die Bezeichnung für einen gewöhnlichen SHA-Prüfwert**.
 
 Die Erstellung unseres eigenen kryptomanischen Fingerabdrucks erfolgte im Zusammenhang mit **IONOS**. Seine konkreten Werte, die Herleitung, geheime Schlüssel und die geschützte Implementierung bleiben vertraulich. Öffentlich zeigen wir stattdessen ausgewählte Prüfergebnisse und die technische Nachweisführung.
 
@@ -49,32 +49,32 @@ Beispiele aus den dokumentierten Testreihen: bitidentische Wiederherstellung, Ka
 
 **Der geschützte Kern, interne Verfahrensdetails, private Schlüssel und vertrauliche Identitätsmerkmale werden nicht veröffentlicht.**
 
-## Technology for organizations of every size
+## Technologie für Unternehmen jeder Größe
 
-**Small businesses and independent professionals:** Accessible technical discussions, focused pilot projects and opportunities to contribute specialized expertise.
+**Kleine Unternehmen und Selbstständige:** Technischer Austausch, gezielte Pilotprojekte und Möglichkeiten, eigenes Fachwissen einzubringen.
 
-**Medium-sized enterprises:** Data reliability, operational resilience, verification workflows and applied technology partnerships.
+**Mittelständische Unternehmen:** Datenzuverlässigkeit, Betriebssicherheit, überprüfbare Abläufe und anwendungsorientierte Technologiepartnerschaften.
 
-**Industrial enterprises and global organizations:** Structured technical evaluations, engineering cooperation and long-term pilots.
+**Industrieunternehmen und internationale Organisationen:** Strukturierte technische Bewertungen, Entwicklungszusammenarbeit und langfristige Pilotprojekte.
 
-**Universities and research institutions:** Reproducible experiments, interdisciplinary research and technical benchmarking.
+**Hochschulen und Forschungseinrichtungen:** Reproduzierbare Experimente, interdisziplinäre Forschung und technische Benchmarks.
 
-**Technology partners:** Joint solutions, distribution cooperation, service partnerships and transparent commercial arrangements.
+**Technologiepartner:** Gemeinsame Lösungen, Vertrieb, Dienstleistungen und transparente wirtschaftliche Zusammenarbeit.
 
-We want participation to depend on useful contributions, not on organizational size.
+Entscheidend für eine Zusammenarbeit ist der fachliche Beitrag, nicht die Größe der Organisation.
 
-## From Rhodium Germany to Rhodium World
+## Von Rhodium Germany zu Rhodium World
 
-Germany is our starting point. Our long-term vision is **Rhodium World**: a country-by-country network of technology partners, researchers, businesses and independent specialists working together on practical problems.
+Deutschland ist unser Ausgangspunkt. Unsere langfristige Vision heißt **Rhodium World**: ein internationales Netzwerk, das Land für Land Technologiepartner, Forschung, Unternehmen und unabhängige Fachleute zusammenführt, um praktische Aufgaben gemeinsam zu lösen.
 
-We favor clear responsibilities, written terms, responsible data handling, protection of intellectual property, measurable results and mutual respect.
+Dabei setzen wir auf klare Verantwortlichkeiten, schriftliche Vereinbarungen, verantwortungsvollen Umgang mit Daten, Schutz geistigen Eigentums, messbare Ergebnisse und gegenseitigen Respekt.
 
-## Work with us
+## Zusammenarbeit mit Rhodium Germany
 
-We welcome written inquiries about technical pilot projects, data integrity, recovery, research cooperation and international partnerships.
+Wir freuen uns über schriftliche Anfragen zu technischen Pilotprojekten, Datenintegrität, Wiederherstellung, Forschungskooperationen und internationalen Partnerschaften.
 
 **Website:** https://rhodium-germany.de
 
 **Rhodium Germany → Rhodium World**
 
-*Engineering trust. Connecting capabilities. Creating opportunities.*
+*Vertrauen durch Technik. Fähigkeiten verbinden. Möglichkeiten schaffen.*
