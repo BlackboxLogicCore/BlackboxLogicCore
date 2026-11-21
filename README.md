@@ -25,7 +25,9 @@ Wir entwickeln Lösungen und Kooperationen für Datenzuverlässigkeit, kontrolli
 
 Unser Ausgangspunkt ist **Rhodium Germany**. Unsere internationale Perspektive heißt **Rhodium World**: Zusammenarbeit von Land zu Land mit gleichberechtigten Partnern.
 
-**Website:** https://rhodium-germany.de
+**Geschäftsanfragen:** Technische Prüfleistungen, Datenintegrität, Wiederherstellung, Forschung und Lizenzpartnerschaften – **Preis auf Anfrage**. Schriftliche Kontaktaufnahme über **info@rhodium-germany.tech**.
+
+**Domain:** https://rhodium-germany.de – unabhängig von der bisherigen Shopify-Shop-Anbindung. Diese GitHub-Präsentation ist unser öffentlicher technischer und geschäftlicher Einstieg.
 
 ---
 
