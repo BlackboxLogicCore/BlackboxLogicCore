@@ -34,12 +34,23 @@ Weitere Anwendungsfelder können mit Partnern bewertet werden. **Mögliche Einsp
 - [Technische Evidenz und Resilienz](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md)
 - [Erweiterter öffentlicher Nachweiskatalog](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
 - [Plattform und Leistungsüberblick](RHODIUM-GERMANY-PLATFORM.md)
+- [RSA-Schlüssel: Nachweisstand, Wiederherstellung und Ausfallsicherheit](RHODIUM-RSA-SCHLUESSEL-NACHWEIS.md)
 
 Die Ergebnisse gelten für die jeweils dokumentierten Bedingungen. Sie sind **keine allgemeine Zertifizierung** und ersetzen keine unabhängige Abnahme in der Kundenumgebung. Ein unabhängiger Online-Endtest über getrennte Mobilfunk- und WLAN-Verbindungen wird nicht als abgeschlossen ausgegeben.
 
 ## Geschützte Identität. Kontrollierbare Ergebnisse.
 
 Rhodium Germany beschreibt einen **eigenen kryptomanischen Fingerabdruck**, der nach Projektangaben im Zusammenhang mit IONOS erstellt wurde. Er ist als geschütztes Identitätsmerkmal der Technologie beschrieben und **nicht mit einem gewöhnlichen SHA-Prüfwert gleichzusetzen**. Historische Stabilitäts-, Signatur- und Verifikationsprüfungen sind dokumentiert. Die genaue Konstruktion, geheime Werte und Schlüssel bleiben intern. Ein veröffentlichtes Prüfergebnis ist kein Ersatz für eine unabhängige kryptografische Bewertung.
+
+### RSA-Schlüssel des Eigentümers
+
+| Prüfung | Stand |
+|---|---|
+| Fingerabdruck des öffentlichen RSA-3072-Schlüssels, Vergleich 11.07. mit 18.11.2026 | **Exakte Übereinstimmung** |
+| Signatur einer Prüfnachricht mit dem privaten Schlüssel des Owner-Freeze-Zertifikats, 18.11.2026 | **Verifikation erfolgreich** |
+| Bitidentische Wiederherstellung aus zwei getrennten Sicherungen, doppelt geprüft, mit Ein-Bit-Negativtest | **Prüfverfahren bereitgestellt, Lauf mit dem Eigentümerschlüssel ausstehend** |
+
+Das [Prüfverfahren und seine Einordnung](RHODIUM-RSA-SCHLUESSEL-NACHWEIS.md) prüfen jede Sicherung einzeln auf SHA-256-Gleichheit und leiten den öffentlichen Schlüssel aus der wiederhergestellten Datei neu ab. Der private Schlüssel und sein Fingerabdruckwert werden nicht veröffentlicht.
 
 **Unsere Zusage ist nicht die Offenlegung des Kerns, sondern die nachvollziehbare Prüfung vereinbarter Ergebnisse.** Bitidentität, doppelte Kontrollen und deterministische Nachweise werden dort eingesetzt und ausgewiesen, wo die jeweilige Prüfung sie tatsächlich belegt.
 
@@ -62,7 +73,7 @@ Rhodium Germany beschreibt einen **eigenen kryptomanischen Fingerabdruck**, der 
 
 **Öffentliche Projektunterlagen:** Diese GitHub-Seite und die oben verlinkten Nachweise sind direkt lesbar, ohne E-Mail-Anfrage. Ein öffentliches interaktives Anfrageportal ist hier noch nicht eingerichtet; bis zu dessen Bereitstellung wird keine nicht vorhandene Schaltfläche vorgetäuscht.
 
-**Webadresse:** https://rhodium-germany.de — die Erreichbarkeit und Domainanbindung sind gesondert zu prüfen. **Rhodium Germany → Rhodium World.**
+**Webadresse:** [rhodium-germany.de](https://rhodium-germany.de), über GitHub Pages mit gültigem HTTPS-Zertifikat erreichbar. **Rhodium Germany → Rhodium World.**
 
 ---
 
@@ -95,7 +106,7 @@ Für diesen Behördenablauf liegt noch keine gemessene Zeitersparnis vor. Die fo
 
 **Was bei einer falschen Übergabe passiert.** In einem getrennten lokalen Prototyp mit Testdaten und Demo-Schlüssel wurden ein manipuliertes Paket und ein ungültiger Auslöser abgewiesen. Zwei Durchläufe mit jeweils 15 Prozessen und 14 Übergaben ergaben denselben Manifest-Prüfwert. Für eine Bank oder ein Amt wäre die entsprechende Pilotfrage, ob ein korrekt zugeordneter Vorgang weiterverarbeitet und eine absichtlich veränderte Übergabe zuverlässig gestoppt wird.
 
-**Signaturtest vom 18. November 2026.** Ich habe auf meinem Rechner eine Prüfnachricht mit dem privaten RSA-Schlüssel meines Owner-Freeze-Zertifikats signiert. Die Verifikation mit dem zugehörigen öffentlichen Schlüssel war erfolgreich. Den Wert meines Projektfingerabdrucks, seine Herleitung und die interne Zuordnung zur Box halte ich vertraulich.
+**Signaturtest vom 18. November 2026.** Ich habe auf meinem Rechner eine Prüfnachricht mit dem privaten RSA-Schlüssel meines Owner-Freeze-Zertifikats signiert. Die Verifikation mit dem zugehörigen öffentlichen Schlüssel war erfolgreich. Am selben Tag stimmte der Fingerabdruck meines öffentlichen RSA-3072-Schlüssels exakt mit einem Protokolleintrag vom 11. Juli 2026 überein. Den Wert meines Projektfingerabdrucks, seine Herleitung und die interne Zuordnung zur Box halte ich vertraulich.
 
 ### Vom einzelnen Datenpaket bis zur Wiederherstellung von 100 GiB
 
@@ -178,62 +189,23 @@ Mein **Bewertungsziel für Rhodium Germany liegt bei mindestens 10 Millionen US-
 
 **Rhodium World** ist die wirtschaftliche Zukunftsidee. Lokale Partner sollen in ihrer Sprache und Branche eigene Einsatzfälle betreuen können. Dafür braucht jeder Partner einen wiederholbaren Test, nachvollziehbare Freigaben und einen schriftlichen Weg vom Versuch zur Lizenz.
 
-<details>
-<summary>Lizenzangebot, technische Register und bisherige Projektdokumentation</summary>
+## Lizenzangebot, Register und Projektbestände
 
-Rhodium Germany bietet eine proprietäre Arbeiterbox zur Lizenzierung an. Sie dient der Datenverarbeitung, Integritätsprüfung und überprüfbaren Wiederherstellung. Mögliche Einsatzfelder sind Archivierung, Backup-Verifikation, Forensik und Audit.
+Rhodium Germany bietet die proprietäre Arbeiterbox zur Lizenzierung an. Schwerpunkte sind deterministische Datenverarbeitung, Integritätskontrolle, überprüfbare Wiederherstellung und kontrollierte Auftragsannahme, etwa für Archivierung, Backup-Verifikation sowie Forensik und Audit. Zielgruppen sind kleine und mittlere Unternehmen, IT-Dienstleister, Backup- und Archivierungsanbieter sowie Rechenzentren, Finanzwirtschaft, Telekommunikation, Industrie, Energie und kritische Infrastruktur. Die genannten Einsatzfelder sind Prüfmöglichkeiten, **keine bereits erfolgten Branchenzulassungen oder produktiven Installationen**.
 
-## Nachweise prüfen
+**Angeboten werden** vertraglich definierte Nutzungs- und Vertriebsrechte. Einsatzfeld, Märkte, Laufzeit und Vergütung werden vereinbart. Quellcode, Matrix-Interna, Schlüssel und Eigentumsanteile bleiben beim Eigentümer. Für Bewerter gilt: aktuellen Unternehmenswert, belegbaren Technologiewert und langfristiges Lizenzpotenzial bitte **getrennt** beurteilen. Die fehlende Offenlegung des Kerns ist nicht mit fehlender Technologie gleichzusetzen; Kundenintegration, Zulassungen und konkrete Einsparungen sind separat nachzuweisen.
 
-- [Historische Benchmarks](https://github.com/BlackboxLogicCore/rhodium-benchmarks) dokumentieren 15 von 15 bestandene lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB. Die Ergebnisse gelten für die beschriebenen Testbedingungen.
+### Nachweise prüfen
+
+- [Historische Benchmarks](https://github.com/BlackboxLogicCore/rhodium-benchmarks): 15 von 15 bestandene lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB unter den beschriebenen Testbedingungen.
 - [Technischer Überblick und Aussagegrenzen](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md)
+- [RSA-Schlüssel: Nachweisstand und Wiederherstellungsprüfung](RHODIUM-RSA-SCHLUESSEL-NACHWEIS.md)
+- [Öffentliches historisches Nachweisregister](RHODIUM-HISTORISCHE-PRUEFSPUREN-2026.md)
 - [Anfrage zur unabhängigen technischen Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
 
-## Öffentlicher Testzugang
+Ein öffentlich ausführbares Testpaket für die Arbeiterbox steht noch nicht zum Download. Vorgesehen ist ein Paket mit synthetischen Beispieldaten, Anleitung und Soll-Ergebnis. Es wird erst nach einem erfolgreichen Lauf auf einem frischen Testsystem veröffentlicht.
 
-Die verlinkten Nachweise sind direkt auf GitHub einsehbar. Ein öffentlich ausführbares Testpaket für die Arbeiterbox steht hier derzeit noch nicht zum Download.
-
-Für den Selbsttest ist ein freigegebenes Paket mit synthetischen Beispieldaten, einer kurzen Anleitung und einem Soll-Ergebnis vorgesehen. Der Test soll zeigen, ob wiederhergestellte Daten mit dem Original übereinstimmen. Die Veröffentlichung setzt einen erfolgreichen Lauf auf einem frischen Testsystem voraus. Der proprietäre Kern und geheime Schlüssel bleiben vertraulich.
-
-## Unsere Richtung: Technik, Menschen und Zukunft
-
-Rhodium Germany entwickelt überprüfbare Technologie, um Menschen, Unternehmen und Forschungspartner zusammenzubringen. Unsere langfristige Vision ist eine widerstandsfähigere Wirtschaft, verlässlichere digitale Infrastruktur und eine bessere Zusammenarbeit zwischen Technik, Landwirtschaft und Umweltforschung. Wir möchten dabei helfen, Wege für gesündere Lebensmittelproduktion, verantwortungsvolle Ressourcennutzung und ein besseres Verständnis natürlicher Prozesse zu eröffnen. Dies sind **Entwicklungsziele**, keine Behauptungen über bereits nachgewiesene agrarwirtschaftliche, medizinische oder ökologische Wirkungen.
-
-Wir suchen **Lizenz- und Vertriebspartner**, die bestehende dokumentierte Fähigkeiten in konkreten Branchen verantwortungsvoll einsetzen und weiterentwickeln möchten. Geeignete Partner erhalten nach Vertraulichkeitsvereinbarung und definiertem Prüfrahmen einen vertieften technischen Einblick und können die für eine Lizenzentscheidung nötigen Nachweise prüfen. **Das tiefste proprietäre Kerngeheimnis, private Schlüssel und nicht freigegebene Implementierungsdetails bleiben auch gegenüber Lizenzpartnern geschützt.**
-
-**Was Besucher nachlesen können:** [Gesamte öffentliche Benchmark- und Prüfübersicht](RHODIUM-GERMANY-FULL-BIG-APP.md), einschließlich Datentests, Automotive-/Robotik-Beispielen, 32 Einzelprüfungen, Sicherheit, Wiederherstellung, Fehlversuchen und Aussagegrenzen. Historische Prüfungen sind nach Testaufbau und Beleglage zu beurteilen; es wird keine unabhängige Zertifizierung behauptet.
-
-
-**Neu, 18.11.2026:** [Technischer Nachweisstand, geplantes Rhodium-Prüfsiegel und mögliche Branchenanwendungen (DE/EN)](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Unabhängige Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
-**Archivierung. Backup-Verifikation. Forensik und Audit.**
-
-Rhodium Germany bietet die fertige, proprietäre Arbeiterbox zur Datenverarbeitung und überprüfbaren Wiederherstellung zur Lizenzierung an. Gesucht werden Lizenz- und Vertriebspartner für Archivierung, Backup-Verifikation sowie Forensik und Audit. Grundlage des Angebots sind die vorhandenen dokumentierten Nachweise.
-
-## Rhodium Germany — Fertige Technologie, wirtschaftlicher Einsatz
-
-**Rhodium Germany bietet eine fertiggestellte, proprietäre Arbeiterbox zur Lizenzierung an.** Ihr Schwerpunkt liegt auf deterministischer Datenverarbeitung, Integritätskontrolle, überprüfbarer Wiederherstellung und kontrollierter Auftragsannahme. Das Ziel: technische Risiken und Folgekosten von Datenfehlern, fehlerhaften Übergaben und Betriebsunterbrechungen in klar definierten Einsatzfällen reduzieren.
-
-**Für wen?** Kleine und mittlere Unternehmen, IT-Dienstleister, Backup- und Archivierungsanbieter sowie potenzielle Großkunden in Rechenzentren, Finanzwirtschaft, Telekommunikation, Industrie, Energie und kritischer Infrastruktur. Einsatzfelder sind Möglichkeiten zur kundenspezifischen Prüfung, **keine Behauptung bereits erfolgter Branchenzulassungen oder produktiver Installationen**.
-
-**Wirtschaftlicher Ansatz:** Die entscheidende Kennzahl ist nicht nur der Umfang einer Software, sondern der nachweisbare Kundennutzen: vermiedene Datenfehler, überprüfbare Wiederherstellung, weniger manuelle Prüfung und – nach kundenspezifischer Validierung – potenziell geringere Ausfallkosten. Lizenz-, Service- und Vertriebspartnermodelle sind vorgesehen. Konkrete Einsparungen, Kundenumsätze oder Energievergleiche werden nicht ohne entsprechende Nachweise behauptet.
-
-**Nachweise:** Öffentlich beschrieben sind unter anderem 15/15 lokale Schutzprüfungen und Rekonstruktionsfälle bis 1 GiB mit den jeweiligen Testgrenzen. Weitere historische Benchmark- und Capability-Register existieren; überlappende Positionen sind nicht als unabhängige Tests zu addieren. Der historische Bestand verweist auf **52 Hebel/Capability-Bereiche**; dies ist keine Behauptung, dass jeder Bereich einzeln produktiv abgenommen wurde.
-
-**Vertraulichkeit.** Rhodium Germany veröffentlicht ausgewählte Prüfergebnisse. Über die Offenlegung meiner internen Entwicklungsunterlagen entscheide ich selbst. Private Schlüssel bleiben geheim.
-
-**Für Bewerter und Lizenzpartner:** Bitte den aktuellen Unternehmenswert, den belegbaren Technologiewert und das langfristige Markt- und Lizenzpotenzial **getrennt** beurteilen. Die fehlende öffentliche Offenlegung des Kerns ist nicht mit fehlender Technologie gleichzusetzen. Kundenintegration, Branchenzulassungen und konkrete Einsparungen sind separat nachzuweisen.
-
-[Technischer Überblick und Grenzen](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Historische öffentliche Benchmarks](https://github.com/BlackboxLogicCore/rhodium-benchmarks) · [Unabhängige Ersteinschätzung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
-
-## Fähigkeiten und Entwicklung
-
-Die dokumentierten Arbeitsfelder umfassen Datenfluss, Wiederherstellung, technische Aktionskontrolle und Replay. Aussagen gelten für das jeweilige Testprofil und den dort beschriebenen Zustand.
-
-Archive und wiederholte Übertragungen, Telemetrie und Sensorik, KI-/API-Abläufe sowie Integration am Einsatzort sind mögliche Entwicklungsrichtungen.
-
-## Dokumentierte Nachweisregister
-
-Registerstand: 15.10.2026. Die zugängliche öffentliche Zusammenfassung und ihre Grenzen sind im neuen [technischen Überblick](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) beschrieben.
+### Dokumentierte Nachweisregister (Stand 15.10.2026)
 
 | Bestand | Anzahl | Einordnung |
 |---|---:|---|
@@ -243,56 +215,28 @@ Registerstand: 15.10.2026. Die zugängliche öffentliche Zusammenfassung und ihr
 | Best-of-Datenfälle | 25 | Nach Eingabe-SHA-256 unterschieden |
 | Historische Nachweiseinträge | 29 | Überlappender Familien-/Validierungsexport |
 
-Diese Sammlungen überschneiden sich und ergeben keine addierbare Gesamtzahl unabhängiger Benchmarks. Historische Messergebnisse sind keine allgemeine Leistungs-, Reduktions- oder Fehlerfreiheitsgarantie.
+Diese Sammlungen überschneiden sich und ergeben keine addierbare Gesamtzahl unabhängiger Benchmarks. Zum historischen Prüfarchiv gehören laut Register **2.369 Dateieinträge in 216 Testgruppen** mit **711 unterschiedlichen JSON-Berichtsinhalten**; der damalige Prüfbericht meldet passende Datei-Hashes für alle 2.369 Dateien. Das sind Archiv- und Integritätskennzahlen, **nicht** 2.369 unabhängige Benchmarks. Der historische Bestand verweist außerdem auf **52 Hebel- bzw. Fähigkeitsbereiche**; nicht jeder Bereich ist einzeln produktiv abgenommen.
 
-[Öffentlicher technischer Überblick](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md) · [Anfrage zur unabhängigen Bewertung](INDEPENDENT-TECHNICAL-REVIEW-REQUEST.md)
+### Kundenpakete
 
-Hinweis: Die bisher verlinkten technischen Einzelregister liegen derzeit in einem privaten Repository und sind für externe Besucher nicht ohne gesonderte Berechtigung zugänglich.
+Die Kundenkomponente ist als **eigenständiges, in sich geschlossenes Paket** definiert, das nur freigegebene Funktionen nutzt. Das interne Register vom 05.11.2026 dokumentiert vorbereitete Angebotsunterlagen; eine vollständige Produktions- und Vertriebsfreigabe ist darin noch nicht nachgewiesen. Die Zahl von **24 Paketen** wird als Inventarstand geführt, bis Paketliste, Versionen, Prüfberichte und Freigaben abgeglichen sind.
 
+### GitHub-Projektbestände
 
-## Lizenzangebot und Gebote
+Die GitHub-Inventur vom 18.11.2026 zeigt **10 Repositories: 2 öffentliche und 8 private**, darunter 4 archivierte. Öffentlich einsehbar sind dieses Repository und [rhodium-benchmarks](https://github.com/BlackboxLogicCore/rhodium-benchmarks). Weitere technische Einzelregister und Workflow-Läufe liegen in privaten Repositories und sind für Besucher nicht ohne Freigabe erreichbar. Eine private Ablage ist kein öffentlicher Nachweis und nicht automatisch ein eigenständiges Kundenprodukt.
 
-Angeboten werden vertraglich definierte Nutzungs- und Vertriebsrechte an der Arbeiterbox. Einsatzfeld, Märkte, Laufzeit und Vergütung werden vereinbart. Quellcode, Matrix-Interna, Schlüssel und Eigentumsanteile bleiben bei mir.
+### Vertrauliche Einsicht
 
-Kontakt für Lizenzanfragen und Gebote: **info@rhodium-germany.tech**. Bitte nennen Sie den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die vorhandenen Nachweise bilden die Grundlage des Lizenzangebots.
+Geeignete Lizenzpartner können nach Identitätsprüfung, Vertraulichkeitsvereinbarung, festgelegtem Prüfumfang und ausdrücklicher Freigabe des Eigentümers weitergehende Nachweise erhalten. **Der proprietäre Kern, private Schlüssel und nicht freigegebene Implementierungsdetails bleiben auch gegenüber Lizenzpartnern geschützt.**
+
+### Richtung
+
+Rhodium Germany will Menschen, Unternehmen und Forschungspartner mit überprüfbarer Technologie zusammenbringen: für eine widerstandsfähigere Wirtschaft, verlässlichere digitale Infrastruktur und bessere Zusammenarbeit zwischen Technik, Landwirtschaft und Umweltforschung. Das sind **Entwicklungsziele**, keine nachgewiesenen agrarwirtschaftlichen, medizinischen oder ökologischen Wirkungen.
+
+</details>
 
 ## Kontakt
 
 [rhodium-germany.de](https://rhodium-germany.de) · [info@rhodium-germany.tech](mailto:info@rhodium-germany.tech)
 
-Die öffentliche Darstellung beschreibt Ergebnisse und mögliche Anwendungen. Die proprietäre Umsetzung bleibt geschützt.
-
-
-## Geschützter innerer Kern – Nachweise für Lizenzpartner
-
-Rhodium Germany trennt die öffentliche Darstellung der Ergebnisse strikt vom **geschützten inneren Technologiekern**. Quellcode, interne Verfahren, private Schlüssel, vertrauliche Konfigurationen und nicht freigegebene Rohdaten werden **nicht** in öffentlichen Repositories offengelegt.
-
-Zum historischen Prüfarchiv gehören laut Register **2.369 Dateieinträge in 216 Testgruppen**; darin wurden **711 unterschiedliche JSON-Berichtsinhalte** ausgewertet. Der damalige Prüfbericht meldet passende Datei-Hashes für die 2.369 erfassten Dateien. Diese Zahlen sind Archiv- und Integritätskennzahlen, **nicht** 2.369 voneinander unabhängige erfolgreiche Benchmarks. Die Zuordnung der einzelnen PASS-Berichte bleibt Teil der Nachweisprüfung.
-
-**Vertrauliche Einsicht:** Geeignete Lizenzpartner können nach Identitätsprüfung, Vertraulichkeitsvereinbarung, festgelegtem Prüfumfang und meiner ausdrücklichen Freigabe weitergehende technische Nachweise erhalten. Das ist keine Zusage, sämtliche Kerngeheimnisse oder privaten Schlüssel herauszugeben.
-
-[Öffentliches historisches Nachweisregister](RHODIUM-HISTORISCHE-PRUEFSPUREN-2026.md)
-
-
-## Abgeschlossene, in sich geschlossene Technologie- und Kundenpakete
-
-Rhodium Germany verfolgt **nicht nur eine Forschungsvision**: Zum Projektbestand gehören vorbereitete, abgegrenzte Technologie- und Kundenpakete. Die Kundenkomponente ist architektonisch als **eigenständiges, in sich geschlossenes Paket** definiert, das nur innerhalb freigegebener Funktionen eingesetzt wird. Der geschützte Kern wird nicht öffentlich offengelegt.
-
-Das interne Kundenpaket-Nachweisregister vom 05.11.2026 dokumentiert vorbereitete Angebotsunterlagen. **Eine vollständige Produktions- und Vertriebsfreigabe ist darin noch nicht nachgewiesen.** Die von mir genannte Zahl von **24 Paketen** wird als zu prüfender Inventarstand geführt, bis Paketliste, Versionen, Prüfberichte und Freigaben eindeutig abgeglichen sind. Daher wird hier weder behauptet, dass alle 24 unabhängig abgenommen wurden, noch dass sie bereits ohne weitere Prüfung sofort produktiv einsetzbar sind.
-
-**Für Lizenzinteressenten:** Konkrete Pakete und ihre Einsatzfähigkeit können im vertraulichen Partnerprozess anhand von Paketidentität, Teststatus, Leistungsumfang und Freigabeunterlagen einzeln geprüft werden. Vertrauliche Implementierungsdetails und private Schlüssel bleiben geschützt.
-
-
-## Öffentliche und geschützte GitHub-Projektbestände
-
-**GitHub-Inventur vom 18.11.2026:** Der autorisierte Rhodium-Germany-GitHub-Zugang zeigt **10 Repositories: 2 öffentliche und 8 private**, darunter **4 archivierte private Repositories**. Archiviert bedeutet nicht gelöscht; die Zugriffsrechte bleiben bestehen. Eine private Ablage ist kein öffentlich einsehbarer Nachweis und nicht automatisch ein eigenständiges Kundenprodukt.
-
-Die geschützten Bestände umfassen unter anderem technische Dokumentation, historische Prüfergebnisse, Integritätsberichte, Entwicklungs- und Bedienkomponenten, Nachweiskataloge sowie vorbereitete Vertriebs- und Kundenunterlagen. Der konkrete Umfang und Freigabestatus einzelner Kundenpakete wird anhand von Paketmanifesten und Originalprüfberichten geprüft; eine endgültige Anzahl sofort einsatzbereiter Pakete wird derzeit nicht behauptet.
-
-**Vertraulichkeit:** Private Repositories, interne Dateipfade, Quelltexte, proprietäre Verfahren, Schlüssel und nicht freigegebene Originalbelege bleiben geschützt. Ein geeigneter Lizenzpartner kann nach Vertraulichkeitsvereinbarung und persönlicher Freigabe einen vereinbarten Nachweisumfang prüfen. Die Existenz privater Repositories bedeutet weder automatische Herausgabe noch öffentliche Einsicht.
-
-Diese Bestandsangabe beschreibt den über GitHub zugänglichen Inventarstand. Sie ist keine Behauptung, dass sämtliche Dateien aller Repositories bereits einzeln technisch abgenommen wurden.
-
-</details>
-
-</details>
+Bitte nennen Sie bei Lizenzanfragen den gewünschten Nutzungsumfang und die vorgesehenen Märkte. Die öffentliche Darstellung beschreibt Ergebnisse und mögliche Anwendungen; die proprietäre Umsetzung bleibt geschützt.
