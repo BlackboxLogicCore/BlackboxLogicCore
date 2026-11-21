@@ -32,10 +32,6 @@ Unser Ausgangspunkt ist **Rhodium Germany**. Unsere internationale Perspektive h
 <details>
 <summary><strong>Ausführliche Projektdokumentation und historische Prüfnachweise anzeigen</strong></summary>
 
-Ich bin Kai Kuhnert, Dachdecker aus Dortmund. Seit Januar arbeite ich an Rhodium Germany. Angefangen habe ich damit, weil ich meiner Tochter etwas hinterlassen möchte. Aus dem Handwerk kenne ich das Gefühl, am Ende des Tages vor etwas zu stehen, das man selbst gebaut hat. Diesmal baue ich etwas, mit dem Menschen ihre Daten schützen und nach einem Ausfall weiterarbeiten können.
-
-Krieg, Hass und das Leid anderer lassen mich nicht kalt. An der Politik stört mich, wenn über die Zukunft geredet wird und Menschen, die heute Hilfe brauchen, dabei übersehen werden. Ich wünsche mir, dass wir einander einen geraden Weg ermöglichen. Für Rhodium heißt das für mich ganz konkret: Ich möchte mit meiner Arbeit Geld verdienen und Überschüsse in Forschung und in gemeinsame Vorhaben für Menschen stecken. Dazu gehören für mich auch ältere Menschen und Menschen ohne Zuhause. Dafür suche ich Menschen, die mit anpacken wollen.
-
 **Die Sicherung ist zurück. Kann die Arbeit weitergehen?**
 
 Ein Bauamt öffnet nach einem Ausfall wieder eine Bauakte. Der Antrag ist da, die Pläne lassen sich öffnen. Jetzt kommt die entscheidende Frage: Ist das wirklich der zuletzt freigegebene Plansatz, mit jeder Anlage in genau der Fassung, über die entschieden wurde?
