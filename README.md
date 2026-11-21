@@ -1,3 +1,5 @@
+> **Rhodium Germany — Technology, Research & Global Partnerships:** [Explore the platform vision and collaboration opportunities](RHODIUM-GERMANY-PLATFORM.md).
+
 # Rhodium Germany
 
 > **Technische Nachweise, Ausfallsicherheit und Benchmark-Register:** [Rhodium Evidence & Resilience – Ergebnisse, Prüfreferenzen und Originalfundstellen](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md). Enthält u. a. 216 Testgruppen, 558 öffentliche Einzelberichte, TCP-Failover, doppelte Wiederherstellung, 100-GiB- und NASA-Datentests sowie kryptografische Nachweisführung. Geschützter Kern und private Schlüssel bleiben vertraulich.
