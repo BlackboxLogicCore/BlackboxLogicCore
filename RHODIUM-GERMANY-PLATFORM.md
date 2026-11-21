@@ -21,6 +21,21 @@ Digitale Systeme verarbeiten immer größere Mengen an Daten und Wissen. Doch f�
 
 Diese Leitlinien beschreiben unsere Entwicklungsrichtung und den überprüfbaren Kundennutzen, **nicht** die interne Architektur oder geschützte Verfahren.
 
+## Unser eigener kryptomanischer Fingerabdruck
+
+**Ein besonderes Identitätsmerkmal von Rhodium Germany ist unser selbst entwickelter kryptomanischer Fingerabdruck.** Er ist Teil unserer geschützten Technologieidentität und steht für die eindeutige Zuordnung, Wiedererkennung und kontrollierte Überprüfung zusammengehöriger Vorgänge und Datenstände. Er ist **nicht einfach die Bezeichnung für einen gewöhnlichen SHA-Prüfwert**.
+
+Die Erstellung unseres eigenen kryptomanischen Fingerabdrucks erfolgte im Zusammenhang mit **IONOS**. Seine konkreten Werte, die Herleitung, geheime Schlüssel und die geschützte Implementierung bleiben vertraulich. Öffentlich zeigen wir stattdessen ausgewählte Prüfergebnisse und die technische Nachweisführung.
+
+**Dokumentierte Ergebnisse aus unserer Projektarbeit:**
+- **20.000.000 Zustandsaktualisierungen** in einem lokalen Stabilitätslauf bei unverändertem verglichenem Fingerabdruck und Exitcode 0 (Projektbericht vom 2. November 2026).
+- **Zwei Prototyp-Durchläufe mit je 15 Prozessen und 14 Übergaben** und identischem Manifest-Prüfwert; manipulierte Übergaben und ungültige Auslöser wurden im beschriebenen Test abgewiesen.
+- **Erfolgreicher Signatur- und Verifikationstest vom 18. November 2026** mit einem zugehörigen öffentlichen Prüfschlüssel.
+
+Unser Fingerabdruck ist ein eigenständiges Rhodium-Merkmal. Die aufgeführten Prüfungen dokumentieren einzelne technische Eigenschaften; wir veröffentlichen dafür keine geheimen Fingerabdruckwerte oder internen Verfahren.
+
+[Ausführliche Darstellung und Prüfergebnisse im öffentlichen GitHub-Profil](README.md)
+
 ## Technische Ergebnisse und Prüfnachweise
 
 Unsere öffentliche Dokumentation enthält unter anderem **216 dokumentierte Testgruppen und einen Index mit 558 Einzelberichten**. Die Register können Wiederholungen und überlappende Prüfungen enthalten; diese Zahlen sind daher **keine Behauptung über 774 unterschiedliche Benchmarks**.
