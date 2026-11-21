@@ -1,3 +1,5 @@
+**Unser kryptomanischer Fingerabdruck:** Eigenständiges geschütztes Rhodium-Identitätsmerkmal, im Zusammenhang mit IONOS erstellt. [Technologieprofil und ausgewählte Prüfergebnisse](RHODIUM-GERMANY-PLATFORM.md#unser-eigener-kryptomanischer-fingerabdruck). Geheime Werte und Verfahren bleiben geschützt.
+
 > **Rhodium Germany — Technology, Research & Global Partnerships:** [Explore the platform vision and collaboration opportunities](RHODIUM-GERMANY-PLATFORM.md).
 
 # Rhodium Germany
