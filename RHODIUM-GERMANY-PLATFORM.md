@@ -1,37 +1,38 @@
 # RHODIUM GERMANY
-### Technology · Integrity · Research · Global Collaboration
+### Kontrolliertes Wissen. Geschützte Daten. Überprüfbare Ergebnisse.
+**Controlled knowledge · Data integrity · Verifiable engineering**
 
-**Independent technology development. Practical solutions. International partnerships.**
+## Warum Rhodium Germany?
 
-We are building Rhodium Germany as a technology and collaboration platform: connecting reliable data processing, integrity verification, recovery, infrastructure resilience, scientific research and practical business applications.
+Digitale Systeme verarbeiten immer größere Mengen an Daten und Wissen. Doch für Unternehmen, Forschung und öffentliche Einrichtungen zählt nicht nur, **dass** ein System ein Ergebnis liefert. Entscheidend ist, ob Informationen geordnet, Zusammenhänge nachvollziehbar und Ergebnisse überprüfbar bleiben — auch nach einer Unterbrechung oder Wiederherstellung.
 
-Our ambition is to make advanced engineering useful to organizations of every size — from independent professionals and local businesses to universities, public institutions and global enterprises.
+**Rhodium Germany entwickelt eine eigenständige Technologieplattform für kontrollierte Datenverarbeitung, nachvollziehbare Prüfungen und zuverlässige Wiederherstellung.** Wir verbinden praktische Ingenieurarbeit mit strukturiertem Wissen und dokumentierten technischen Ergebnissen.
 
-## What we work on
+## Unser Ansatz: Problem → Lösung → Nachweis
 
-| Area | Focus |
-| --- | --- |
-| Data integrity | Deterministic comparison, consistency checks and traceable results |
-| Recovery and resilience | Restoration, restart procedures, continuity and verification |
-| Performance engineering | Structured benchmarks, reproducible measurements and technical evaluation |
-| Data workflows | Reliable validation, controlled exchange and infrastructure applications |
-| Cryptographic verification | Signatures, integrity evidence and protected technical identity |
-| Research | Environmental and seismic data, industrial systems, automation and scientific computing |
+| Problem | Rhodium-Ansatz | Öffentlicher Nachweis |
+| --- | --- | --- |
+| Unklare Datenstände und schwer nachvollziehbare Ergebnisse | Deterministische Integritäts- und Konsistenzprüfungen | Dokumentierte Vergleichs- und Wiederherstellungstests |
+| Abhängigkeit von externen Diensten | Lokale Kontrolle und bewusster, begrenzter Einsatz externer Informationen | Isolierte Tests, Kaltstart- und Resilienzberichte |
+| Verstreutes Wissen ohne nachvollziehbaren Zusammenhang | Strukturierung und kontextbezogene Bewertung von Informationen | Forschungs- und Datenabgleichberichte |
+| Behauptete Leistung ohne messbare Grundlage | Reproduzierbare Messbedingungen, Prüfreferenzen und technische Evidenz | Benchmark-Register und Einzelberichte |
 
-We publish selected technical outcomes and verification material while keeping proprietary implementations, private keys and protected intellectual property confidential.
+**Unsere Leitlinien:** vorhandenes Wissen zuerst nutzen; externe Daten gezielt ergänzen; Datenräume und Zugriffe kontrollieren; Ergebnisse anhand geeigneter Referenzen prüfen; vertrauliche Technologie und Schlüssel schützen.
 
-## Engineering evidence
+Diese Leitlinien beschreiben unsere Entwicklungsrichtung und den überprüfbaren Kundennutzen, **nicht** die interne Architektur oder geschützte Verfahren.
 
-Our technical documentation organizes results by test family, including data integrity, restoration, cold-start behavior, cascaded testing, throughput, cryptographic checks and research applications.
+## Technische Ergebnisse und Prüfnachweise
 
-We distinguish test conditions and repeated runs so readers can examine what was measured.
+Unsere öffentliche Dokumentation enthält unter anderem **216 dokumentierte Testgruppen und einen Index mit 558 Einzelberichten**. Die Register können Wiederholungen und überlappende Prüfungen enthalten; diese Zahlen sind daher **keine Behauptung über 774 unterschiedliche Benchmarks**.
 
-- [Technical evidence and resilience](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md)
-- [Public benchmark evidence index](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md)
-- [Extended evidence catalog](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
-- [Technical overview and industries](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md)
+Beispiele aus den dokumentierten Testreihen: bitidentische Wiederherstellung, Kaltstart- und Wiederanlaufprüfungen, Integritätskontrollen, Übertragungs- und Resilienztests sowie der Abgleich wissenschaftlicher Datensätze. Messwerte sind im jeweiligen Bericht zusammen mit ihren Testbedingungen zu beurteilen.
 
-These links document selected work; they do not disclose the protected technology core.
+- [Technische Evidenz und Resilienz](RHODIUM-EVIDENCE-AND-RESILIENCE-20261120.md)
+- [Öffentlicher Benchmark-Index](RHODIUM-GERMANY-PUBLIC-BENCHMARK-EVIDENCE.md)
+- [Erweiterter Nachweiskatalog](RHODIUM-GERMANY-EXTENDED-PUBLIC-EVIDENCE.md)
+- [Technischer Überblick und Einsatzfelder](RHODIUM-TECHNICAL-OVERVIEW-AND-INDUSTRIES-20261118.md)
+
+**Der geschützte Kern, interne Verfahrensdetails, private Schlüssel und vertrauliche Identitätsmerkmale werden nicht veröffentlicht.**
 
 ## Technology for organizations of every size
 
