@@ -58,6 +58,7 @@ try {
  await page.locator('#outcome').fill('Prüfbericht');
  await page.locator('#contact').fill('Tester – kein echter Kunde');
  await page.locator('#copy').click();
+ await page.waitForFunction(()=>/kopiert|nicht möglich/i.test(document.querySelector('#form-status')?.textContent||''),null,{timeout:8000});
  assert.match(await page.locator('#form-status').innerText(),/kopiert|nicht möglich/i);
  await page.setViewportSize({width:360,height:740});
  assert.equal(await page.locator('#gratis-test').isVisible(),true);
