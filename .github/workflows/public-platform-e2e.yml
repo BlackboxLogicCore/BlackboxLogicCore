@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - index.html
+      - kundenportal.html
       - CNAME
       - .github/workflows/public-platform-e2e.yml
       - tests/public-platform.spec.mjs
