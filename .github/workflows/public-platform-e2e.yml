@@ -1,0 +1,31 @@
+name: Rhodium public platform – browser and delivery E2E
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - CNAME
+      - .github/workflows/public-platform-e2e.yml
+      - tests/public-platform.spec.mjs
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright browser
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Run real browser tests on delivered HTML
+        run: node tests/public-platform.spec.mjs
+      - name: Check public domain for this release
+        continue-on-error: true
+        run: |
+          node -e "const fs=require('fs'); const html=fs.readFileSync('index.html','utf8'); const m=html.match(/name=\"rhodium-release\" content=\"([^\"]+)\"/);if(!m) process.exit(2); fetch('https://rhodium-germany.de/?rhodium-check='+Date.now(),{redirect:'follow'}).then(async r=>{const t=await r.text();console.log(JSON.stringify({status:r.status,release:m[1],deployed:t.includes(m[1]),hasFreeTest:t.includes('id=\"gratis-test\"')}));if(!r.ok||!t.includes(m[1]))process.exitCode=1;}).catch(e=>{console.log('PUBLIC DOMAIN NOT VERIFIED:',e.message);process.exitCode=1})"
