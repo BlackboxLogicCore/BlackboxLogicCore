@@ -26,7 +26,10 @@ jobs:
         run: npm install --no-save playwright@1.58.2
       - name: Run real browser tests on delivered HTML
         run: node tests/public-platform.spec.mjs
-      - name: Check public domain for this release
-        continue-on-error: true
+      - name: Verify public domain for this release (required)
         run: |
           node -e "const fs=require('fs'); const html=fs.readFileSync('index.html','utf8'); const m=html.match(/name=\"rhodium-release\" content=\"([^\"]+)\"/);if(!m) process.exit(2); fetch('https://rhodium-germany.de/?rhodium-check='+Date.now(),{redirect:'follow'}).then(async r=>{const t=await r.text();console.log(JSON.stringify({status:r.status,release:m[1],deployed:t.includes(m[1]),hasFreeTest:t.includes('id=\"gratis-test\"')}));if(!r.ok||!t.includes(m[1]))process.exitCode=1;}).catch(e=>{console.log('PUBLIC DOMAIN NOT VERIFIED:',e.message);process.exitCode=1})"
+
+      - name: Verify public customer dry-run page (required)
+        run: |
+          node -e "fetch('https://rhodium-germany.de/kundenportal.html',{redirect:'follow'}).then(async r=>{const t=await r.text();const ok=r.ok&&t.includes('id=\"paketliste\"')&&t.includes('id=\"anfrage\"');console.log(JSON.stringify({status:r.status,portalAvailable:ok}));if(!ok)process.exitCode=1}).catch(e=>{console.error('PUBLIC PORTAL NOT VERIFIED:',e.message);process.exitCode=1})"
