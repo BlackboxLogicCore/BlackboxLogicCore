@@ -19,10 +19,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install Playwright browser
-        run: |
-          npm install --no-save playwright@1.58.2
-          npx playwright install --with-deps chromium
+      - name: Install Playwright package
+        run: npm install --no-save playwright@1.58.2
+      - name: Install Chromium headless browser
+        run: npx playwright install --with-deps --only-shell chromium
       - name: Run real browser tests on delivered HTML
         run: node tests/public-platform.spec.mjs
       - name: Check public domain for this release
