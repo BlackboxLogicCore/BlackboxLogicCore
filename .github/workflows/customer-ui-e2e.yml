@@ -1,0 +1,41 @@
+name: Rhodium Workerbox Public Customer UI E2E
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'tests/workerbox-ui-e2e.cjs'
+      - '.github/workflows/customer-ui-e2e.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-browser-e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout public customer interface
+        uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test tool
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Serve public interface locally on runner
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/rhodium-ui-http.log 2>&1 &
+          for i in $(seq 1 20); do
+            if curl --fail --silent http://127.0.0.1:8765/ > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          exit 1
+      - name: Run real Chromium E2E on synthetic data (not sealed Workerbox)
+        run: node tests/workerbox-ui-e2e.cjs
+      - name: Report deployment boundary
+        if: always()
+        run: |
+          echo "All tests use GitHub-hosted browser against checked-out public UI."
+          echo "This does not execute customer Workerbox, private SRA key or a physical customer transfer."
