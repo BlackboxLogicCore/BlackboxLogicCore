@@ -1,0 +1,21 @@
+name: Rhodium Arbeiterbox – isolated synthetic E2E
+on:
+  push:
+    branches: [main]
+    paths:
+      - tests/arbeiterbox-synthetic-e2e.mjs
+      - .github/workflows/arbeiterbox-synthetic-e2e.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic-customer-lifecycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Isolated synthetic customer-package E2E (no production secrets)
+        run: node tests/arbeiterbox-synthetic-e2e.mjs
