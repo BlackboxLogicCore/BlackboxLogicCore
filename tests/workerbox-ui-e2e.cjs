@@ -39,7 +39,7 @@ try {
  const original='synthetic release for browser E2E only';
  const sig=Buffer.from(await webcrypto.subtle.sign({name:'RSA-PSS',saltLength:32},keyPair.privateKey,Buffer.from(original))).toString('base64');
  const der=Buffer.from(await webcrypto.subtle.exportKey('spki',keyPair.publicKey));
- const pem='-----BEGIN PUBLIC KEY-----\\n'+der.toString('base64').match(/.{1,64}/g).join('\\n')+'\\n-----END PUBLIC KEY-----';
+ const pem='-----BEGIN PUBLIC KEY-----\n'+der.toString('base64').match(/.{1,64}/g).join('\n')+'\n-----END PUBLIC KEY-----';
  await page.locator('#rsa-original').fill(original);
  await page.locator('#rsa-signature').fill(sig);
  await page.locator('#rsa-public').fill(pem);
