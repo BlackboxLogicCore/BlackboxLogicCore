@@ -13,6 +13,8 @@ permissions:
 jobs:
   browser-smoke:
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.58.2-noble
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
@@ -21,14 +23,6 @@ jobs:
           node-version: '22'
       - name: Install Playwright package
         run: npm install --no-save playwright@1.58.2
-      - name: Install Chromium headless browser
-        run: |
-          set -e
-          npx playwright install --with-deps --only-shell chromium || {
-            echo 'First browser installation attempt failed; retrying once.'
-            sleep 5
-            npx playwright install --with-deps --only-shell chromium
-          }
       - name: Run real browser tests on delivered HTML
         run: node tests/public-platform.spec.mjs
       - name: Check public domain for this release
