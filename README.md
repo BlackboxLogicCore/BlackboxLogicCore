@@ -1,20 +1,24 @@
 # RHODIUM GERMANY
 
-**Klein. Kompakt. Leistungsstark. Eigenständig.**
+**Klein. Fein. Kompakt. Leistungsstark. Vielleicht einzigartig.**
 
-Rhodium Germany ist ein eigenständig entwickeltes Technologieprojekt für kontrollierte Datenprozesse, Integritätsprüfungen und nachvollziehbare technische Ergebnisse. Die Kombination aus kompakter Ausführung, Leistung und überprüfbaren Abläufen **könnte in ihrer Form besonders oder einzigartig sein**. Ob das zutrifft, soll eine unabhängige Prüfung klären – eine Weltneuheit wird nicht behauptet.
+**Bitidentische Datenintegrität · doppelte Prüfung · kryptografischer Fingerabdruck · geschützter Tresor · Ausfallsicherheit · kontrollierte Datenübertragung · prüffähige Ergebnisse**
 
-## Technologie und Anspruch
+**Ihre Daten gehören Ihnen. Uns interessieren nicht Ihre Dateninhalte, sondern deren Schutz, Integrität und zuverlässige Übertragung.**
 
-- **Datenintegrität:** Bitidentische Vergleiche und kryptografische Prüfnachweise, unter anderem mittels SHA-256.
-- **Kontrollierte Übergabe:** Definierte Berechtigungen und nachvollziehbare Ein- und Ausgaben.
-- **Zuverlässigkeit:** Wiederherstellungs-, Ausfall- und Wiederanlaufprüfungen.
-- **Effizienz:** Messbare Datenprozesse und dokumentierte Vergleichsbedingungen.
-- **Geschütztes System:** Der interne Kern, geheime Schlüssel, Identitätsmerkmale und Herstellungsverfahren bleiben vertraulich.
+Rhodium Germany ist eine eigenständig entwickelte Technologie für kompakte, kontrollierte Datenprozesse. Die Kombination aus Baugröße, Leistung, Schutzmechanismen und Einsatzmöglichkeiten **könnte einzigartig sein – vielleicht aber auch nicht**. Dies soll eine unabhängige technische Prüfung klären.
 
-**P = 0** ist der interne Entwicklungsgrundsatz: keine Verschlechterung der relevanten Daten und Ergebnisse. Eine konkrete Erfüllung ist jeweils anhand definierter Tests nachzuweisen; sie ist keine universelle Garantie.
+## Datenhoheit und Schutz
 
-Rhodium Germany vermarktet keine Kundendaten. Für Kunden sind **abgegrenzte, individuell vereinbarte Dienst- und Lizenzpakete** vorgesehen, nicht die Herausgabe des geschützten Technologiekerns.
+Rhodium Germany ist auf ein **Durchflussverfahren ohne dauerhafte Speicherung der Kundennutzdaten** ausgelegt. Unnötige Zwischenablagen sollen vermieden werden. Die vorgesehenen Dienste konzentrieren sich auf autorisierte Verarbeitung, technische Anomalieprüfungen und Integritätsnachweise. Notwendige Kontakt-, Vertrags- und Prüfangaben sind davon getrennt zu behandeln. Die tatsächliche Speicherfreiheit und Datensicherheit müssen für jeden produktiven Einsatz geprüft werden.
+
+Ein **geschütztes Tresorsystem**, ein **eigenständiger kryptografischer Fingerabdruck** und **mehrfache Prüf- und Kontrollmechanismen** gehören zum Entwicklungsansatz. Bitidentische Vergleiche, unter anderem mit SHA-256-Prüfnachweisen, und dokumentierte Ausfall- und Wiederherstellungstests unterstützen die Überprüfbarkeit. Der kryptografische Fingerabdruck ist nicht mit einem gewöhnlichen SHA-Dateihash gleichzusetzen; sein internes Verfahren wird nicht veröffentlicht.
+
+**Keine Vermarktung von Kundendaten. Keine Offenlegung des geschützten Technologiekerns.** Kundenspezifische Leistungen sollen als abgegrenzte Dienst- und Lizenzpakete angeboten werden.
+
+## Bereits untersuchte technische Bereiche
+
+Die Entwicklung umfasst Datenintegrität, Datenübergabe, Wiederherstellung, Ausfallsicherheit, automatisierte Prüfverfahren, Effizienzmessungen und Untersuchungen verschiedener industrieller und wissenschaftlicher Datensätze. Die dokumentierten Tests belegen Ergebnisse nur unter ihren jeweiligen Testbedingungen, nicht eine pauschale Überlegenheit gegenüber anderen Systemen.
 
 ## Ausgewählte dokumentierte Projekttests
 
@@ -25,7 +29,7 @@ Die folgenden Angaben stammen aus historischen Projektberichten; sie sind **kein
 - TCP-Failover-Prüfung mit 10.000 Aufträgen und dokumentiertem Doppel-PASS.
 - Zehn EPIC-9-Testläufe mit 10/10 PASS und insgesamt 100.000 protokollierten Aktivierungen.
 
-Weitere Forschungsuntersuchungen betrafen unter anderem Mess- und Sensordaten, Turbinentechnik, Robotik sowie Geo- und Erdbebendaten. Eine Überlegenheit gegenüber NASA, Cloudflare, JUMO oder anderen Organisationen wird **nicht** behauptet. Vergleiche müssen unabhängig und unter identischen Bedingungen geprüft werden.
+Weitere Forschungsuntersuchungen betrafen unter anderem Mess- und Sensordaten, Turbinentechnik, Robotik sowie Geo- und Erdbebendaten. Vergleichsaussagen zu anderen Organisationen bedürfen unabhängiger Prüfungen unter vergleichbaren Bedingungen.
 
 ## Sechs mögliche B2B-Leistungsbereiche
 
