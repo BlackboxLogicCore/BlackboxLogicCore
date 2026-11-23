@@ -1,12 +1,12 @@
 # RHODIUM GERMANY
 
-**Klein. Fein. Kompakt. Leistungsstark. Vielleicht einzigartig.**
+**Klein. Fein. Kompakt. Leistungsstark.**
 
 **Bitidentische Datenintegrität · doppelte Prüfung · kryptografischer Fingerabdruck · geschützter Tresor · Ausfallsicherheit · kontrollierte Datenübertragung · prüffähige Ergebnisse**
 
 **Ihre Daten gehören Ihnen. Uns interessieren nicht Ihre Dateninhalte, sondern deren Schutz, Integrität und zuverlässige Übertragung.**
 
-Rhodium Germany ist eine eigenständig entwickelte Technologie für kompakte, kontrollierte Datenprozesse. Die Kombination aus Baugröße, Leistung, Schutzmechanismen und Einsatzmöglichkeiten **könnte einzigartig sein – vielleicht aber auch nicht**. Dies soll eine unabhängige technische Prüfung klären.
+Rhodium Germany ist eine eigenständig entwickelte Technologie für kompakte, kontrollierte Datenprozesse. Die Kombination aus kompakter Bauweise, Leistungsfähigkeit, Schutzmechanismen und Einsatzmöglichkeiten wird anhand dokumentierter Prüfungen beschrieben und kann unabhängig bewertet werden.
 
 ## Datenhoheit und Schutz
 
