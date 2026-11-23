@@ -1,35 +1,41 @@
-# Rhodium Germany
+# RHODIUM Germany
 
-**Technologie für Datenintegrität, geschützte Datenübergabe und automatisierte Qualitätsprüfung**
+**Plattform für Datenintegrität, geschützte Datenübergabe, Wiederherstellung und technische Nachweisführung**
 
-Rhodium Germany entwickelt eigenständige Technologien für kontrollierte Datenverarbeitung, nachvollziehbare Integritätsprüfungen und zuverlässige Übergaben digitaler Datenpakete.
+RHODIUM Germany ist eine bestehende Entwicklungsplattform für Integrität, Wiederherstellung, Nachweisführung und mandantengetrennte Verarbeitung digitaler Daten. Im Mittelpunkt stehen **bitidentische Integritätsprüfungen, kontrollierte Paketübergaben, dokumentierte Wiederherstellung, Ausfallsicherheit und prüfbare Ergebnisse**.
 
-Im Mittelpunkt stehen **bitidentische Prüfergebnisse, mehrstufige Kontrolle, paketbezogene Siegel und Schlüsselkennungen, Anomalieprüfungen, Wiederherstellung und Ausfallsicherheit**. Das Ziel ist, Veränderungen und Fehler an definierten Übergabepunkten überprüfbar zu erkennen und dokumentierte Ergebnisse bereitzustellen.
+RHODIUM versteht sich als **technischer Türsteher** zwischen Daten, Speichern, Sicherungen und Verarbeitungssystemen. Das Ziel ist nicht die inhaltliche Auswertung von Kundendaten, sondern deren Schutz, sichere Verarbeitung und nachvollziehbare Übergabe innerhalb definierter Systemgrenzen.
 
-## Datenintegrität und Paketübergabe
+## Grundsätze für Kundendaten
 
-Bei einer Übergabe von A nach B können Paketkennungen, digitale Siegel und Integritätsnachweise zur Zuordnung und Prüfung der Pakete eingesetzt werden. Ein Siegel dient der Erkennung von Veränderungen; es ist **nicht automatisch eine Verschlüsselung**. Ob eine bestimmte Übergabe kryptografisch authentifiziert oder verschlüsselt wird, richtet sich nach dem jeweils nachgewiesenen Verfahren.
+- Kundenumgebungen bleiben voneinander getrennt; Kundendaten dürfen nicht zwischen Mandanten vermischt werden.
+- Vertrauliche Kundennutzdaten sind für ein **Durchflussverfahren ohne dauerhafte Speicherung** vorgesehen. Die Dienste prüfen vereinbarte technische Anomalien; notwendige Kontakt-, Vertrags- und Nachweisdaten werden gesondert behandelt.
+- **Keine Vermarktung von Kundendaten und keine Weitergabe an Datenhändler.**
+- Integritätsnachweise, kryptografische Prüfsummen, dokumentierte Wiederherstellung und Audit-Prozesse ermöglichen nachvollziehbare Kontrollen.
+- Ausfallsicherheit und Nachweisbarkeit haben Vorrang vor der Auswertung von Dateninhalten.
+- Einsatzmöglichkeiten für kleine und große Umgebungen werden anhand passender Tests und Abnahmebedingungen bewertet.
 
-Vertrauliche Kundennutzdaten sollen **im Durchflussverfahren ohne dauerhafte Speicherung der Nutzdaten** verarbeitet und nur auf vereinbarte technische Anomalien geprüft werden. Erforderliche Kontakt-, Vertrags- und Prüfangaben sind davon getrennt. Die konkrete Umsetzung und die zugesicherten Datenschutz- und Sicherheitsmerkmale sind vor Produktiveinsatz zu verifizieren.
+## Technischer Türsteher: kontrollierte Übergabe von A nach B
 
-**Keine Vermarktung von Kundendaten und keine Weitergabe von Kundennutzdaten an Datenhändler.** Rhodium Germany bietet technische Dienstleistungen, keine Verwertung fremder Dateninhalte.
+Datenpakete können bei definierten Übergaben durch **Paketkennungen, Siegel und Integritätsprüfungen** kontrolliert werden. Das Ziel ist, unzulässige Veränderungen zu erkennen und Übergaben nachvollziehbar zu dokumentieren. Ein Siegel allein bedeutet **nicht automatisch Verschlüsselung**; die konkrete kryptografische Absicherung wird anhand des jeweils eingesetzten Verfahrens geprüft.
 
-## Vertrauliche Sicherheitstechnologie
+Zum vorgesehenen Leistungsumfang gehören **Türsteher- und Übergabedienste**, Datenbereinigung, Inventuren, Duplikatprüfungen, Speicheranalysen, Integritätskontrollen und Wiederherstellungsprozesse. Diese Prüfungen sollen ohne unnötige manuelle Einsicht in vertrauliche Inhalte erfolgen.
 
-Der interne Tresor, die Matrix, der interne Fingerabdruck, Schlüsselmaterial und die Kernverfahren bleiben **nicht öffentlich**. Eine externe technische Bewertung kann anhand vereinbarter Blackbox-Prüfungen und freigegebener Nachweise erfolgen, ohne den Kern offenzulegen. Öffentlich dokumentierte RSA-PSS-/SHA-256-Verifikationsbeispiele dürfen nicht mit einer pauschalen Aussage über sämtliche internen Schlüssel oder Datenpakete verwechselt werden.
+## Vertraulicher Kern und externe Prüfung
 
-## Leistungsbereiche zum Einstieg
+**Tresor, Matrix, interner Fingerabdruck, Schlüsselmaterial und geschützte Kernverfahren werden nicht offengelegt.** Ein externer Fachpartner kann freigegebene Prüfnachweise und vereinbarte Blackbox-Tests bewerten, ohne Einblick in diese internen Bestandteile zu erhalten. Öffentliche Beispiele für RSA-PSS-/SHA-256-Signaturprüfung sind nicht mit einer Offenlegung oder vollständigen Beschreibung des internen Schlüsselsystems gleichzusetzen.
 
-- **Türsteher- und Übergabesysteme:** definierte Annahme, Prüfung und kontrollierte Weitergabe von Datenpaketen.
-- **Datenintegrität:** bitidentische Vergleiche, dokumentierte Prüfnachweise und mehrstufige Kontrollen.
-- **Datenbereinigung:** vereinbarte technische Prüfungen und Erkennung von Anomalien.
-- **Ausfallsicherheit:** dokumentierte Wiederherstellungs-, Wiederanlauf- und Ausfallprüfungen.
+## Forschung und Validierung
 
-## Forschung und unabhängige Bewertung
+Neben Integritäts- und Wiederherstellungstests wurden Untersuchungen mit industriellen Mess- und Sensordaten, Turbinentechnik, Robotik, Geo- und Erdbebendaten sowie Luft- und Raumfahrtdatensätzen dokumentiert. Die Ergebnisse sollen unabhängig darauf geprüft werden, welche technischen Vorteile und neuen Anwendungsgebiete sich tatsächlich bestätigen lassen. Es wird **keine ungeprüfte Überlegenheit gegenüber anderen Herstellern** behauptet.
 
-Rhodium Germany hat Prüfungen und Entwicklungsarbeiten zu Datenverarbeitung, Mess- und Sensordaten, Robotik, Turbinentechnik, Geo- und Erdbebendaten sowie Luft- und Raumfahrtdatensätzen dokumentiert. **Gute Ergebnisse unter Testbedingungen sind keine unabhängige Bestätigung einer Überlegenheit gegenüber anderen Anbietern.** Genau diese Einordnung soll eine fachliche Prüfung leisten.
+## Gesucht: technischer Betriebs-, Lizenz- und Forschungspartner
 
-Gesucht wird ein **langfristiger Technologie-, Forschungs- und Lizenzpartner**, der vorhandene Module und Benchmarks unabhängig bewertet, die kommerzielle Umsetzung übernimmt und bei bestätigtem Potenzial die weitere Forschung gemeinsam mit dem Gründer voranbringt.
+**RHODIUM Germany sucht keinen klassischen Investor**, sondern einen **langfristigen Partner auf Augenhöhe**, der die Plattform technisch versteht, vorhandene Fähigkeiten und Nachweise bewertet, Validierungen begleitet, Kundenbetrieb und Einführung übernimmt und die Standardisierung sowie Lizenzierung verantwortet.
+
+Der Gründer möchte sich künftig vor allem auf **Forschung und Weiterentwicklung** konzentrieren. Wenn die bisherigen Ergebnisse und ihr Potenzial unabhängig bestätigt werden, sollen daraus gemeinsam tragfähige Dienstleistungen und weitere Forschungsanwendungen entstehen.
+
+Ziel ist langfristiger Nutzen für Unternehmen, öffentliche Einrichtungen, Forschungseinrichtungen und Privatpersonen. Technologie soll wirtschaftlich tragfähig sein und zugleich Vertrauen, Sicherheit und Nachvollziehbarkeit verbessern.
 
 ## 20 ausgewählte dokumentierte Prüf- und Benchmarkfamilien
 
