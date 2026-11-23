@@ -1,24 +1,35 @@
-# RHODIUM GERMANY
+# Rhodium Germany
 
-**Klein. Fein. Kompakt. Leistungsstark.**
+**Technologie für Datenintegrität, geschützte Datenübergabe und automatisierte Qualitätsprüfung**
 
-**Bitidentische Datenintegrität · doppelte Prüfung · kryptografischer Fingerabdruck · geschützter Tresor · Ausfallsicherheit · kontrollierte Datenübertragung · prüffähige Ergebnisse**
+Rhodium Germany entwickelt eigenständige Technologien für kontrollierte Datenverarbeitung, nachvollziehbare Integritätsprüfungen und zuverlässige Übergaben digitaler Datenpakete.
 
-**Ihre Daten gehören Ihnen. Uns interessieren nicht Ihre Dateninhalte, sondern deren Schutz, Integrität und zuverlässige Übertragung.**
+Im Mittelpunkt stehen **bitidentische Prüfergebnisse, mehrstufige Kontrolle, paketbezogene Siegel und Schlüsselkennungen, Anomalieprüfungen, Wiederherstellung und Ausfallsicherheit**. Das Ziel ist, Veränderungen und Fehler an definierten Übergabepunkten überprüfbar zu erkennen und dokumentierte Ergebnisse bereitzustellen.
 
-Rhodium Germany ist eine eigenständig entwickelte Technologie für kompakte, kontrollierte Datenprozesse. Die Kombination aus kompakter Bauweise, Leistungsfähigkeit, Schutzmechanismen und Einsatzmöglichkeiten wird anhand dokumentierter Prüfungen beschrieben und kann unabhängig bewertet werden.
+## Datenintegrität und Paketübergabe
 
-## Datenhoheit und Schutz
+Bei einer Übergabe von A nach B können Paketkennungen, digitale Siegel und Integritätsnachweise zur Zuordnung und Prüfung der Pakete eingesetzt werden. Ein Siegel dient der Erkennung von Veränderungen; es ist **nicht automatisch eine Verschlüsselung**. Ob eine bestimmte Übergabe kryptografisch authentifiziert oder verschlüsselt wird, richtet sich nach dem jeweils nachgewiesenen Verfahren.
 
-Rhodium Germany ist auf ein **Durchflussverfahren ohne dauerhafte Speicherung der Kundennutzdaten** ausgelegt. Unnötige Zwischenablagen sollen vermieden werden. Die vorgesehenen Dienste konzentrieren sich auf autorisierte Verarbeitung, technische Anomalieprüfungen und Integritätsnachweise. Notwendige Kontakt-, Vertrags- und Prüfangaben sind davon getrennt zu behandeln. Die tatsächliche Speicherfreiheit und Datensicherheit müssen für jeden produktiven Einsatz geprüft werden.
+Vertrauliche Kundennutzdaten sollen **im Durchflussverfahren ohne dauerhafte Speicherung der Nutzdaten** verarbeitet und nur auf vereinbarte technische Anomalien geprüft werden. Erforderliche Kontakt-, Vertrags- und Prüfangaben sind davon getrennt. Die konkrete Umsetzung und die zugesicherten Datenschutz- und Sicherheitsmerkmale sind vor Produktiveinsatz zu verifizieren.
 
-Ein **geschütztes Tresorsystem**, ein **eigenständiger kryptografischer Fingerabdruck** und **mehrfache Prüf- und Kontrollmechanismen** gehören zum Entwicklungsansatz. Bitidentische Vergleiche, unter anderem mit SHA-256-Prüfnachweisen, und dokumentierte Ausfall- und Wiederherstellungstests unterstützen die Überprüfbarkeit. Der kryptografische Fingerabdruck ist nicht mit einem gewöhnlichen SHA-Dateihash gleichzusetzen; sein internes Verfahren wird nicht veröffentlicht.
+**Keine Vermarktung von Kundendaten und keine Weitergabe von Kundennutzdaten an Datenhändler.** Rhodium Germany bietet technische Dienstleistungen, keine Verwertung fremder Dateninhalte.
 
-**Keine Vermarktung von Kundendaten. Keine Offenlegung des geschützten Technologiekerns.** Kundenspezifische Leistungen sollen als abgegrenzte Dienst- und Lizenzpakete angeboten werden.
+## Vertrauliche Sicherheitstechnologie
 
-## Bereits untersuchte technische Bereiche
+Der interne Tresor, die Matrix, der interne Fingerabdruck, Schlüsselmaterial und die Kernverfahren bleiben **nicht öffentlich**. Eine externe technische Bewertung kann anhand vereinbarter Blackbox-Prüfungen und freigegebener Nachweise erfolgen, ohne den Kern offenzulegen. Öffentlich dokumentierte RSA-PSS-/SHA-256-Verifikationsbeispiele dürfen nicht mit einer pauschalen Aussage über sämtliche internen Schlüssel oder Datenpakete verwechselt werden.
 
-Die Entwicklung umfasst Datenintegrität, Datenübergabe, Wiederherstellung, Ausfallsicherheit, automatisierte Prüfverfahren, Effizienzmessungen und Untersuchungen verschiedener industrieller und wissenschaftlicher Datensätze. Die dokumentierten Tests belegen Ergebnisse nur unter ihren jeweiligen Testbedingungen, nicht eine pauschale Überlegenheit gegenüber anderen Systemen.
+## Leistungsbereiche zum Einstieg
+
+- **Türsteher- und Übergabesysteme:** definierte Annahme, Prüfung und kontrollierte Weitergabe von Datenpaketen.
+- **Datenintegrität:** bitidentische Vergleiche, dokumentierte Prüfnachweise und mehrstufige Kontrollen.
+- **Datenbereinigung:** vereinbarte technische Prüfungen und Erkennung von Anomalien.
+- **Ausfallsicherheit:** dokumentierte Wiederherstellungs-, Wiederanlauf- und Ausfallprüfungen.
+
+## Forschung und unabhängige Bewertung
+
+Rhodium Germany hat Prüfungen und Entwicklungsarbeiten zu Datenverarbeitung, Mess- und Sensordaten, Robotik, Turbinentechnik, Geo- und Erdbebendaten sowie Luft- und Raumfahrtdatensätzen dokumentiert. **Gute Ergebnisse unter Testbedingungen sind keine unabhängige Bestätigung einer Überlegenheit gegenüber anderen Anbietern.** Genau diese Einordnung soll eine fachliche Prüfung leisten.
+
+Gesucht wird ein **langfristiger Technologie-, Forschungs- und Lizenzpartner**, der vorhandene Module und Benchmarks unabhängig bewertet, die kommerzielle Umsetzung übernimmt und bei bestätigtem Potenzial die weitere Forschung gemeinsam mit dem Gründer voranbringt.
 
 ## 20 ausgewählte dokumentierte Prüf- und Benchmarkfamilien
 
