@@ -1,6 +1,10 @@
 # RHODIUM Germany – Datensicherheit neu gedacht
 
+**Wir behaupten nicht. Wir testen.**
+
 **Doppelt geprüft. Kryptografisch versiegelt. Bitidentisch wiederherstellbar.**
+
+Wir prüfen unsere Leistungen vor der Freigabe und dokumentieren die Ergebnisse. Unsere Ergebnisse sollen überzeugen, nicht unsere Versprechen.
 
 Speziell für große Datenbestände, digitale Infrastrukturen, Internetdienste und anspruchsvolle Unternehmensanwendungen entwickelt, verbindet Rhodium Germany kontrollierte Datenübergabe, deterministische Verarbeitung, doppelte Integritätsprüfung und bitidentische Wiederherstellung mit einem persönlichen Sicherheitstresor, einem eigenen kryptografischen Fingerabdruck und RSA-basierter Absicherung.
 
@@ -8,11 +12,11 @@ Unser Sicherheitskonzept sieht für jeden Kunden einen eigenen geschützten Zuga
 
 Unsere Technologie ist auf geringen Ressourcenverbrauch, skalierbare Speicherkapazitäten und hohe Ausfallsicherheit ausgerichtet – vom einzelnen Privatkunden über mittelständische Unternehmen bis hin zu internationalen Konzernen und großen digitalen Infrastrukturen.
 
+**Alle Leistungen sind einzeln buchbar und kombinierbar. Der persönliche Sicherheitstresor ist eine optional buchbare Leistung.**
+
 ## Erst kostenlos testen, dann entscheiden
 
-Interessierte Kunden und Lizenzpartner können eine **kostenlose technische Pilotprüfung auf vereinbarten Beispieldaten** anfragen. Umfang, verfügbare Kapazität und individueller Testzugang werden vorab abgestimmt; eine kostenpflichtige Buchung oder ein Abonnement ist für den vereinbarten kostenlosen Test nicht erforderlich.
-
-**Kostenlosen Test anfragen:** [info@rhodium-germany.de](mailto:info@rhodium-germany.de?subject=Kostenloser%20Rhodium-Test)
+Unser Ziel ist ein kostenloser, selbstständig durchführbarer Test ohne vorherige E-Mail-Anfrage, Zahlungsdaten oder Kaufverpflichtung. Der direkte Testzugang wird nach erfolgreicher Funktionsprüfung hier bereitgestellt.
 
 ## Unsere technischen Leistungen
 
@@ -89,7 +93,7 @@ Die technische Konzeption, Systemanalyse, Dokumentation und strategische Weitere
 
 ## Kontakt und Lizenzanfragen
 
-Interessierte Unternehmen und Technologiepartner können eine individuelle technische Präsentation und kostenlose Pilotprüfung anfragen. Leistungsumfang, Schnittstellen, Kapazitäten und Lizenzbedingungen werden individuell schriftlich vereinbart. Produktive Leistungen setzen die vereinbarte technische Abnahme voraus.
+Interessierte Unternehmen und Technologiepartner können bei Bedarf eine individuelle technische Präsentation oder Lizenzberatung anfragen. Leistungsumfang, Schnittstellen, Kapazitäten und Lizenzbedingungen werden individuell schriftlich vereinbart. Produktive Leistungen setzen die vereinbarte technische Abnahme voraus.
 
 **RHODIUM Germany**
 
