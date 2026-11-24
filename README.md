@@ -16,7 +16,11 @@ Unsere Technologie ist auf geringen Ressourcenverbrauch, skalierbare Speicherkap
 
 ## Erst kostenlos testen, dann entscheiden
 
-Unser Ziel ist ein kostenloser, selbstständig durchführbarer Test ohne vorherige E-Mail-Anfrage, Zahlungsdaten oder Kaufverpflichtung. Der direkte Testzugang wird nach erfolgreicher Funktionsprüfung hier bereitgestellt.
+Der vorhandene kostenlose Browser-Dateitest ist ohne Registrierung, vorherige E-Mail-Anfrage, Zahlungsdaten oder Kaufverpflichtung vorgesehen. Prüfen Sie lokal auf Ihrem Gerät die Dateiintegrität und Manipulationserkennung sowie, bei Browserunterstützung, die verlustfreie Wiederherstellung per GZIP. Maximal 20 MiB je Test; die Testfunktion überträgt keine Datei an einen Server.
+
+**[Kostenlosen Browser-Selbsttest öffnen](https://rhodium-germany.de/#gratis-test)**
+
+Der Browser-Selbsttest ist keine produktive Arbeiterbox- oder Tresorprüfung. Die Prüflogik wurde lokal erfolgreich getestet; die öffentliche Erreichbarkeit des Testzugangs konnte bei der letzten Kontrolle nicht bestätigt werden.
 
 ## Unsere technischen Leistungen
 
