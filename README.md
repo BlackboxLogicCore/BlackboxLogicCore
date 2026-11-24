@@ -42,6 +42,18 @@ Bei Türsteher- und Anomalieprüfungen ist die Verarbeitung im Durchfluss ohne d
 
 Keine eigenmächtige Erweiterung der Zugriffsrechte. Keine Vermischung von Kundenbereichen. Konkrete Prüftiefe, Erkennungsumfang, Speicherung und Freigaben werden vor dem Einsatz vereinbart und technisch abgenommen.
 
+## Autonome Verarbeitung und konsequenter Kundendatenschutz
+
+**Der Kunde bezahlt für den Schutz seiner Daten – nicht dafür, dass wir seine Daten wirtschaftlich verwerten.**
+
+Die Rhodium Arbeiterbox ist als in sich geschlossenes, autonom arbeitendes System konzipiert. Auch bei kostenlosen Pilotprüfungen ist die technische Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Gegenstand der Anomalieprüfung sind ausschließlich vereinbarte technische Auffälligkeiten; die Kundeninhalte werden nicht für andere Zwecke ausgewertet. Nur notwendige technische Befunde und vereinbarte Prüfnachweise werden dokumentiert.
+
+Bei ausdrücklich gebuchten Tresorleistungen wird der vereinbarte Datenbestand in einem eigenen geschützten Kundenbereich aufbewahrt. Das Zugangskonzept sieht einen persönlichen Kundenschlüssel und einen gesondert geschützten Ersatzschlüssel ausschließlich für autorisierte Wiederherstellungen vor. Eine laufende inhaltliche Auswertung, eigenmächtige Einsichtnahme oder unautorisierte Weitergabe ist nicht Bestandteil der Leistung.
+
+Der Kunde entscheidet über Prüfumfang, Freigaben, Sicherungskapazität und Aufbewahrungsdauer. Rückgabe oder Löschung der gesicherten Bestände nach Vertragsende, Wiederherstellungsbedingungen sowie die Meldung sicherheitsrelevanter Auffälligkeiten werden schriftlich vereinbart. Kontakt-, Vertrags- und notwendige Nachweisdaten werden getrennt von Kundennutzdaten behandelt.
+
+Die technische Durchsetzung der Speicher-, Schlüssel- und Zugriffsregeln wird für die jeweilige Betriebsform vor produktiver Freigabe geprüft.
+
 ## Unsere bisherigen technischen Prüfergebnisse
 
 Bereits zum 12. Oktober 2026 umfasste unsere dokumentierte technische Prüfhistorie **1.737 Testgruppen**, davon **1.438 als erfolgreich abgeschlossen gemeldete Testgruppen**.
