@@ -1,8 +1,12 @@
 # RHODIUM Germany – Datensicherheit neu gedacht
 
+**MADE IN GERMANY**
+
 **Wir behaupten nicht. Wir testen.**
 
-**Doppelt geprüft. Kryptografisch versiegelt. Bitidentisch wiederherstellbar.**
+Die Sicherheit unserer Kunden steht für uns an erster Stelle. Ihre Daten gehören Ihnen. Wir schützen digitale Übergaben, prüfen und versiegeln Datenpakete und bieten auf Wunsch einen persönlichen Sicherheitstresor. Wir verkaufen keine Kundendaten und lesen persönliche Inhalte nicht für eigene Zwecke aus. Das Zugangskonzept sieht einen persönlichen Kundenzugang und einen gesondert geschützten Ersatzschlüssel ausschließlich für autorisierte Notfallwiederherstellungen vor.
+
+**Doppelt geprüft. Kryptografisch versiegelt. RSA-basiert abgesichert. Bitidentisch wiederherstellbar. Deterministisch verarbeitet. Auf Ausfallsicherheit ausgelegt. Ressourcen- und speichereffizient.**
 
 Wir prüfen unsere Leistungen vor der Freigabe und dokumentieren die Ergebnisse. Unsere Ergebnisse sollen überzeugen, nicht unsere Versprechen.
 
@@ -54,7 +58,7 @@ Keine eigenmächtige Erweiterung der Zugriffsrechte. Keine Vermischung von Kunde
 
 **Der Kunde bezahlt für den Schutz seiner Daten – nicht dafür, dass wir seine Daten wirtschaftlich verwerten.**
 
-Die Rhodium-Sicherheitssystem ist als in sich geschlossenes, autonom arbeitendes System konzipiert. Auch bei kostenlosen Pilotprüfungen ist die technische Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Gegenstand der Anomalieprüfung sind ausschließlich vereinbarte technische Auffälligkeiten; die Kundeninhalte werden nicht für andere Zwecke ausgewertet. Nur notwendige technische Befunde und vereinbarte Prüfnachweise werden dokumentiert.
+Das Rhodium-Sicherheitssystem ist als in sich geschlossenes, autonom arbeitendes System konzipiert. Auch bei kostenlosen Pilotprüfungen ist die technische Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Gegenstand der Anomalieprüfung sind ausschließlich vereinbarte technische Auffälligkeiten; die Kundeninhalte werden nicht für andere Zwecke ausgewertet. Nur notwendige technische Befunde und vereinbarte Prüfnachweise werden dokumentiert.
 
 Bei ausdrücklich gebuchten Tresorleistungen wird der vereinbarte Datenbestand in einem eigenen geschützten Kundenbereich aufbewahrt. Das Zugangskonzept sieht einen persönlichen Kundenschlüssel und einen gesondert geschützten Ersatzschlüssel ausschließlich für autorisierte Wiederherstellungen vor. Eine laufende inhaltliche Auswertung, eigenmächtige Einsichtnahme oder unautorisierte Weitergabe ist nicht Bestandteil der Leistung.
 
@@ -73,17 +77,21 @@ Aus unserem umfangreichen projektweiten Prüfbestand präsentieren wir bewusst n
 
 Diese historischen Ergebnisse geben lediglich einen kleinen Einblick in unsere bisherigen technischen Leistungen. Sie gelten für die jeweiligen Prüfbedingungen und stellen keine unabhängige Zertifizierung dar.
 
-## Eine vorhandene Technologie mit Zukunft
+## Branchenübergreifende Nutzung und Vertrieb
 
-Im Mittelpunkt unserer wirtschaftlichen Zusammenarbeit steht die entwickelte, in sich geschlossene Rhodium-Sicherheitssystem.
+Rhodium Germany stellt technische Leistungspakete branchenübergreifend und ohne Exklusivität zur Verfügung. Gewerbliche Nutzer können individuelle Nutzungslizenzen erwerben und die Technik im vereinbarten Umfang entsprechend ihren eigenen fachlichen und gesetzlichen Berechtigungen einsetzen. Erlaubnispflichtige Fachleistungen verbleiben beim jeweils zugelassenen Unternehmen. Rhodium Germany bleibt für seine eigenen technischen und gesetzlichen Pflichten verantwortlich.
 
-Wir suchen einen fachkundigen Lizenz- und Technologiepartner, der die vorhandenen Leistungen bewertet, die kundenspezifische Betriebsabnahme begleitet und gemeinsam mit uns die wirtschaftliche Nutzung und internationale Verfügbarkeit voranbringt.
+Unser Vertriebsprogramm richtet sich an Vermittler, Vertriebspartner, IT-Dienstleister und gewerbliche Nutzer. Vorgesehen sind persönliche Empfehlungscodes, gestaffelte Vergütungen für tatsächlich erbrachte Vertriebsleistungen und individuell vereinbarte Umsatz- oder Erfolgsbeteiligungen. Für Erstkunden und neue Partner sind besondere Einführungskonditionen vorgesehen. Bei größeren Projekten können nachweisbare wirtschaftliche Vorteile Grundlage einer zusätzlichen Erfolgsvergütung sein. Konditionen und Verfügbarkeit werden gesondert vereinbart.
 
-Darüber hinaus betreiben wir kontinuierlich eigenständige Forschung und erschließen weitere technologische Anwendungsgebiete. Private RSA-Schlüssel und vertrauliche Entwicklungsverfahren werden nicht offengelegt.
+## Forschung und weitere Anwendungsbereiche
+
+Weitere Anwendungs- und Entwicklungsbereiche sind das KI-Prüfsystem, Banken- und Finanzdatenprüfung, Hochleistungsdatenverarbeitung, automatische Fehlererkennung und automatisierte Geschäftsprozesse. Unsere eigenständige Forschung umfasst Raumfahrt- und Triebwerksdaten, Automobiltechnik, Unterwasser- und Meeresforschung, Verkehrs- und Infrastrukturtechnik, Energie, Seismik, Akustik und wissenschaftliche Signalverarbeitung. Forschung und produktiv freigegebene Leistungen werden getrennt dargestellt.
+
+Private RSA-Schlüssel und vertrauliche Entwicklungsverfahren werden nicht offengelegt.
 
 ## Gemeinsam wachsen – weltweit
 
-Wir suchen keinen klassischen Investor, sondern langfristige Technologie-, Betriebs- und Lizenzpartner auf Augenhöhe.
+Wir setzen auf ein offenes, nicht exklusives Netzwerk aus Kunden, Vertriebspartnern und gewerblichen Nutzern auf Augenhöhe.
 
 Unsere Infrastruktur wächst gemeinsam mit unseren Kunden. Mit zunehmendem Bedarf erweitern wir unsere Speicherkapazitäten, bauen unabhängige internationale Standorte auf und arbeiten an einer zunehmend ausfallsicheren Infrastruktur.
 
@@ -95,9 +103,11 @@ Wir möchten eine wirtschaftlich tragfähige Technologie schaffen, die sowohl Un
 
 Die technische Konzeption, Systemanalyse, Dokumentation und strategische Weiterentwicklung von Rhodium Germany wurden durch ChatGPT von OpenAI unterstützt.
 
-## Kontakt und Lizenzanfragen
+## Individuelle Kundenpakete und Sonderwünsche
 
-Interessierte Unternehmen und Technologiepartner können bei Bedarf eine individuelle technische Präsentation oder Lizenzberatung anfragen. Leistungsumfang, Schnittstellen, Kapazitäten und Lizenzbedingungen werden individuell schriftlich vereinbart. Produktive Leistungen setzen die vereinbarte technische Abnahme voraus.
+Weitere Leistungspakete folgen. Die Aufbereitung des erweiterten Paketangebots ist in Bearbeitung. Sie benötigen eine bestimmte Funktion, eine besondere Kombination unserer Leistungen oder eine individuelle technische Lösung? Spezielle Kundenpakete und Sonderwünsche können angefragt werden. Wir prüfen Ihre Anforderungen und stellen bei technischer Machbarkeit und nach vereinbarter Abnahme ein passendes Paket zusammen. Der kostenlose Selbsttest bleibt ohne Anfrage direkt nutzbar.
+
+Leistungsumfang, Schnittstellen, Kapazitäten und Lizenzbedingungen werden individuell schriftlich vereinbart. Produktive Leistungen setzen die vereinbarte technische Abnahme voraus.
 
 **RHODIUM Germany**
 
