@@ -29,6 +29,19 @@ Interessierte Kunden und Lizenzpartner können eine **kostenlose technische Pilo
 
 Die Verarbeitung ist für ein Durchflussverfahren ohne dauerhafte Speicherung der Nutzdaten außerhalb ausdrücklich vereinbarter Tresor- und Sicherungsleistungen vorgesehen.
 
+## Individuell buchbare Schutz- und Leistungspakete
+
+Alle Leistungen sind einzeln anfragbar und buchbar oder bedarfsgerecht kombinierbar. Der Kunde bestimmt den Umfang und die zulässigen Zugriffsrechte.
+
+- **Stufe 1 – Technischer Türsteher:** Kontrolle vereinbarter Schnittstellen und Datenübergaben von außen, ohne Zugriff auf interne Kundenbestände.
+- **Stufe 2 – Technische Anomalieprüfung:** Erkennung vereinbarter technischer Auffälligkeiten, Integritätsabweichungen und möglicher Schadsoftware-Indikatoren innerhalb des ausdrücklich autorisierten Prüfbereichs. Keine inhaltliche Auswertung von Kundendaten zu anderen Zwecken.
+- **Stufe 3 – Datenintegrität und Wiederherstellung:** Doppelte Prüfung, Datenbereinigung und bitidentische Wiederherstellung im vereinbarten Leistungsumfang.
+- **Stufe 4 – Persönlicher Sicherheitstresor:** Individuell vereinbarte Sicherungskapazität, geschützter Kundenzugang, kryptografische Versiegelung sowie bedarfsgerechte Wiederherstellungs- und Offline-Sicherungsleistungen.
+
+Bei Türsteher- und Anomalieprüfungen ist die Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Als Prüfnachweis bleiben ausschließlich erforderliche technische Befunde und vereinbarte Prüfprotokolle erhalten; diese werden auf das notwendige Maß begrenzt. Eine dauerhafte Sicherung von Kundendaten erfolgt nur bei ausdrücklich gebuchten Tresor- oder Sicherungsleistungen.
+
+Keine eigenmächtige Erweiterung der Zugriffsrechte. Keine Vermischung von Kundenbereichen. Konkrete Prüftiefe, Erkennungsumfang, Speicherung und Freigaben werden vor dem Einsatz vereinbart und technisch abgenommen.
+
 ## Unsere bisherigen technischen Prüfergebnisse
 
 Bereits zum 12. Oktober 2026 umfasste unsere dokumentierte technische Prüfhistorie **1.737 Testgruppen**, davon **1.438 als erfolgreich abgeschlossen gemeldete Testgruppen**.
