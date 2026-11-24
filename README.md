@@ -15,18 +15,16 @@ Unsere Technologie ist auf geringen Ressourcenverbrauch, skalierbare Speicherkap
 
 Die Verarbeitung ist für ein Durchflussverfahren ohne dauerhafte Speicherung der Nutzdaten außerhalb ausdrücklich vereinbarter Tresor- und Sicherungsleistungen vorgesehen. Umfang, Schnittstellen, Schutzmaßnahmen und Abnahmebedingungen werden individuell schriftlich vereinbart.
 
-## Ausgewählte technische Prüfnachweise
+## Technische Prüfhistorie – zwei ausgewählte Ergebnisse
 
-| Prüfung | Dokumentiertes Ergebnis |
-|---|---|
-| Digitale Signatur und Manipulationserkennung | 3/3 Signaturprüfungen und 3/3 Manipulationsabweisungen PASS |
-| Wiederherstellung mit zwei getrennten Prüfungen | 128 MiB; Original und Rekonstruktion mit identischem SHA-256 in beiden Prüfungen |
-| Große Datenbestände | 100 GiB; zwei Wiederherstellungsprüfungen PASS |
-| Integrität und Manipulationsschutz | 4/4 Wiederherstellungsdurchläufe und 2/2 Vergleichsprüfungen PASS; manipulierte Testkomponente blockiert |
-| Kontrollierte Datenübergabe | End-to-End-Relay mit verifiziertem SHA-256-Siegel laut Prüfbericht |
-| Identitäts-/Integritätsprüfung | 1 Milliarde Byte; bitidentisches Ergebnis und identischer SHA-256 laut Prüfbericht |
+Bereits zum 12. Oktober 2026 umfasste unsere interne Prüfdokumentation **10.083 Berichtseinträge aus 1.737 Testgruppen**, darunter **1.438 als PASS gemeldete Testgruppen**. Diese projektweite historische Inventur ist keine Anzahl unabhängig abgenommener Einzelprüfungen.
 
-Diese Auswahl beruht auf historischen internen Prüfberichten (12. und 22. Oktober 2026 sowie zugehörigem Nachweisregister). Sie dokumentiert die jeweiligen Testbedingungen, keine unabhängige Zertifizierung oder allgemeine Sicherheitsgarantie. RSA-Signaturen und SHA-256-Integritätsprüfungen sind unterschiedliche Nachweise. Der geschützte interne Fingerabdruck und private RSA-Schlüssel werden nicht veröffentlicht; die genannten Integritätstests belegen nicht deren eigenständige Prüfung. Freigegebene Nachweise und vereinbarte Blackbox-Gegentests stehen im Rahmen einer fachlichen Bewertung im Mittelpunkt.
+Aus diesem umfangreichen Prüfbestand zeigen wir bewusst nur zwei ausgewählte Beispiele:
+
+- **Digitale Signatur und Manipulationsschutz:** 3 von 3 Signaturprüfungen und 3 von 3 Manipulationsabweisungen erfolgreich dokumentiert.
+- **Wiederherstellung großer Datenbestände:** 100 GiB Testumfang; zwei erfolgreiche Wiederherstellungsprüfungen dokumentiert.
+
+Die Ergebnisse gelten für die jeweiligen Testbedingungen. Eine fachliche Bewertung ist anhand freigegebener Prüfnachweise und vereinbarter Blackbox-Gegentests möglich. Interne Verfahren, der geschützte kryptografische Fingerabdruck und private RSA-Schlüssel bleiben vertraulich. Signatur- und Integritätsprüfungen ersetzen keine unabhängige Zertifizierung.
 
 ## Technologie- und Lizenzpartnerschaft
 
