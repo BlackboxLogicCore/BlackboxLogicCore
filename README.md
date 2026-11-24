@@ -6,7 +6,7 @@
 
 Wir prüfen unsere Leistungen vor der Freigabe und dokumentieren die Ergebnisse. Unsere Ergebnisse sollen überzeugen, nicht unsere Versprechen.
 
-Speziell für große Datenbestände, digitale Infrastrukturen, Internetdienste und anspruchsvolle Unternehmensanwendungen entwickelt, verbindet Rhodium Germany kontrollierte Datenübergabe, deterministische Verarbeitung, doppelte Integritätsprüfung und bitidentische Wiederherstellung mit einem persönlichen Sicherheitstresor, einem eigenen kryptografischen Fingerabdruck und RSA-basierter Absicherung.
+Speziell für große Datenbestände, digitale Infrastrukturen, Internetdienste und anspruchsvolle Unternehmensanwendungen entwickelt, verbindet Rhodium Germany kontrollierte Datenübergabe, deterministische Verarbeitung, doppelte Integritätsprüfung und bitidentische Wiederherstellung mit RSA-basierter Absicherung und einem optional buchbaren, persönlich geschützten Sicherheitstresor.
 
 Unser Sicherheitskonzept sieht für jeden Kunden einen eigenen geschützten Zugang und einen vollständig getrennten Datenbereich vor. Keine Vermischung von Kundendaten, kein Verkauf an Dritte, keine Weitergabe an Datenhändler und ausschließlich kontrollierte Datenübergaben über individuell vereinbarte Schnittstellen.
 
@@ -20,12 +20,12 @@ Der vorhandene kostenlose Browser-Dateitest ist ohne Registrierung, vorherige E-
 
 **[Kostenlosen Browser-Selbsttest öffnen](https://rhodium-germany.de/#gratis-test)**
 
-Der Browser-Selbsttest ist keine produktive Arbeiterbox- oder Tresorprüfung. Die Prüflogik wurde lokal erfolgreich getestet; die öffentliche Erreichbarkeit des Testzugangs konnte bei der letzten Kontrolle nicht bestätigt werden.
+Der Browser-Selbsttest ist keine produktive System- oder Tresorprüfung. Die öffentliche Erreichbarkeit des Testzugangs konnte bei der letzten Kontrolle nicht bestätigt werden.
 
 ## Unsere technischen Leistungen
 
 - Persönlicher, kryptografisch versiegelter Sicherheitstresor.
-- Eigener kryptografischer Fingerabdruck und RSA-basierte Absicherung.
+- Kryptografische Versiegelung und RSA-basierte Absicherung.
 - Technischer Türsteher für kontrollierte Datenübergaben.
 - Doppelte Integritätsprüfung und Manipulationserkennung.
 - Deterministische Datenverarbeitung und bitidentische Wiederherstellung.
@@ -54,7 +54,7 @@ Keine eigenmächtige Erweiterung der Zugriffsrechte. Keine Vermischung von Kunde
 
 **Der Kunde bezahlt für den Schutz seiner Daten – nicht dafür, dass wir seine Daten wirtschaftlich verwerten.**
 
-Die Rhodium Arbeiterbox ist als in sich geschlossenes, autonom arbeitendes System konzipiert. Auch bei kostenlosen Pilotprüfungen ist die technische Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Gegenstand der Anomalieprüfung sind ausschließlich vereinbarte technische Auffälligkeiten; die Kundeninhalte werden nicht für andere Zwecke ausgewertet. Nur notwendige technische Befunde und vereinbarte Prüfnachweise werden dokumentiert.
+Die Rhodium-Sicherheitssystem ist als in sich geschlossenes, autonom arbeitendes System konzipiert. Auch bei kostenlosen Pilotprüfungen ist die technische Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Gegenstand der Anomalieprüfung sind ausschließlich vereinbarte technische Auffälligkeiten; die Kundeninhalte werden nicht für andere Zwecke ausgewertet. Nur notwendige technische Befunde und vereinbarte Prüfnachweise werden dokumentiert.
 
 Bei ausdrücklich gebuchten Tresorleistungen wird der vereinbarte Datenbestand in einem eigenen geschützten Kundenbereich aufbewahrt. Das Zugangskonzept sieht einen persönlichen Kundenschlüssel und einen gesondert geschützten Ersatzschlüssel ausschließlich für autorisierte Wiederherstellungen vor. Eine laufende inhaltliche Auswertung, eigenmächtige Einsichtnahme oder unautorisierte Weitergabe ist nicht Bestandteil der Leistung.
 
@@ -75,11 +75,11 @@ Diese historischen Ergebnisse geben lediglich einen kleinen Einblick in unsere b
 
 ## Eine vorhandene Technologie mit Zukunft
 
-Im Mittelpunkt unserer wirtschaftlichen Zusammenarbeit steht die entwickelte, in sich geschlossene Rhodium Arbeiterbox.
+Im Mittelpunkt unserer wirtschaftlichen Zusammenarbeit steht die entwickelte, in sich geschlossene Rhodium-Sicherheitssystem.
 
 Wir suchen einen fachkundigen Lizenz- und Technologiepartner, der die vorhandenen Leistungen bewertet, die kundenspezifische Betriebsabnahme begleitet und gemeinsam mit uns die wirtschaftliche Nutzung und internationale Verfügbarkeit voranbringt.
 
-Darüber hinaus betreiben wir kontinuierlich eigenständige Forschung und erschließen weitere technologische Anwendungsgebiete. Unser geschützter technologischer Kern, der interne kryptografische Fingerabdruck, private RSA-Schlüssel und sämtliche vertraulichen Entwicklungsverfahren werden nicht offengelegt.
+Darüber hinaus betreiben wir kontinuierlich eigenständige Forschung und erschließen weitere technologische Anwendungsgebiete. Private RSA-Schlüssel und vertrauliche Entwicklungsverfahren werden nicht offengelegt.
 
 ## Gemeinsam wachsen – weltweit
 
