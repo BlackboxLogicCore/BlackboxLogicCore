@@ -1,4 +1,4 @@
-# RHODIUM Germany – Datensicherheit neu gedacht
+# RHODIUM Germany – Security, technische Verarbeitungssysteme und Forschung
 
 **MADE IN GERMANY**
 
@@ -26,6 +26,12 @@ Der vorhandene kostenlose Browser-Dateitest ist ohne Registrierung, vorherige E-
 
 Der Browser-Selbsttest ist keine produktive System- oder Tresorprüfung. Die öffentliche Erreichbarkeit des Testzugangs konnte bei der letzten Kontrolle nicht bestätigt werden.
 
+## Drei Leistungsbereiche
+
+- **Security und Datensicherheit:** kontrollierte Datenübergaben, kryptografische Versiegelung, Integritätsprüfung und autorisierte Wiederherstellung.
+- **Technische Verarbeitungssysteme:** deterministische Datenprozesse, Ressourcenoptimierung, Anomalieerkennung und Ausfallsicherung.
+- **Forschung und Entwicklung:** wissenschaftliche Zeitreihen, Telemetrie, Sensorik und experimentelle Prüfverfahren. Produktive Kundenleistungen und Forschung werden getrennt abgenommen.
+
 ## Unsere technischen Leistungen
 
 - Persönlicher, kryptografisch versiegelter Sicherheitstresor.
@@ -45,10 +51,12 @@ Die Verarbeitung ist für ein Durchflussverfahren ohne dauerhafte Speicherung de
 
 Alle Leistungen sind einzeln anfragbar und buchbar oder bedarfsgerecht kombinierbar. Der Kunde bestimmt den Umfang und die zulässigen Zugriffsrechte.
 
-- **Stufe 1 – Technischer Türsteher:** Kontrolle vereinbarter Schnittstellen und Datenübergaben von außen, ohne Zugriff auf interne Kundenbestände.
-- **Stufe 2 – Technische Anomalieprüfung:** Erkennung vereinbarter technischer Auffälligkeiten, Integritätsabweichungen und möglicher Schadsoftware-Indikatoren innerhalb des ausdrücklich autorisierten Prüfbereichs. Keine inhaltliche Auswertung von Kundendaten zu anderen Zwecken.
-- **Stufe 3 – Datenintegrität und Wiederherstellung:** Doppelte Prüfung, Datenbereinigung und bitidentische Wiederherstellung im vereinbarten Leistungsumfang.
-- **Stufe 4 – Persönlicher Sicherheitstresor:** Individuell vereinbarte Sicherungskapazität, geschützter Kundenzugang, kryptografische Versiegelung sowie bedarfsgerechte Wiederherstellungs- und Offline-Sicherungsleistungen.
+- **Paket 1 – Technischer Türsteher:** Kontrolle vereinbarter Schnittstellen und Datenübergaben von außen, ohne Zugriff auf interne Kundenbestände.
+- **Paket 2 – Technische Anomalieprüfung:** Erkennung vereinbarter technischer Auffälligkeiten, Integritätsabweichungen und möglicher Schadsoftware-Indikatoren innerhalb des autorisierten Prüfbereichs. Keine Garantie vollständiger Schadsoftware-Erkennung.
+- **Paket 3 – Datenintegrität und Datenbereinigung:** Doppelte Prüfung, Duplikatprüfung und vereinbarte Datenbereinigung.
+- **Paket 4 – Wiederherstellung und Ausfallsicherheit:** Wiederherstellungsprüfungen mit dokumentiertem Ergebnis und Prüfung auf Bitidentität.
+- **Paket 5 – Persönlicher Sicherheitstresor:** Vereinbarte Sicherungskapazität, geschützter Kundenzugang, Versiegelung und autorisierte Wiederherstellung.
+- **Paket 6 – Technologie und Lizenz:** Individuelle technische Abnahme, Integration und vereinbarte Nutzungsrechte.
 
 Bei Türsteher- und Anomalieprüfungen ist die Verarbeitung im Durchfluss ohne dauerhafte Speicherung der Kundennutzdaten vorgesehen. Als Prüfnachweis bleiben ausschließlich erforderliche technische Befunde und vereinbarte Prüfprotokolle erhalten; diese werden auf das notwendige Maß begrenzt. Eine dauerhafte Sicherung von Kundendaten erfolgt nur bei ausdrücklich gebuchten Tresor- oder Sicherungsleistungen.
 
@@ -70,12 +78,25 @@ Die technische Durchsetzung der Speicher-, Schlüssel- und Zugriffsregeln wird f
 
 Bereits zum 12. Oktober 2026 umfasste unsere dokumentierte technische Prüfhistorie **1.737 Testgruppen**, davon **1.438 als erfolgreich abgeschlossen gemeldete Testgruppen**.
 
-Aus unserem umfangreichen projektweiten Prüfbestand präsentieren wir bewusst nur zwei ausgewählte Beispiele:
+Aus unserem umfangreichen projektweiten Prüfbestand präsentieren wir ausgewählte historische Beispiele:
 
 - **Digitale Signatur und Manipulationsschutz:** Drei von drei erfolgreichen Signaturprüfungen sowie drei von drei erfolgreichen Manipulationsabweisungen.
-- **Wiederherstellung großer Datenbestände:** 100 GiB Testumfang mit zwei erfolgreich dokumentierten Wiederherstellungsprüfungen.
+- **Wiederherstellung großer Datenbestände:** 100 GiB Testumfang, rund 86,52 % dokumentierte Reduktion, zwei Wiederherstellungsprüfungen PASS.
+- **NASA Juno WAVES:** 62 Dateien, rund 5,44 Milliarden Byte, 85,54 % verlustfreie Reduktion und identischer Restore-SHA-256 berichtet.
+- **64 MiB Blackbox:** Cold 49,5306 %, Warm 99,9913 % Reduktion mit Wiederverwendung; bitidentischer Restore berichtet.
+- **NASA C-MAPSS FD001:** 495.144 von 495.144 Werten verarbeitet; keine extern validierte Prognosegenauigkeit.
+- **EarthScope / USGS:** 23 akzeptierte Datensätze; gemeldete Latenzen 2,4–6,3 Sekunden, kein Frühwarnnachweis.
+
+[Benchmark-Register](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/974df4da6979d0c8625440e72ccd84a2f9241c55/benchmarks/RHODIUM-PUBLIC-BENCHMARK-FAMILY.csv) · [SHA-256-Ergebnisse](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/974df4da6979d0c8625440e72ccd84a2f9241c55/benchmarks/RHODIUM-PUBLIC-BENCHMARK-RESULTS-AND-SHA256.md) · [Weitere Nachweise](https://github.com/BlackboxLogicCore/rhodium-zero-point/blob/f20cfb4f55a01a54f13cf0bc85cfdea1d20eb220/EVIDENCE-SCOPE.md)
 
 Diese historischen Ergebnisse geben lediglich einen kleinen Einblick in unsere bisherigen technischen Leistungen. Sie gelten für die jeweiligen Prüfbedingungen und stellen keine unabhängige Zertifizierung dar.
+
+## B2B-Angebote: Erst prüfen, dann entscheiden
+
+- Kostenlose abgegrenzte Pilot-Evaluation nach Vereinbarung.
+- Gewerblicher Zugang, Einzelprojekte und Pro-Lizenzen nach individuellem Angebot.
+- Individuelle Enterprise-Lösungen, Pay-per-Use und Beteiligung an nachgewiesenen Einsparungen.
+- Keine verpflichtenden Abonnements. Leistungsumfang, Preise, Prüfkriterien und Abnahme schriftlich vereinbaren.
 
 ## Branchenübergreifende Nutzung und Vertrieb
 
@@ -111,6 +132,8 @@ Leistungsumfang, Schnittstellen, Kapazitäten und Lizenzbedingungen werden indiv
 
 **RHODIUM Germany**
 
-[rhodium-germany.de](https://rhodium-germany.de)
+[rhodium-germany.de](https://rhodium-germany.de) · [Impressum](https://rhodium-germany.de/impressum.html) · [Datenschutzerklärung](https://rhodium-germany.de/datenschutz.html)
+
+Geschäftliche Anfragen: [info@rhodium-germany.tech](mailto:info@rhodium-germany.tech)
 
 **Nicht gegeneinander arbeiten, sondern miteinander wachsen.**
