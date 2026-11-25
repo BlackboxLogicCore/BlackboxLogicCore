@@ -1,6 +1,6 @@
 # RHODIUM GERMANY
 
-**Technologie für kontrollierte Datenprozesse.**
+**Technologie für prüfbare Datenprozesse.**
 
 Eine eigenständige, modular aufgebaute Technologieplattform für Privatpersonen und Unternehmen. Im Mittelpunkt stehen kontrollierte Datenübergabe, Integrität und Versiegelung, Wiederherstellung und Doppelprüfung, Ausfallsicherheit, geschützte Aufbewahrung sowie Datenprozess-Effizienz.
 
