@@ -4,7 +4,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
-      - 'tests/workerbox-ui-e2e.cjs'
+      - 'tests/public-showcase.spec.mjs'
       - '.github/workflows/customer-ui-e2e.yml'
   workflow_dispatch:
 permissions:
@@ -32,8 +32,8 @@ jobs:
             sleep 1
           done
           exit 1
-      - name: Run real Chromium E2E on synthetic data (not sealed Workerbox)
-        run: node tests/workerbox-ui-e2e.cjs
+      - name: Run Chromium showcase E2E (not sealed Workerbox)
+        run: node tests/public-showcase.spec.mjs
       - name: Report deployment boundary
         if: always()
         run: |
