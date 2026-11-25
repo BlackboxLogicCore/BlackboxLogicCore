@@ -30,7 +30,7 @@ jobs:
         run: node tests/public-showcase.spec.mjs
       - name: Verify public domain for this release (required)
         run: |
-          node -e "const fs=require('fs'); const html=fs.readFileSync('index.html','utf8'); const m=html.match(/name=\"rhodium-release\" content=\"([^\"]+)\"/);if(!m) process.exit(2); fetch('https://rhodium-germany.de/?rhodium-check='+Date.now(),{redirect:'follow'}).then(async r=>{const t=await r.text();console.log(JSON.stringify({status:r.status,release:m[1],deployed:t.includes(m[1]),hasPilot:t.includes('pilot-anfrage')}));if(!r.ok||!t.includes(m[1])||!t.includes('pilot-anfrage'))process.exitCode=1;}).catch(e=>{console.log('PUBLIC DOMAIN NOT VERIFIED:',e.message);process.exitCode=1})"
+          node -e "const fs=require('fs'); const html=fs.readFileSync('index.html','utf8'); const m=html.match(/name=\"rhodium-release\" content=\"([^\"]+)\"/);if(!m) process.exit(2); fetch('https://rhodium-germany.de/?rhodium-check='+Date.now(),{redirect:'follow'}).then(async r=>{const t=await r.text();console.log(JSON.stringify({status:r.status,release:m[1],deployed:t.includes(m[1]),hasLocalTest:t.includes('gratis-run')}));if(!r.ok||!t.includes(m[1])||!t.includes('gratis-run'))process.exitCode=1;}).catch(e=>{console.log('PUBLIC DOMAIN NOT VERIFIED:',e.message);process.exitCode=1})"
 
       - name: Verify public legal pages (required)
         run: |
