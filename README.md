@@ -16,11 +16,11 @@ Unser Sicherheitskonzept sieht für jeden Kunden einen eigenen geschützten Zuga
 
 Unsere Technologie ist auf geringen Ressourcenverbrauch, skalierbare Speicherkapazitäten und hohe Ausfallsicherheit ausgerichtet – vom einzelnen Privatkunden über mittelständische Unternehmen bis hin zu internationalen Konzernen und großen digitalen Infrastrukturen.
 
-**Alle Leistungen sind einzeln buchbar und kombinierbar. Der persönliche Sicherheitstresor ist eine optional buchbare Leistung.**
+**Leistungspakete sind einzeln anfragbar und nach technischer Freigabe buchbar und kombinierbar. Der persönliche Sicherheitstresor ist eine optional buchbare Leistung.**
 
 ## Erst kostenlos testen, dann entscheiden
 
-Der vorhandene kostenlose Browser-Dateitest ist ohne Registrierung, vorherige E-Mail-Anfrage, Zahlungsdaten oder Kaufverpflichtung vorgesehen. Prüfen Sie lokal auf Ihrem Gerät die Dateiintegrität und Manipulationserkennung sowie, bei Browserunterstützung, die verlustfreie Wiederherstellung per GZIP. Maximal 20 MiB je Test; die Testfunktion überträgt keine Datei an einen Server.
+Der kostenlose Browser-Dateitest ist ohne Registrierung, vorherige E-Mail-Anfrage, Zahlungsdaten oder Kaufverpflichtung vorgesehen. Prüfen Sie lokal auf Ihrem Gerät die Dateiintegrität und Manipulationserkennung sowie, bei Browserunterstützung, die verlustfreie Wiederherstellung per GZIP. Maximal 20 MiB je Test; die Testfunktion überträgt keine Datei an einen Server.
 
 **[Kostenlosen Browser-Selbsttest öffnen](https://rhodium-germany.de/#gratis-test)**
 
@@ -74,22 +74,9 @@ Der Kunde entscheidet über Prüfumfang, Freigaben, Sicherungskapazität und Auf
 
 Die technische Durchsetzung der Speicher-, Schlüssel- und Zugriffsregeln wird für die jeweilige Betriebsform vor produktiver Freigabe geprüft.
 
-## Unsere bisherigen technischen Prüfergebnisse
+## Qualität und Vertraulichkeit
 
-Bereits zum 12. Oktober 2026 umfasste unsere dokumentierte technische Prüfhistorie **1.737 Testgruppen**, davon **1.438 als erfolgreich abgeschlossen gemeldete Testgruppen**.
-
-Aus unserem umfangreichen projektweiten Prüfbestand präsentieren wir ausgewählte historische Beispiele:
-
-- **Digitale Signatur und Manipulationsschutz:** Drei von drei erfolgreichen Signaturprüfungen sowie drei von drei erfolgreichen Manipulationsabweisungen.
-- **Wiederherstellung großer Datenbestände:** 100 GiB Testumfang, rund 86,52 % dokumentierte Reduktion, zwei Wiederherstellungsprüfungen PASS.
-- **NASA Juno WAVES:** 62 Dateien, rund 5,44 Milliarden Byte, 85,54 % verlustfreie Reduktion und identischer Restore-SHA-256 berichtet.
-- **64 MiB Blackbox:** Cold 49,5306 %, Warm 99,9913 % Reduktion mit Wiederverwendung; bitidentischer Restore berichtet.
-- **NASA C-MAPSS FD001:** 495.144 von 495.144 Werten verarbeitet; keine extern validierte Prognosegenauigkeit.
-- **EarthScope / USGS:** 23 akzeptierte Datensätze; gemeldete Latenzen 2,4–6,3 Sekunden, kein Frühwarnnachweis.
-
-[Benchmark-Register](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/974df4da6979d0c8625440e72ccd84a2f9241c55/benchmarks/RHODIUM-PUBLIC-BENCHMARK-FAMILY.csv) · [SHA-256-Ergebnisse](https://github.com/BlackboxLogicCore/rhodium-kaggle-public-gate/blob/974df4da6979d0c8625440e72ccd84a2f9241c55/benchmarks/RHODIUM-PUBLIC-BENCHMARK-RESULTS-AND-SHA256.md) · [Weitere Nachweise](https://github.com/BlackboxLogicCore/rhodium-zero-point/blob/f20cfb4f55a01a54f13cf0bc85cfdea1d20eb220/EVIDENCE-SCOPE.md)
-
-Diese historischen Ergebnisse geben lediglich einen kleinen Einblick in unsere bisherigen technischen Leistungen. Sie gelten für die jeweiligen Prüfbedingungen und stellen keine unabhängige Zertifizierung dar.
+Wir prüfen unsere technischen Leistungen vor der Freigabe. Interne Prüfergebnisse, Benchmarks und Entwicklungsunterlagen bleiben vertraulich. Interessierte Kunden können die angebotenen Funktionen selbst erproben und erforderliche Abnahmekriterien für ihren Anwendungsfall vereinbaren. Notwendige Nachweise können bei Bedarf vertraulich bereitgestellt werden.
 
 ## B2B-Angebote: Erst prüfen, dann entscheiden
 
